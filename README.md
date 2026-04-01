@@ -191,7 +191,7 @@ Agent configuration files are in `configs/`:
 | `cc_sonnet4.yaml` | Claude Code | claude-sonnet-4-20250514 | gpt-5.4 |
 | `cc_sonnet46.yaml` | Claude Code | claude-sonnet-4-6 | gpt-5.4 |
 | `cc_teams_sonnet46.yaml` | Claude Code (Agent Teams) | claude-sonnet-4-6 | gpt-5.4 |
-| `codex_gpt5.yaml` | Codex | codex-mini-latest | gpt-5.4 |
+| `codex_gpt5.yaml` | Codex | gpt-5 | gpt-5.4 |
 | `codex_gpt54.yaml` | Codex | gpt-5.4 | gpt-5.4 |
 
 > **Note:** For Azure OpenAI, the model deployment names used are `gpt-5.4-2026-03-05-azure` and `gpt-5-2025-08-07-azure`. Update the config files to match your deployment names.
