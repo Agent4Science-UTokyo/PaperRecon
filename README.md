@@ -195,3 +195,9 @@ Agent configuration files are in `configs/`:
 | `codex_gpt54.yaml` | Codex | gpt-5.4 | gpt-5.4 |
 
 > **Note:** For Azure OpenAI, the model deployment names used are `gpt-5.4-2026-03-05-azure` and `gpt-5-2025-08-07-azure`. Update the config files to match your deployment names.
+
+## License
+
+The PaperRecon framework code is licensed under the [Apache License 2.0](LICENSE).
+
+> **Note:** The papers, LaTeX sources, and codebases included in PaperWrite-Bench are the intellectual property of their respective authors and are subject to their original licenses. Please refer to each paper's repository for license details.
