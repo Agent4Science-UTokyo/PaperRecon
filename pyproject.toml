@@ -1,0 +1,71 @@
+[project]
+name = "ai-writing"
+version = "0.1.0"
+description = ""
+requires-python = ">=3.14, <3.15"
+
+[tool.ruff]
+line-length = 100
+exclude = ["PaperWrite-Bench/**", "experiments/**", "ai_scientist/.old/**", ".pixi/**"]
+
+[tool.ruff.format]
+docstring-code-format = true
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    "ANN1",
+    "COM812",
+    "D1",
+    "D203",
+    "D211",
+    "D212",
+    "D400",
+    "D415",
+    "E501",
+    "EM101",
+    "EM102",
+    "ERA001",
+    "EXE",
+    "FBT001",
+    "FBT002",
+    "ISC001",
+    "ISC003",
+    "PD011",
+    "PERF203",
+    "PERF401",
+    "PLC0415",
+    "PLR0911",
+    "PLR0913",
+    "PLR2004",
+    "PLR5501",
+    "RET504",
+    "RUF001",
+    "RUF002",
+    "RUF003",
+    "S107",
+    "S311",
+    "SLF001",
+    "SIM108",
+    "T201",
+    "T203",
+    "TC001",
+    "TC002",
+    "TC003",
+    "TD001",
+    "TD002",
+    "TD003",
+    "TRY002",
+    "TRY003",
+    "TRY301",
+    "F541",
+    "S"
+]
+unfixable = [
+    "ERA001"
+]
+
+[tool.pyright]
+exclude = ["PaperWrite-Bench/**", "experiments/**", "ai_scientist/.old/**", ".pixi/**"]
+typeCheckingMode = "standard"
+reportInvalidStringEscapeSequence = "none"

@@ -1,0 +1,18 @@
+log_dir: logs
+
+research_overview_type: short
+
+writeup:
+  agent: ClaudeCode
+  model: claude-sonnet-4-20250514
+  max_turns: 30
+
+evaluation_llm:
+  model: azure/gpt-5.4-2026-03-05-azure
+  temp: 1.0
+  max_tokens: null
+
+evaluation_agent:
+  agent: ClaudeCode
+  model: claude-sonnet-4-6
+  max_turns: 20
