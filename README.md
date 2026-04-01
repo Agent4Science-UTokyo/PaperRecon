@@ -18,6 +18,15 @@
   *: Equal Contribution
 </p>
 
+<p align="center">
+  <a href="#">📄 Paper (Coming Soon)</a> &nbsp;|&nbsp;
+  <a href="https://github.com/Agent4Science-UTokyo/PaperRecon">💻 Code</a> &nbsp;|&nbsp;
+  <a href="https://huggingface.co/datasets/hal-utokyo/PaperWrite-Bench">🤗 Dataset</a>
+</p>
+
+## News
+- **2026.04.02**: Repository open
+
 ## Background
 
 As coding agents advance rapidly, rigorous evaluation of AI-driven research automation and its risks is essential for sustainable scientific progress. With AI-written paper submissions to academic venues already observed and AI Scientists growing rapidly, the research community must continuously monitor both the capabilities and risks of AI-driven writing through reliable evaluation.
@@ -196,6 +205,10 @@ Agent configuration files are in `configs/`:
 
 > **Note:** For Azure OpenAI, the model deployment names used are `gpt-5.4-2026-03-05-azure` and `gpt-5-2025-08-07-azure`. Update the config files to match your deployment names.
 
+## Related Work
+
+If you are interested in our other work, please check out **[Jr. AI Scientist and Its Risk Report](https://arxiv.org/abs/2511.04583)**. This paper comprehensively discusses the capability limitations of current state-of-the-art AI Scientists and their associated risks, which helps clarify the direction of our future work.
+
 ## License
 
 The PaperRecon framework code is licensed under the [Apache License 2.0](LICENSE).
@@ -205,3 +218,4 @@ The PaperRecon framework code is licensed under the [Apache License 2.0](LICENSE
 ## Acknowledgements
 
 PaperWrite-Bench is built upon 51 papers and their associated resources. We sincerely thank all authors of these papers for their efforts in making their work publicly available, including code releases. The full list of papers is available [here](https://docs.google.com/spreadsheets/d/1MXg8oEP_Aw3aldz-3hzpTkH2UK7Ju_CHi7lyfTEcOxE/edit?gid=0#gid=0). This benchmark would not have been possible without their open contributions to the research community.
+
