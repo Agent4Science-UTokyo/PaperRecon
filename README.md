@@ -37,6 +37,12 @@ As coding agents advance rapidly, rigorous evaluation of AI-driven research auto
 2. **Codex produces fewer hallucinations than Claude Code.** While Claude Code exhibits more than 10 hallucinations per paper on average, Codex limits this to around 3.
 3. **Writing capability improves with model advances.** This also suggests that Paper Reconstruction Evaluation serves as a reliable metric for tracking progress in writing ability.
 
+## PaperWrite-Bench
+
+PaperWrite-Bench consists of 51 papers from top-tier venues (NeurIPS, ICML, ICLR, CVPR, ECCV, ACL, EMNLP, etc.) across diverse domains published after 2025. The full list of papers is available [here](https://docs.google.com/spreadsheets/d/1MXg8oEP_Aw3aldz-3hzpTkH2UK7Ju_CHi7lyfTEcOxE/edit?gid=0#gid=0).
+
+We sincerely thank the authors of these papers for their efforts in making their work publicly available, including code releases.
+
 ## Prerequisites
 
 - x86_64 linux machine
