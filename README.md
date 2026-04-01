@@ -200,4 +200,8 @@ Agent configuration files are in `configs/`:
 
 The PaperRecon framework code is licensed under the [Apache License 2.0](LICENSE).
 
-> **Note:** The papers, LaTeX sources, and codebases included in PaperWrite-Bench are the intellectual property of their respective authors and are subject to their original licenses. Please refer to each paper's repository for license details.
+> **Note:** The papers, LaTeX sources, and codebases included in PaperWrite-Bench are the intellectual property of their respective authors and are subject to their original licenses. We have excluded repositories that explicitly prohibit redistribution. Please refer to each paper's repository for license details.
+
+## Acknowledgements
+
+PaperWrite-Bench is built upon 51 papers and their associated resources. We sincerely thank all authors of these papers for their efforts in making their work publicly available, including code releases. The full list of papers is available [here](https://docs.google.com/spreadsheets/d/1MXg8oEP_Aw3aldz-3hzpTkH2UK7Ju_CHi7lyfTEcOxE/edit?gid=0#gid=0). This benchmark would not have been possible without their open contributions to the research community.
