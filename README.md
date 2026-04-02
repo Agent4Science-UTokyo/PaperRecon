@@ -49,7 +49,7 @@ As coding agents advance rapidly, rigorous evaluation of AI-driven research auto
 
 ## PaperWrite-Bench
 
-PaperWrite-Bench consists of 51 papers from top-tier venues (NeurIPS, ICML, ICLR, CVPR, ECCV, ACL, EMNLP, etc.) across diverse domains published after 2025. The full list of papers is available [here](https://docs.google.com/spreadsheets/d/1MXg8oEP_Aw3aldz-3hzpTkH2UK7Ju_CHi7lyfTEcOxE/edit?gid=0#gid=0).
+PaperWrite-Bench consists of 51 papers from top-tier venues (NeurIPS, ICML, ICLR, CVPR, ECCV, ACL, NAACL, etc.) across diverse domains published after 2025. The full list of papers is available [here](https://docs.google.com/spreadsheets/d/1MXg8oEP_Aw3aldz-3hzpTkH2UK7Ju_CHi7lyfTEcOxE/edit?gid=0#gid=0).
 
 We sincerely thank the authors of these papers for their efforts in making their work publicly available, including code releases.
 
