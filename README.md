@@ -206,6 +206,12 @@ Agent configuration files are in `configs/`:
 
 > **Note:** For Azure OpenAI, the model deployment names used are `gpt-5.4-2026-03-05-azure` and `gpt-5-2025-08-07-azure`. Update the config files to match your deployment names.
 
+## Risk Considerations for Publishing This Repository
+
+This repository contains a mechanism that allows AI to automatically write papers. However, we have chosen to make this repository public because our writing code is straightforward and simple enough that anyone could reproduce it without our release.
+
+Through making this repository public, we hope to promote an accurate understanding of both the capabilities and risks of AI-driven writing, and to contribute to the healthier development of the field.
+
 ## Related Work
 
 If you are interested in our other work, please check out **[Jr. AI Scientist and Its Risk Report](https://arxiv.org/abs/2511.04583)**. This paper comprehensively discusses the capability limitations of current state-of-the-art AI Scientists and their associated risks, which helps clarify the direction of our future work.
