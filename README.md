@@ -10,8 +10,8 @@
   <a href="https://zaiyingzhao.github.io/">Zaiying Zhao</a>*,
   Kenta Watanabe*,
   <br>
-  <strong><a href="https://scholar.google.com/citations?user=rE9iY5MAAAAJ&hl=ja">Toshihiko Yamasaki</a></strong>,
-  <strong><a href="https://scholar.google.co.jp/citations?user=CJRhhi0AAAAJ&hl=en">Kiyoharu Aizawa</a></strong>
+  <a href="https://scholar.google.com/citations?user=rE9iY5MAAAAJ&hl=ja">Toshihiko Yamasaki</a>,
+  <a href="https://scholar.google.co.jp/citations?user=CJRhhi0AAAAJ&hl=en">Kiyoharu Aizawa</a>
   <br>
   The University of Tokyo
   <br>
