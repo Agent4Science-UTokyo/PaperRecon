@@ -19,6 +19,7 @@
 </p>
 
 <p align="center">
+  <a href="https://agent4science-utokyo.github.io/PaperRecon_HP/">🌐 Project Page</a> &nbsp;|&nbsp;
   <a href="https://arxiv.org/pdf/2604.01128">📄 Paper</a> &nbsp;|&nbsp;
   <a href="https://github.com/Agent4Science-UTokyo/PaperRecon">💻 Code</a> &nbsp;|&nbsp;
   <a href="https://huggingface.co/datasets/hal-utokyo/PaperWrite-Bench">🤗 Dataset</a>
