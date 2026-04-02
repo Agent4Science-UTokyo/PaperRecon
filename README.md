@@ -1,4 +1,4 @@
-# PaperRecon
+# Paper Reconstruction Evaluation: Evaluating Presentation and Hallucination in AI-written Papers
 
 <p align="center">
   <img src="assets/pr_eval.png" width="100%">
