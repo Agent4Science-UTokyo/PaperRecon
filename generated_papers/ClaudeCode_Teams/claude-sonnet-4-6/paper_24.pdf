@@ -2,19 +2,36 @@
 %–‘≈ÿ
 13 0 obj
 <<
-/Length 9975      
+/Length 10240     
 >>
 stream
 0 g 0 G
-0 g 0 G
-0 g 0 G
-0 g 0 G
-0 g 0 G
+1 0 0 1 175.395 229.261 cm
+q
+.70709 .70709 -.70709 .70709 0 0 cm
+q
+.5 0 0 .5 0 0 cm
+0.6 g 0.6 G
+1 0 0 1 -175.395 -229.261 cm
 BT
-/F77 14.3462 Tf 102.078 675.067 Td [(Generati)10(v)10(e)-250(Gaussian)-250(Splatting)-250(f)25(or)-250(Unbounded)-250(3D)-250(City)-250(Generation)]TJ/F78 11.9552 Tf 175.541 -37.858 Td [(Haozhe)-250(Xie)]TJ -28.322 -13.947 Td [(Anon)15(ymous)-250(Institution)]TJ
+/F78 153 Tf 175.395 229.261 Td [(AI-Generated)]TJ
+0 g 0 G
+ET
+1 0 0 1 175.395 229.261 cm
+Q
+Q
 0 g 0 G
 0 g 0 G
-/F77 11.9552 Tf -94.914 -41.047 Td [(Abstract)]TJ/F80 9.9626 Tf -95.883 -24.59 Td [(Gener)15(ating)-293(unbounded)-292(3D)-293(city)-293(scenes)-293(is)-292(critical)-293(for)-293(appli-)]TJ 0 -11.955 Td [(cations)-194(suc)15(h)-193(as)-194(autonomous)-194(driving)-193(simulation,)-205(urban)-194(plan-)]TJ 0 -11.955 Td [(ning)10(,)-349(and)-329(virtual)-329(r)37(eality)55(.)-548(Existing)-329(methods)-329(based)-329(on)-330(Neu-)]TJ 0 -11.955 Td [(r)15(al)-248(Radiance)-248(F)45(ields)-249(\050NeRF\051)-248(suf)18(fer)-248(fr)45(om)-248(slow)-248(r)37(endering)-249(and)]TJ 0 -11.956 Td [(high)-287(memory)-288(consumption)-287(that)-288(scales)-287(with)-288(scene)-287(size)10(,)-297(lim-)]TJ 0 -11.955 Td [(iting)-257(their)-257(applicability)-257(to)-257(lar)37(g)10(e-scale)-257(en)40(vir)45(onments.)-332(In)-257(this)]TJ 0 -11.955 Td [(paper)111(,)-375(we)-349(pr)45(opose)]TJ/F81 9.9626 Tf 78.046 0 Td [(GaussianCity)]TJ/F80 9.9626 Tf 55.361 0 Td [(,)-375(a)-349(g)10(ener)15(ative)-350(fr)15(ame)15(work)]TJ -133.407 -11.955 Td [(that)-230(le)15(ver)15(a)10(g)10(es)-229(3D)-230(Gaussian)-230(Splatting)-230(for)-229(ef)18(\002cient)-230(and)-230(high-)]TJ 0 -11.955 Td [(quality)-341(unbounded)-342(3D)-341(city)-342(g)10(ener)15(ation.)-584(The)-342(k)10(e)30(y)-341(insight)-342(of)]TJ 0 -11.955 Td [(GaussianCity)-328(is)-328(a)-327(compact)]TJ/F81 9.9626 Tf 112.689 0 Td [(BEV)70(-P)55(oint)]TJ/F80 9.9626 Tf 47.419 0 Td [(r)37(epr)37(esentation)-328(that)]TJ -160.108 -11.956 Td [(constructs)-375(a)-376(spar)10(se)-375(set)-376(of)-375(3D)-376(points)-375(fr)45(om)-376(bir)37(d')40(s-e)30(ye-vie)15(w)]TJ 0 -11.955 Td [(\050BEV\051)-410(maps)-411(using)-410(r)15(ay-inter)10(section)-411(visibility)-410(and)-411(density-)]TJ 0 -11.955 Td [(based)-306(pruning)15(.)-476(This)-306(r)37(educes)-305(the)-306(point)-306(count)-305(fr)45(om)-306(millions)]TJ 0 -11.955 Td [(to)-390(appr)45(oximately)-391(31.7K)-390(while)-390(maintaining)-390(constant)-391(GPU)]TJ 0 -11.955 Td [(memory)-328(r)37(e)40(gar)37(dless)-329(of)-328(scene)-329(scale)15(.)-545(W)92(e)-329(further)-328(intr)45(oduce)-329(a)]TJ/F81 9.9626 Tf 0 -11.956 Td [(BEV)70(-P)55(oint)-350(Decoder)]TJ/F80 9.9626 Tf 85.426 0 Td [(that)-350(combines)-350(a)-349(point)-350(serializer)-350(with)]TJ -85.426 -11.955 Td [(P)80(oint)-220(T)55(r)15(ansformer)-220(V3)-220(to)-220(pr)45(ocess)-220(unor)37(der)37(ed)-221(3D)-220(point)-220(clouds)]TJ 0 -11.955 Td [(and)-400(pr)37(edict)-401(per)20(-point)-400(Gaussian)-400(attrib)20(utes)-400(conditioned)-401(on)]TJ 0 -11.955 Td [(instance-le)15(vel)-295(style)-295(codes.)-444(GaussianCity)-295(ac)15(hie)15(ves)-295(state-of-)]TJ 0 -11.955 Td [(the-art)-342(performance)-341(on)-342(both)-342(the)-341(Goo)10(gleEarth)-342(and)-342(KITTI-)]TJ 0 -11.955 Td [(360)-351(benc)15(hmarks,)-377(attaining)-351(an)-351(FID)-351(of)-352(86.94)-351(and)-351(29.5,)-377(r)37(e-)]TJ 0 -11.956 Td [(spectively)55(,)-288(while)-280(r)37(endering)-280(at)-280(93ms)-280(per)-280(fr)15(ame)-280(\227)-280(o)10(ver)-280(60)]TJ/F34 9.9626 Tf 228.501 0 Td [(\002)]TJ/F80 9.9626 Tf -228.501 -11.955 Td [(faster)-327(than)-326(the)-327(pr)37(e)15(vious)-327(best)-326(method)-327(CityDr)37(eamer)111(.)-540(Exten-)]TJ 0 -11.955 Td [(sive)-240(ablation)-239(studies)-240(validate)-239(the)-240(ef)18(fectiveness)-239(of)-240(eac)15(h)-240(com-)]TJ 0 -11.955 Td [(ponent)-250(in)-250(our)-250(fr)15(ame)15(work.)]TJ/F77 11.9552 Tf 0 -37.905 Td [(1.)-250(Intr)18(oduction)]TJ/F78 9.9626 Tf 0 -19.609 Td [(Generating)-325(realistic,)-345(lar)18(ge-scale)-325(3D)-326(urban)-325(en)40(vironments)-326(is)]TJ 0 -11.956 Td [(a)-428(long-standing)-428(challenge)-427(with)-428(broad)-428(applications)-428(in)-428(au-)]TJ 0 -11.955 Td [(tonomous)-294(dri)25(ving)-294(simulation)-293([)]TJ
+0 g 0 G
+0 g 0 G
+0 g 0 G
+0 g 0 G
+1 0 0 1 -175.395 -229.261 cm
+BT
+/F79 14.3462 Tf 102.078 675.067 Td [(Generati)10(v)10(e)-250(Gaussian)-250(Splatting)-250(f)25(or)-250(Unbounded)-250(3D)-250(City)-250(Generation)]TJ/F78 11.9552 Tf 175.541 -37.858 Td [(Haozhe)-250(Xie)]TJ -28.322 -13.947 Td [(Anon)15(ymous)-250(Institution)]TJ
+0 g 0 G
+0 g 0 G
+/F79 11.9552 Tf -94.914 -41.047 Td [(Abstract)]TJ/F82 9.9626 Tf -95.883 -24.59 Td [(Gener)15(ating)-293(unbounded)-292(3D)-293(city)-293(scenes)-293(is)-292(critical)-293(for)-293(appli-)]TJ 0 -11.955 Td [(cations)-194(suc)15(h)-193(as)-194(autonomous)-194(driving)-193(simulation,)-205(urban)-194(plan-)]TJ 0 -11.955 Td [(ning)10(,)-349(and)-329(virtual)-329(r)37(eality)55(.)-548(Existing)-329(methods)-329(based)-329(on)-330(Neu-)]TJ 0 -11.955 Td [(r)15(al)-248(Radiance)-248(F)45(ields)-249(\050NeRF\051)-248(suf)18(fer)-248(fr)45(om)-248(slow)-248(r)37(endering)-249(and)]TJ 0 -11.956 Td [(high)-287(memory)-288(consumption)-287(that)-288(scales)-287(with)-288(scene)-287(size)10(,)-297(lim-)]TJ 0 -11.955 Td [(iting)-257(their)-257(applicability)-257(to)-257(lar)37(g)10(e-scale)-257(en)40(vir)45(onments.)-332(In)-257(this)]TJ 0 -11.955 Td [(paper)111(,)-375(we)-349(pr)45(opose)]TJ/F83 9.9626 Tf 78.046 0 Td [(GaussianCity)]TJ/F82 9.9626 Tf 55.361 0 Td [(,)-375(a)-349(g)10(ener)15(ative)-350(fr)15(ame)15(work)]TJ -133.407 -11.955 Td [(that)-230(le)15(ver)15(a)10(g)10(es)-229(3D)-230(Gaussian)-230(Splatting)-230(for)-229(ef)18(\002cient)-230(and)-230(high-)]TJ 0 -11.955 Td [(quality)-341(unbounded)-342(3D)-341(city)-342(g)10(ener)15(ation.)-584(The)-342(k)10(e)30(y)-341(insight)-342(of)]TJ 0 -11.955 Td [(GaussianCity)-328(is)-328(a)-327(compact)]TJ/F83 9.9626 Tf 112.689 0 Td [(BEV)70(-P)55(oint)]TJ/F82 9.9626 Tf 47.419 0 Td [(r)37(epr)37(esentation)-328(that)]TJ -160.108 -11.956 Td [(constructs)-375(a)-376(spar)10(se)-375(set)-376(of)-375(3D)-376(points)-375(fr)45(om)-376(bir)37(d')40(s-e)30(ye-vie)15(w)]TJ 0 -11.955 Td [(\050BEV\051)-410(maps)-411(using)-410(r)15(ay-inter)10(section)-411(visibility)-410(and)-411(density-)]TJ 0 -11.955 Td [(based)-306(pruning)15(.)-476(This)-306(r)37(educes)-305(the)-306(point)-306(count)-305(fr)45(om)-306(millions)]TJ 0 -11.955 Td [(to)-390(appr)45(oximately)-391(31.7K)-390(while)-390(maintaining)-390(constant)-391(GPU)]TJ 0 -11.955 Td [(memory)-328(r)37(e)40(gar)37(dless)-329(of)-328(scene)-329(scale)15(.)-545(W)92(e)-329(further)-328(intr)45(oduce)-329(a)]TJ/F83 9.9626 Tf 0 -11.956 Td [(BEV)70(-P)55(oint)-350(Decoder)]TJ/F82 9.9626 Tf 85.426 0 Td [(that)-350(combines)-350(a)-349(point)-350(serializer)-350(with)]TJ -85.426 -11.955 Td [(P)80(oint)-220(T)55(r)15(ansformer)-220(V3)-220(to)-220(pr)45(ocess)-220(unor)37(der)37(ed)-221(3D)-220(point)-220(clouds)]TJ 0 -11.955 Td [(and)-400(pr)37(edict)-401(per)20(-point)-400(Gaussian)-400(attrib)20(utes)-400(conditioned)-401(on)]TJ 0 -11.955 Td [(instance-le)15(vel)-295(style)-295(codes.)-444(GaussianCity)-295(ac)15(hie)15(ves)-295(state-of-)]TJ 0 -11.955 Td [(the-art)-342(performance)-341(on)-342(both)-342(the)-341(Goo)10(gleEarth)-342(and)-342(KITTI-)]TJ 0 -11.955 Td [(360)-351(benc)15(hmarks,)-377(attaining)-351(an)-351(FID)-351(of)-352(86.94)-351(and)-351(29.5,)-377(r)37(e-)]TJ 0 -11.956 Td [(spectively)55(,)-288(while)-280(r)37(endering)-280(at)-280(93ms)-280(per)-280(fr)15(ame)-280(\227)-280(o)10(ver)-280(60)]TJ/F34 9.9626 Tf 228.501 0 Td [(\002)]TJ/F82 9.9626 Tf -228.501 -11.955 Td [(faster)-327(than)-326(the)-327(pr)37(e)15(vious)-327(best)-326(method)-327(CityDr)37(eamer)111(.)-540(Exten-)]TJ 0 -11.955 Td [(sive)-240(ablation)-239(studies)-240(validate)-239(the)-240(ef)18(fectiveness)-239(of)-240(eac)15(h)-240(com-)]TJ 0 -11.955 Td [(ponent)-250(in)-250(our)-250(fr)15(ame)15(work.)]TJ/F79 11.9552 Tf 0 -37.905 Td [(1.)-250(Intr)18(oduction)]TJ/F78 9.9626 Tf 0 -19.609 Td [(Generating)-325(realistic,)-345(lar)18(ge-scale)-325(3D)-326(urban)-325(en)40(vironments)-326(is)]TJ 0 -11.956 Td [(a)-428(long-standing)-428(challenge)-427(with)-428(broad)-428(applications)-428(in)-428(au-)]TJ 0 -11.955 Td [(tonomous)-294(dri)25(ving)-294(simulation)-293([)]TJ
 0 0 1 rg 0 0 1 RG
  [(14)]TJ
 0 g 0 G
@@ -42,7 +59,7 @@ Q
 0 g 0 G
 1 0 0 1 -317.25 -506.491 cm
 BT
-/F78 8.9664 Tf 317.25 488.858 Td [(Figure)-287(1.)]TJ/F77 8.9664 Tf 36.501 0 Td [(GaussianCity)]TJ/F78 8.9664 Tf 54.393 0 Td [(generates)-287(unbounded)-288(3D)-287(city)-288(scenes)-287(us-)]TJ -90.894 -10.959 Td [(ing)-275(a)-276(compact)-275(BEV)100(-Point)-275(representation.)-386(Starting)-275(from)-275(BEV)-275(lay-)]TJ 0 -10.959 Td [(out)-281(maps,)-289(our)-281(method)-281(constructs)-282(a)-281(sparse)-281(set)-281(of)-281(visible)-281(3D)-281(points)]TJ 0 -10.959 Td [(and)-315(decodes)-316(them)-315(into)-315(3D)-315(Gaussian)-316(primiti)25(v)15(es)-315(for)-315(real-time)-315(ren-)]TJ 0 -10.959 Td [(dering.)]TJ
+/F78 8.9664 Tf 317.25 488.858 Td [(Figure)-287(1.)]TJ/F79 8.9664 Tf 36.501 0 Td [(GaussianCity)]TJ/F78 8.9664 Tf 54.393 0 Td [(generates)-287(unbounded)-288(3D)-287(city)-288(scenes)-287(us-)]TJ -90.894 -10.959 Td [(ing)-275(a)-276(compact)-275(BEV)100(-Point)-275(representation.)-386(Starting)-275(from)-275(BEV)-275(lay-)]TJ 0 -10.959 Td [(out)-281(maps,)-289(our)-281(method)-281(constructs)-282(a)-281(sparse)-281(set)-281(of)-281(visible)-281(3D)-281(points)]TJ 0 -10.959 Td [(and)-315(decodes)-316(them)-315(into)-315(3D)-315(Gaussian)-316(primiti)25(v)15(es)-315(for)-315(real-time)-315(ren-)]TJ 0 -10.959 Td [(dering.)]TJ
 0 g 0 G
 0 g 0 G
 /F78 9.9626 Tf 0 -37.204 Td [(synthesis.)-617(SceneDreamer)-352([)]TJ
@@ -57,7 +74,7 @@ BT
 0 0 1 rg 0 0 1 RG
  [(13)]TJ
 0 g 0 G
- [(])-771(has)-772(recently)]TJ -11.955 -11.955 Td [(emer)18(ged)-400(as)-400(an)-399(ef)25(\002cient)-400(alternati)25(v)15(e)-400(to)-400(NeRF)80(,)-400(representing)]TJ 0 -11.955 Td [(scenes)-263(as)-263(collections)-264(of)-263(3D)-263(Gaussian)-263(primiti)25(v)15(es)-263(that)-263(can)-264(be)]TJ 0 -11.955 Td [(rendered)-307(via)-307(dif)25(ferentiable)-308(rasterization.)-481(Ho)25(we)25(v)15(er)40(,)-322(nai)25(v)15(ely)]TJ 0 -11.955 Td [(applying)-283(3DGS)-284(to)-283(generati)25(v)15(e)-284(city)-283(modeling)-284(f)10(aces)-283(the)-284(chal-)]TJ 0 -11.955 Td [(lenge)-428(of)-427(determining)]TJ/F80 9.9626 Tf 90.807 0 Td [(wher)37(e)]TJ/F78 9.9626 Tf 28.24 0 Td [(to)-428(place)-427(Gaussians)-428(and)]TJ/F80 9.9626 Tf 100.595 0 Td [(how)]TJ -219.642 -11.956 Td [(many)]TJ/F78 9.9626 Tf 24.936 0 Td [(are)-337(needed,)-359(especially)-337(as)-337(the)-337(scene)-337(gro)25(ws)-337(unbound-)]TJ -24.936 -11.955 Td [(edly)65(.)]TJ 11.955 -13.969 Td [(In)-437(this)-437(paper)40(,)-484(we)-437(present)]TJ/F77 9.9626 Tf 109.538 0 Td [(GaussianCity)]TJ/F78 9.9626 Tf 57.573 0 Td [(,)-484(a)-437(generati)25(v)15(e)]TJ -179.066 -11.955 Td [(frame)25(w)10(ork)-248(that)-247(addresses)-248(these)-248(challenges)-247(through)-248(tw)10(o)-248(k)10(e)15(y)]TJ 0 -11.956 Td [(inno)15(v)25(ations.)-537(First,)-344(we)-326(propose)-326(the)]TJ/F77 9.9626 Tf 143.194 0 Td [(BEV)74(-P)20(oint)]TJ/F78 9.9626 Tf 48.803 0 Td [(representa-)]TJ -191.997 -11.955 Td [(tion,)-211(which)-201(constructs)-201(a)-202(compact)-201(set)-201(of)-201(3D)-201(points)-201(from)-202(BEV)]TJ 0 -11.955 Td [(layout)-383(maps)-383(by)-383(e)15(xtruding)-383(height)-383(\002elds)-383(and)-383(applying)-383(ray-)]TJ 0 -11.955 Td [(intersection)-248(visibility)-248(pruning.)-309(This)-248(reduces)-249(the)-248(point)-248(count)]TJ 0 -11.955 Td [(from)-218(o)15(v)15(er)-218(31)-218(million)-218(to)-218(approximately)-218(31.7K)-218(visible)-218(points,)]TJ 0 -11.955 Td [(ensuring)-262(constant)-263(GPU)-262(memory)-263(re)15(g)5(ardless)-262(of)-262(scene)-263(e)15(xtent.)]TJ 0 -11.956 Td [(Second,)-211(we)-201(design)-201(a)]TJ/F77 9.9626 Tf 81.98 0 Td [(BEV)74(-P)20(oint)-201(Decoder)]TJ/F78 9.9626 Tf 84.971 0 Td [(that)-201(serializes)-201(un-)]TJ -166.951 -11.955 Td [(ordered)-301(3D)-301(points)-302(via)-301(a)-301(coordinate-based)-301(ordering)-302(scheme)]TJ 0 -11.955 Td [(and)-257(processes)-256(them)-257(with)-256(Point)-257(T)35(ransformer)-256(V3)-257([)]TJ
+ [(])-771(has)-772(recently)]TJ -11.955 -11.955 Td [(emer)18(ged)-400(as)-400(an)-399(ef)25(\002cient)-400(alternati)25(v)15(e)-400(to)-400(NeRF)80(,)-400(representing)]TJ 0 -11.955 Td [(scenes)-263(as)-263(collections)-264(of)-263(3D)-263(Gaussian)-263(primiti)25(v)15(es)-263(that)-263(can)-264(be)]TJ 0 -11.955 Td [(rendered)-307(via)-307(dif)25(ferentiable)-308(rasterization.)-481(Ho)25(we)25(v)15(er)40(,)-322(nai)25(v)15(ely)]TJ 0 -11.955 Td [(applying)-283(3DGS)-284(to)-283(generati)25(v)15(e)-284(city)-283(modeling)-284(f)10(aces)-283(the)-284(chal-)]TJ 0 -11.955 Td [(lenge)-428(of)-427(determining)]TJ/F82 9.9626 Tf 90.807 0 Td [(wher)37(e)]TJ/F78 9.9626 Tf 28.24 0 Td [(to)-428(place)-427(Gaussians)-428(and)]TJ/F82 9.9626 Tf 100.595 0 Td [(how)]TJ -219.642 -11.956 Td [(many)]TJ/F78 9.9626 Tf 24.936 0 Td [(are)-337(needed,)-359(especially)-337(as)-337(the)-337(scene)-337(gro)25(ws)-337(unbound-)]TJ -24.936 -11.955 Td [(edly)65(.)]TJ 11.955 -13.969 Td [(In)-437(this)-437(paper)40(,)-484(we)-437(present)]TJ/F79 9.9626 Tf 109.538 0 Td [(GaussianCity)]TJ/F78 9.9626 Tf 57.573 0 Td [(,)-484(a)-437(generati)25(v)15(e)]TJ -179.066 -11.955 Td [(frame)25(w)10(ork)-248(that)-247(addresses)-248(these)-248(challenges)-247(through)-248(tw)10(o)-248(k)10(e)15(y)]TJ 0 -11.956 Td [(inno)15(v)25(ations.)-537(First,)-344(we)-326(propose)-326(the)]TJ/F79 9.9626 Tf 143.194 0 Td [(BEV)74(-P)20(oint)]TJ/F78 9.9626 Tf 48.803 0 Td [(representa-)]TJ -191.997 -11.955 Td [(tion,)-211(which)-201(constructs)-201(a)-202(compact)-201(set)-201(of)-201(3D)-201(points)-201(from)-202(BEV)]TJ 0 -11.955 Td [(layout)-383(maps)-383(by)-383(e)15(xtruding)-383(height)-383(\002elds)-383(and)-383(applying)-383(ray-)]TJ 0 -11.955 Td [(intersection)-248(visibility)-248(pruning.)-309(This)-248(reduces)-249(the)-248(point)-248(count)]TJ 0 -11.955 Td [(from)-218(o)15(v)15(er)-218(31)-218(million)-218(to)-218(approximately)-218(31.7K)-218(visible)-218(points,)]TJ 0 -11.955 Td [(ensuring)-262(constant)-263(GPU)-262(memory)-263(re)15(g)5(ardless)-262(of)-262(scene)-263(e)15(xtent.)]TJ 0 -11.956 Td [(Second,)-211(we)-201(design)-201(a)]TJ/F79 9.9626 Tf 81.98 0 Td [(BEV)74(-P)20(oint)-201(Decoder)]TJ/F78 9.9626 Tf 84.971 0 Td [(that)-201(serializes)-201(un-)]TJ -166.951 -11.955 Td [(ordered)-301(3D)-301(points)-302(via)-301(a)-301(coordinate-based)-301(ordering)-302(scheme)]TJ 0 -11.955 Td [(and)-257(processes)-256(them)-257(with)-256(Point)-257(T)35(ransformer)-256(V3)-257([)]TJ
 0 0 1 rg 0 0 1 RG
  [(22)]TJ
 0 g 0 G
@@ -466,11 +483,28 @@ endstream
 endobj
 59 0 obj
 <<
-/Length 15586     
+/Length 15851     
 >>
 stream
 0 g 0 G
+1 0 0 1 175.395 229.261 cm
+q
+.70709 .70709 -.70709 .70709 0 0 cm
+q
+.5 0 0 .5 0 0 cm
+0.6 g 0.6 G
+1 0 0 1 -175.395 -229.261 cm
+BT
+/F78 153 Tf 175.395 229.261 Td [(AI-Generated)]TJ
 0 g 0 G
+ET
+1 0 0 1 175.395 229.261 cm
+Q
+Q
+0 g 0 G
+0 g 0 G
+0 g 0 G
+1 0 0 1 -175.395 -229.261 cm
 BT
 /F78 9.9626 Tf 58.5 710.037 Td [(per)20(-instance)-250(style)-250(codes.)]TJ 11.955 -12.374 Td [(Our)-250(contrib)20(utions)-250(are)-250(summarized)-250(as)-250(follo)25(ws:)]TJ
 0 g 0 G
@@ -488,7 +522,7 @@ BT
 0 g 0 G
  -8.468 -11.956 Td [(\225)]TJ
 0 g 0 G
- [-500(GaussianCity)-1130(achie)25(v)15(es)-1129(state-of-the-art)-1130(results)-1130(on)]TJ 8.468 -11.955 Td [(GoogleEarth)-289(and)-288(KITTI-360)-289(benchmarks)-289(with)-288(o)15(v)15(er)-289(60)]TJ/F34 9.9626 Tf 220.033 0 Td [(\002)]TJ/F78 9.9626 Tf -220.033 -11.955 Td [(f)10(aster)-250(rendering)-250(than)-250(the)-250(pre)25(vious)-250(best)-250(method.)]TJ/F77 11.9552 Tf -8.468 -25.167 Td [(2.)-250(Related)-250(W)75(ork)]TJ/F77 9.9626 Tf 0 -19.347 Td [(3D)-449(Scene)-449(Generation.)]TJ/F78 9.9626 Tf 106.075 0 Td [(Early)-449(w)10(orks)-450(on)-449(3D)-449(scene)-449(gen-)]TJ -106.075 -11.956 Td [(eration)-439(operate)-438(in)-439(2D)-439(or)-438(2.5D)-439(space.)-876(SGAM)-439([)]TJ
+ [-500(GaussianCity)-1130(achie)25(v)15(es)-1129(state-of-the-art)-1130(results)-1130(on)]TJ 8.468 -11.955 Td [(GoogleEarth)-289(and)-288(KITTI-360)-289(benchmarks)-289(with)-288(o)15(v)15(er)-289(60)]TJ/F34 9.9626 Tf 220.033 0 Td [(\002)]TJ/F78 9.9626 Tf -220.033 -11.955 Td [(f)10(aster)-250(rendering)-250(than)-250(the)-250(pre)25(vious)-250(best)-250(method.)]TJ/F79 11.9552 Tf -8.468 -25.167 Td [(2.)-250(Related)-250(W)75(ork)]TJ/F79 9.9626 Tf 0 -19.347 Td [(3D)-449(Scene)-449(Generation.)]TJ/F78 9.9626 Tf 106.075 0 Td [(Early)-449(w)10(orks)-450(on)-449(3D)-449(scene)-449(gen-)]TJ -106.075 -11.956 Td [(eration)-439(operate)-438(in)-439(2D)-439(or)-438(2.5D)-439(space.)-876(SGAM)-439([)]TJ
 0 0 1 rg 0 0 1 RG
  [(21)]TJ
 0 g 0 G
@@ -528,7 +562,7 @@ BT
 0 0 1 rg 0 0 1 RG
  [(2)]TJ
 0 g 0 G
- [(])-226(e)15(xplore)-226(te)15(xt-guided)-226(and)-226(compositional)-226(urban)-226(genera-)]TJ 0 -11.955 Td [(tion.)-303(Ho)25(we)25(v)15(er)40(,)-235(all)-230(these)-230(methods)-230(rely)-230(on)-231(v)20(olumetri)1(c)-231(render)20(-)]TJ 0 -11.955 Td [(ing,)-250(which)-250(scales)-250(poorly)-250(with)-250(scene)-250(size.)]TJ/F77 9.9626 Tf 0 -28.829 Td [(NeRF)-478(and)-478(3D)-478(Gaussian)-478(Splatting)15(.)]TJ/F78 9.9626 Tf 162.546 0 Td [(NeRF)-478([)]TJ
+ [(])-226(e)15(xplore)-226(te)15(xt-guided)-226(and)-226(compositional)-226(urban)-226(genera-)]TJ 0 -11.955 Td [(tion.)-303(Ho)25(we)25(v)15(er)40(,)-235(all)-230(these)-230(methods)-230(rely)-230(on)-231(v)20(olumetri)1(c)-231(render)20(-)]TJ 0 -11.955 Td [(ing,)-250(which)-250(scales)-250(poorly)-250(with)-250(scene)-250(size.)]TJ/F79 9.9626 Tf 0 -28.829 Td [(NeRF)-478(and)-478(3D)-478(Gaussian)-478(Splatting)15(.)]TJ/F78 9.9626 Tf 162.546 0 Td [(NeRF)-478([)]TJ
 0 0 1 rg 0 0 1 RG
  [(17)]TJ
 0 g 0 G
@@ -544,7 +578,7 @@ BT
 0 0 1 rg 0 0 1 RG
  [(12)]TJ
 0 g 0 G
- [(])-326(combine)-326(GANs)-326(with)-326(neu-)]TJ 0 -11.955 Td [(ral)-356(rendering)-355(for)-356(3D-a)15(w)10(are)-355(image)-356(synthesis.)-627(Our)-355(w)10(ork)-356(is)]TJ 0 -11.955 Td [(the)-228(\002rst)-227(to)-228(inte)15(grate)-228(3D)-227(Gaussian)-228(Splatting)-227(into)-228(a)-228(generati)25(v)15(e)]TJ 0 -11.956 Td [(pipeline)-250(for)-250(unbounded)-250(city-scale)-250(scenes.)]TJ/F77 9.9626 Tf 0 -28.828 Td [(P)20(oint)-281(Cloud)-282(Pr)18(ocessing)15(.)]TJ/F78 9.9626 Tf 111.628 0 Td [(Processing)-281(unordered)-282(3D)-281(point)]TJ -111.628 -11.956 Td [(clouds)-588(is)-589(fundamental)-588(to)-588(our)-588(decoder)-589(design.)-1325(Point-)]TJ 0 -11.955 Td [(Net++)-309([)]TJ
+ [(])-326(combine)-326(GANs)-326(with)-326(neu-)]TJ 0 -11.955 Td [(ral)-356(rendering)-355(for)-356(3D-a)15(w)10(are)-355(image)-356(synthesis.)-627(Our)-355(w)10(ork)-356(is)]TJ 0 -11.955 Td [(the)-228(\002rst)-227(to)-228(inte)15(grate)-228(3D)-227(Gaussian)-228(Splatting)-227(into)-228(a)-228(generati)25(v)15(e)]TJ 0 -11.956 Td [(pipeline)-250(for)-250(unbounded)-250(city-scale)-250(scenes.)]TJ/F79 9.9626 Tf 0 -28.828 Td [(P)20(oint)-281(Cloud)-282(Pr)18(ocessing)15(.)]TJ/F78 9.9626 Tf 111.628 0 Td [(Processing)-281(unordered)-282(3D)-281(point)]TJ -111.628 -11.956 Td [(clouds)-588(is)-589(fundamental)-588(to)-588(our)-588(decoder)-589(design.)-1325(Point-)]TJ 0 -11.955 Td [(Net++)-309([)]TJ
 0 0 1 rg 0 0 1 RG
  [(19)]TJ
 0 g 0 G
@@ -563,23 +597,23 @@ BT
 0 0 1 rg 0 0 1 RG
  [-349(10)]TJ
 0 g 0 G
- [(].)]TJ 0 -11.955 Td [(Our)-246(BEV)100(-Point)-246(Decoder)-246(b)20(uilds)-247(on)-246(these)-246(adv)25(ances,)-247(combin-)]TJ 0 -11.955 Td [(ing)-246(coordinate-based)-246(serialization)-246(with)-246(Hilbert)-247(curv)15(e)-246(order)20(-)]TJ 0 -11.956 Td [(ing)-250(for)-250(optimal)-250(point)-250(cloud)-250(processing.)]TJ/F77 9.9626 Tf 0 -25.952 Td [(BEV)74(-Based)-938(Scene)-938(Repr)18(esentations.)]TJ/F78 9.9626 Tf 172.46 0 Td [(Bird')55(s-e)15(ye-vie)25(w)]TJ -172.46 -11.955 Td [(\050BEV\051)-617(representations)-617(ha)20(v)15(e)-618(g)5(ained)-617(prominence)-617(in)-618(au-)]TJ 0 -11.955 Td [(tonomous)-404(dri)25(ving,)-442(enabl)1(ing)-404(ef)25(\002cient)-404(spatial)-403(reasoning)-404(by)]TJ 0 -11.956 Td [(projecting)-384(3D)-383(scene)-384(information)-384(onto)-383(a)-384(uni\002ed)-384(top-do)25(wn)]TJ 0 -11.955 Td [(grid)-405([)]TJ
+ [(].)]TJ 0 -11.955 Td [(Our)-246(BEV)100(-Point)-246(Decoder)-246(b)20(uilds)-247(on)-246(these)-246(adv)25(ances,)-247(combin-)]TJ 0 -11.955 Td [(ing)-246(coordinate-based)-246(serialization)-246(with)-246(Hilbert)-247(curv)15(e)-246(order)20(-)]TJ 0 -11.956 Td [(ing)-250(for)-250(optimal)-250(point)-250(cloud)-250(processing.)]TJ/F79 9.9626 Tf 0 -25.952 Td [(BEV)74(-Based)-938(Scene)-938(Repr)18(esentations.)]TJ/F78 9.9626 Tf 172.46 0 Td [(Bird')55(s-e)15(ye-vie)25(w)]TJ -172.46 -11.955 Td [(\050BEV\051)-617(representations)-617(ha)20(v)15(e)-618(g)5(ained)-617(prominence)-617(in)-618(au-)]TJ 0 -11.955 Td [(tonomous)-404(dri)25(ving,)-442(enabl)1(ing)-404(ef)25(\002cient)-404(spatial)-403(reasoning)-404(by)]TJ 0 -11.956 Td [(projecting)-384(3D)-383(scene)-384(information)-384(onto)-383(a)-384(uni\002ed)-384(top-do)25(wn)]TJ 0 -11.955 Td [(grid)-405([)]TJ
 0 0 1 rg 0 0 1 RG
  [(14)]TJ
 0 g 0 G
- [(].)-774(In)-405(the)-404(generati)25(v)15(e)-405(setting,)-444(BEV)-404(maps)-405(serv)15(e)-405(as)]TJ 0 -11.955 Td [(compact)-305(scene)-305(descriptors)-305(that)-305(naturally)-306(encode)-305(geometric)]TJ 0 -11.955 Td [(layout)-546(while)-545(remaining)-546(independent)-545(of)-546(speci\002c)-546(camera)]TJ 0 -11.955 Td [(vie)25(wpoints.)-575(Methods)-338(conditioned)-339(on)-338(BEV)-338(layouts)-339(bene\002t)]TJ 0 -11.955 Td [(from)-407(the)-408(structured)-407(spatial)-408(prior)-407(that)-408(such)-407(maps)-408(pro)15(vide,)]TJ 0 -11.956 Td [(enabling)-521(the)-521(model)-521(to)-522(l)1(earn)-522(geometry-consistent)-521(gener)20(-)]TJ 0 -11.955 Td [(ation.)-829(Our)-423(GaussianCity)-423(e)15(xploits)-423(this)-424(property)-423(by)-423(using)]TJ 0 -11.955 Td [(BEV)-228(height)-229(and)-228(semantic)-228(maps)-229(as)-228(the)-228(primary)-229(conditioning)]TJ 0 -11.955 Td [(signal,)-542(bridging)-484(the)-484(g)5(ap)-484(between)-484(BEV)100(-based)-484(perception)]TJ 0 -11.955 Td [(and)-250(generati)25(v)15(e)-250(3D)-250(scene)-250(synthesis.)]TJ/F77 11.9552 Tf 0 -22.637 Td [(3.)-250(Our)-250(A)25(ppr)18(oach)]TJ/F78 9.9626 Tf 0 -18.929 Td [(Gi)25(v)15(en)-500(a)-501(BEV)-500(layout)-500(consisting)-500(of)-501(a)-500(height)-500(map)]TJ/F87 9.9626 Tf 213.256 0 Td [(H)]TJ/F34 9.9626 Tf 16.352 0 Td [(2)]TJ/F71 9.9626 Tf -229.608 -11.955 Td [(R)]TJ/F30 6.9738 Tf 7.195 3.615 Td [(W)]TJ/F33 6.9738 Tf 8.565 0 Td [(\002)]TJ/F30 6.9738 Tf 6.227 0 Td [(W)]TJ/F78 9.9626 Tf 13.213 -3.615 Td [(and)-416(a)-417(semantic)-416(map)]TJ/F87 9.9626 Tf 87.979 0 Td [(S)]TJ/F34 9.9626 Tf 12.204 0 Td [(2)-586(f)]TJ/F28 9.9626 Tf 17.462 0 Td [(0)]TJ/F31 9.9626 Tf 4.981 0 Td [(;)-167(:)-166(:)-167(:)-167(;)-166(C)]TJ/F34 9.9626 Tf 33.415 0 Td [(\000)]TJ/F28 9.9626 Tf 11.191 0 Td [(1)]TJ/F34 9.9626 Tf 4.982 0 Td [(g)]TJ/F30 6.9738 Tf 4.981 3.615 Td [(W)]TJ/F33 6.9738 Tf 8.565 0 Td [(\002)]TJ/F30 6.9738 Tf 6.227 0 Td [(W)]TJ/F78 9.9626 Tf -227.187 -15.57 Td [(with)]TJ/F31 9.9626 Tf 22.528 0 Td [(C)]TJ/F78 9.9626 Tf 12.647 0 Td [(semantic)-483(classes,)-542(GaussianCity)-483(generates)-483(multi-)]TJ -35.175 -11.956 Td [(vie)25(w)-439(consistent)-440(renderings)-439(of)-440(the)-439(corresponding)-439(3D)-440(city)]TJ 0 -11.955 Td [(scene.)-307(As)-239(illustrated)-240(in)-240(Fig.)]TJ
+ [(].)-774(In)-405(the)-404(generati)25(v)15(e)-405(setting,)-444(BEV)-404(maps)-405(serv)15(e)-405(as)]TJ 0 -11.955 Td [(compact)-305(scene)-305(descriptors)-305(that)-305(naturally)-306(encode)-305(geometric)]TJ 0 -11.955 Td [(layout)-546(while)-545(remaining)-546(independent)-545(of)-546(speci\002c)-546(camera)]TJ 0 -11.955 Td [(vie)25(wpoints.)-575(Methods)-338(conditioned)-339(on)-338(BEV)-338(layouts)-339(bene\002t)]TJ 0 -11.955 Td [(from)-407(the)-408(structured)-407(spatial)-408(prior)-407(that)-408(such)-407(maps)-408(pro)15(vide,)]TJ 0 -11.956 Td [(enabling)-521(the)-521(model)-521(to)-522(l)1(earn)-522(geometry-consistent)-521(gener)20(-)]TJ 0 -11.955 Td [(ation.)-829(Our)-423(GaussianCity)-423(e)15(xploits)-423(this)-424(property)-423(by)-423(using)]TJ 0 -11.955 Td [(BEV)-228(height)-229(and)-228(semantic)-228(maps)-229(as)-228(the)-228(primary)-229(conditioning)]TJ 0 -11.955 Td [(signal,)-542(bridging)-484(the)-484(g)5(ap)-484(between)-484(BEV)100(-based)-484(perception)]TJ 0 -11.955 Td [(and)-250(generati)25(v)15(e)-250(3D)-250(scene)-250(synthesis.)]TJ/F79 11.9552 Tf 0 -22.637 Td [(3.)-250(Our)-250(A)25(ppr)18(oach)]TJ/F78 9.9626 Tf 0 -18.929 Td [(Gi)25(v)15(en)-500(a)-501(BEV)-500(layout)-500(consisting)-500(of)-501(a)-500(height)-500(map)]TJ/F89 9.9626 Tf 213.256 0 Td [(H)]TJ/F34 9.9626 Tf 16.352 0 Td [(2)]TJ/F71 9.9626 Tf -229.608 -11.955 Td [(R)]TJ/F30 6.9738 Tf 7.195 3.615 Td [(W)]TJ/F33 6.9738 Tf 8.565 0 Td [(\002)]TJ/F30 6.9738 Tf 6.227 0 Td [(W)]TJ/F78 9.9626 Tf 13.213 -3.615 Td [(and)-416(a)-417(semantic)-416(map)]TJ/F89 9.9626 Tf 87.979 0 Td [(S)]TJ/F34 9.9626 Tf 12.204 0 Td [(2)-586(f)]TJ/F28 9.9626 Tf 17.462 0 Td [(0)]TJ/F31 9.9626 Tf 4.981 0 Td [(;)-167(:)-166(:)-167(:)-167(;)-166(C)]TJ/F34 9.9626 Tf 33.415 0 Td [(\000)]TJ/F28 9.9626 Tf 11.191 0 Td [(1)]TJ/F34 9.9626 Tf 4.982 0 Td [(g)]TJ/F30 6.9738 Tf 4.981 3.615 Td [(W)]TJ/F33 6.9738 Tf 8.565 0 Td [(\002)]TJ/F30 6.9738 Tf 6.227 0 Td [(W)]TJ/F78 9.9626 Tf -227.187 -15.57 Td [(with)]TJ/F31 9.9626 Tf 22.528 0 Td [(C)]TJ/F78 9.9626 Tf 12.647 0 Td [(semantic)-483(classes,)-542(GaussianCity)-483(generates)-483(multi-)]TJ -35.175 -11.956 Td [(vie)25(w)-439(consistent)-440(renderings)-439(of)-440(the)-439(corresponding)-439(3D)-440(city)]TJ 0 -11.955 Td [(scene.)-307(As)-239(illustrated)-240(in)-240(Fig.)]TJ
 1 0 0 rg 1 0 0 RG
  [-239(2)]TJ
 0 g 0 G
- [(,)-242(our)-240(pipeline)-239(consists)-240(of)-240(three)]TJ 0 -11.955 Td [(stages:)-440(\0501\051)-314(BEV)100(-Point)-315(Construction,)-331(which)-315(creates)-315(a)-315(com-)]TJ 0 -11.955 Td [(pact)-307(3D)-306(point)-307(set)-306(from)-307(the)-306(BEV)-307(maps;)-335(\0502\051)-306(BEV)100(-Point)-307(De-)]TJ 0 -11.955 Td [(coder)40(,)-269(which)-266(predicts)-265(Gaussian)-266(spl)1(atting)-266(attrib)20(utes)-265(for)-266(each)]TJ 0 -11.955 Td [(point;)-305(and)-286(\0503\051)-286(dif)25(ferentiable)-287(Gaussian)-286(rasterization)-286(for)-287(ren-)]TJ 0 -11.956 Td [(dering.)]TJ/F77 10.9589 Tf 0 -18.651 Td [(3.1.)-250(BEV)74(\255P)20(oint)-250(Construction)]TJ/F78 9.9626 Tf 0 -17.933 Td [(A)-195(nai)25(v)15(e)-195(approach)-196(to)-195(constructing)-195(3D)-195(points)-195(from)-196(BEV)-195(maps)]TJ 0 -11.955 Td [(w)10(ould)-320(e)15(xtrude)-319(e)25(v)15(ery)-320(pix)15(el)-320(into)-319(a)-320(column)-319(of)-320(3D)-320(points,)-337(re-)]TJ 0 -11.955 Td [(sulting)-274(i)1(n)-274(millions)-274(of)-273(points)-274(that)-273(e)15(xceed)-274(GPU)-273(memory)65(.)-381(W)80(e)]TJ 0 -11.955 Td [(address)-250(this)-250(with)-250(a)-250(three-step)-250(pruning)-250(strate)15(gy)65(.)]TJ/F77 9.9626 Tf 0 -25.953 Td [(Height)-224(Extrusion.)]TJ/F78 9.9626 Tf 85.538 0 Td [(F)15(or)-224(each)-224(BEV)-224(pix)15(el)]TJ/F28 9.9626 Tf 80.564 0 Td [(\050)]TJ/F31 9.9626 Tf 3.875 0 Td [(u;)-167(v)]TJ/F28 9.9626 Tf 15.317 0 Td [(\051)]TJ/F78 9.9626 Tf 6.105 0 Td [(with)-224(height)]TJ/F87 9.9626 Tf -191.399 -11.955 Td [(H)]TJ/F28 9.9626 Tf 8.966 0 Td [(\050)]TJ/F31 9.9626 Tf 3.875 0 Td [(u;)-167(v)]TJ/F28 9.9626 Tf 15.317 0 Td [(\051)]TJ/F78 9.9626 Tf 5.873 0 Td [(and)-201(semantic)-200(label)]TJ/F87 9.9626 Tf 75.166 0 Td [(S)]TJ/F28 9.9626 Tf 6.365 0 Td [(\050)]TJ/F31 9.9626 Tf 3.874 0 Td [(u;)-167(v)]TJ/F28 9.9626 Tf 15.318 0 Td [(\051)]TJ/F78 9.9626 Tf 3.874 0 Td [(,)-210(we)-201(create)-201(a)-200(v)15(ertical)-201(col-)]TJ -138.628 -11.955 Td [(umn)-250(of)-250(3D)-250(points:)]TJ
+ [(,)-242(our)-240(pipeline)-239(consists)-240(of)-240(three)]TJ 0 -11.955 Td [(stages:)-440(\0501\051)-314(BEV)100(-Point)-315(Construction,)-331(which)-315(creates)-315(a)-315(com-)]TJ 0 -11.955 Td [(pact)-307(3D)-306(point)-307(set)-306(from)-307(the)-306(BEV)-307(maps;)-335(\0502\051)-306(BEV)100(-Point)-307(De-)]TJ 0 -11.955 Td [(coder)40(,)-269(which)-266(predicts)-265(Gaussian)-266(spl)1(atting)-266(attrib)20(utes)-265(for)-266(each)]TJ 0 -11.955 Td [(point;)-305(and)-286(\0503\051)-286(dif)25(ferentiable)-287(Gaussian)-286(rasterization)-286(for)-287(ren-)]TJ 0 -11.956 Td [(dering.)]TJ/F79 10.9589 Tf 0 -18.651 Td [(3.1.)-250(BEV)74(\255P)20(oint)-250(Construction)]TJ/F78 9.9626 Tf 0 -17.933 Td [(A)-195(nai)25(v)15(e)-195(approach)-196(to)-195(constructing)-195(3D)-195(points)-195(from)-196(BEV)-195(maps)]TJ 0 -11.955 Td [(w)10(ould)-320(e)15(xtrude)-319(e)25(v)15(ery)-320(pix)15(el)-320(into)-319(a)-320(column)-319(of)-320(3D)-320(points,)-337(re-)]TJ 0 -11.955 Td [(sulting)-274(i)1(n)-274(millions)-274(of)-273(points)-274(that)-273(e)15(xceed)-274(GPU)-273(memory)65(.)-381(W)80(e)]TJ 0 -11.955 Td [(address)-250(this)-250(with)-250(a)-250(three-step)-250(pruning)-250(strate)15(gy)65(.)]TJ/F79 9.9626 Tf 0 -25.953 Td [(Height)-224(Extrusion.)]TJ/F78 9.9626 Tf 85.538 0 Td [(F)15(or)-224(each)-224(BEV)-224(pix)15(el)]TJ/F28 9.9626 Tf 80.564 0 Td [(\050)]TJ/F31 9.9626 Tf 3.875 0 Td [(u;)-167(v)]TJ/F28 9.9626 Tf 15.317 0 Td [(\051)]TJ/F78 9.9626 Tf 6.105 0 Td [(with)-224(height)]TJ/F89 9.9626 Tf -191.399 -11.955 Td [(H)]TJ/F28 9.9626 Tf 8.966 0 Td [(\050)]TJ/F31 9.9626 Tf 3.875 0 Td [(u;)-167(v)]TJ/F28 9.9626 Tf 15.317 0 Td [(\051)]TJ/F78 9.9626 Tf 5.873 0 Td [(and)-201(semantic)-200(label)]TJ/F89 9.9626 Tf 75.166 0 Td [(S)]TJ/F28 9.9626 Tf 6.365 0 Td [(\050)]TJ/F31 9.9626 Tf 3.874 0 Td [(u;)-167(v)]TJ/F28 9.9626 Tf 15.318 0 Td [(\051)]TJ/F78 9.9626 Tf 3.874 0 Td [(,)-210(we)-201(create)-201(a)-200(v)15(ertical)-201(col-)]TJ -138.628 -11.955 Td [(umn)-250(of)-250(3D)-250(points:)]TJ
 ET
 /S/Span<</ActualText(\040\040\\mathbf\040{P}_{u,v}\040=\040\\left\040\\{\040\\left\040\(x_u,\\,\040y_v,\\,\040z_k\\right\040\)\040\\mid\040z_k\040=\040k\040\\cdot\040\\Delta\040z,\\;\040k\040=\0400,\040\\ldots\040,\040\\lfloor\040\\mathbf\040{H}\(u,v\)\040/\040\\Delta\040z\040\\rfloor\040\\right\040\\},\040\\label\040{eq:extrusion}\040)>>BDC
 BT
-/F87 9.9626 Tf 317.25 190.639 Td [(P)]TJ/F30 6.9738 Tf 7.832 -1.495 Td [(u;v)]TJ/F28 9.9626 Tf 14.577 1.495 Td [(=)]TJ/F34 9.9626 Tf 10.516 0 Td [(f)]TJ/F28 9.9626 Tf 4.981 0 Td [(\050)]TJ/F31 9.9626 Tf 3.875 0 Td [(x)]TJ/F30 6.9738 Tf 5.694 -1.495 Td [(u)]TJ/F31 9.9626 Tf 5.208 1.495 Td [(;)-333(y)]TJ/F30 6.9738 Tf 10.973 -1.495 Td [(v)]TJ/F31 9.9626 Tf 4.733 1.495 Td [(;)-333(z)]TJ/F30 6.9738 Tf 10.722 -1.495 Td [(k)]TJ/F28 9.9626 Tf 4.901 1.495 Td [(\051)]TJ/F34 9.9626 Tf 6.642 0 Td [(j)]TJ/F31 9.9626 Tf 5.535 0 Td [(z)]TJ/F30 6.9738 Tf 4.633 -1.495 Td [(k)]TJ/F28 9.9626 Tf 7.669 1.495 Td [(=)]TJ/F31 9.9626 Tf 10.516 0 Td [(k)]TJ/F34 9.9626 Tf 7.714 0 Td [(\001)]TJ/F28 9.9626 Tf 4.982 0 Td [(\001)]TJ/F31 9.9626 Tf 8.302 0 Td [(z)-44(;)-444(k)]TJ/F28 9.9626 Tf 20.534 0 Td [(=)-278(0)]TJ/F31 9.9626 Tf 15.497 0 Td [(;)-167(:)-166(:)-167(:)-167(;)]TJ/F34 9.9626 Tf 22.139 0 Td [(b)]TJ/F87 9.9626 Tf 4.428 0 Td [(H)]TJ/F28 9.9626 Tf 8.966 0 Td [(\050)]TJ/F31 9.9626 Tf 3.875 0 Td [(u;)-167(v)]TJ/F28 9.9626 Tf 15.317 0 Td [(\051)]TJ/F31 9.9626 Tf 3.875 0 Td [(=)]TJ/F28 9.9626 Tf 4.981 0 Td [(\001)]TJ/F31 9.9626 Tf 8.302 0 Td [(z)]TJ/F34 9.9626 Tf 5.072 0 Td [(cg)]TJ/F31 9.9626 Tf 11.069 0 Td [(;)]TJ
+/F89 9.9626 Tf 317.25 190.639 Td [(P)]TJ/F30 6.9738 Tf 7.832 -1.495 Td [(u;v)]TJ/F28 9.9626 Tf 14.577 1.495 Td [(=)]TJ/F34 9.9626 Tf 10.516 0 Td [(f)]TJ/F28 9.9626 Tf 4.981 0 Td [(\050)]TJ/F31 9.9626 Tf 3.875 0 Td [(x)]TJ/F30 6.9738 Tf 5.694 -1.495 Td [(u)]TJ/F31 9.9626 Tf 5.208 1.495 Td [(;)-333(y)]TJ/F30 6.9738 Tf 10.973 -1.495 Td [(v)]TJ/F31 9.9626 Tf 4.733 1.495 Td [(;)-333(z)]TJ/F30 6.9738 Tf 10.722 -1.495 Td [(k)]TJ/F28 9.9626 Tf 4.901 1.495 Td [(\051)]TJ/F34 9.9626 Tf 6.642 0 Td [(j)]TJ/F31 9.9626 Tf 5.535 0 Td [(z)]TJ/F30 6.9738 Tf 4.633 -1.495 Td [(k)]TJ/F28 9.9626 Tf 7.669 1.495 Td [(=)]TJ/F31 9.9626 Tf 10.516 0 Td [(k)]TJ/F34 9.9626 Tf 7.714 0 Td [(\001)]TJ/F28 9.9626 Tf 4.982 0 Td [(\001)]TJ/F31 9.9626 Tf 8.302 0 Td [(z)-44(;)-444(k)]TJ/F28 9.9626 Tf 20.534 0 Td [(=)-278(0)]TJ/F31 9.9626 Tf 15.497 0 Td [(;)-167(:)-166(:)-167(:)-167(;)]TJ/F34 9.9626 Tf 22.139 0 Td [(b)]TJ/F89 9.9626 Tf 4.428 0 Td [(H)]TJ/F28 9.9626 Tf 8.966 0 Td [(\050)]TJ/F31 9.9626 Tf 3.875 0 Td [(u;)-167(v)]TJ/F28 9.9626 Tf 15.317 0 Td [(\051)]TJ/F31 9.9626 Tf 3.875 0 Td [(=)]TJ/F28 9.9626 Tf 4.981 0 Td [(\001)]TJ/F31 9.9626 Tf 8.302 0 Td [(z)]TJ/F34 9.9626 Tf 5.072 0 Td [(cg)]TJ/F31 9.9626 Tf 11.069 0 Td [(;)]TJ
 ET
 EMC
 BT
-/F78 9.9626 Tf 541.884 178.683 Td [(\0501\051)]TJ -224.634 -11.955 Td [(where)]TJ/F28 9.9626 Tf 27.347 0 Td [(\050)]TJ/F31 9.9626 Tf 3.874 0 Td [(x)]TJ/F30 6.9738 Tf 5.694 -1.494 Td [(u)]TJ/F31 9.9626 Tf 5.209 1.494 Td [(;)-167(y)]TJ/F30 6.9738 Tf 9.312 -1.494 Td [(v)]TJ/F28 9.9626 Tf 4.734 1.494 Td [(\051)]TJ/F78 9.9626 Tf 6.882 0 Td [(are)-302(the)-302(w)10(orld)-302(coordinates)-302(corresponding)-302(to)]TJ -63.052 -11.955 Td [(pix)15(el)]TJ/F28 9.9626 Tf 22.266 0 Td [(\050)]TJ/F31 9.9626 Tf 3.875 0 Td [(u;)-167(v)]TJ/F28 9.9626 Tf 15.317 0 Td [(\051)]TJ/F78 9.9626 Tf 6.365 0 Td [(and)]TJ/F28 9.9626 Tf 16.877 0 Td [(\001)]TJ/F31 9.9626 Tf 8.302 0 Td [(z)]TJ/F78 9.9626 Tf 7.562 0 Td [(is)-250(the)-250(v)15(ertical)-250(sampling)-250(interv)25(al.)]TJ/F77 9.9626 Tf -80.564 -25.952 Td [(Density-Based)-325(Pruning)15(.)]TJ/F78 9.9626 Tf 111.301 0 Td [(W)80(e)-325(learn)-325(a)-325(binary)-325(density)-325(map)]TJ/F87 9.9626 Tf -111.301 -11.956 Td [(D)]TJ/F34 9.9626 Tf 14.611 0 Td [(2)-585(f)]TJ/F28 9.9626 Tf 17.447 0 Td [(0)]TJ/F31 9.9626 Tf 4.982 0 Td [(;)]TJ/F28 9.9626 Tf 4.427 0 Td [(1)]TJ/F34 9.9626 Tf 4.982 0 Td [(g)]TJ/F30 6.9738 Tf 4.981 3.616 Td [(W)]TJ/F33 6.9738 Tf 8.565 0 Td [(\002)]TJ/F30 6.9738 Tf 6.227 0 Td [(W)]TJ/F78 9.9626 Tf 13.205 -3.616 Td [(that)-416(indicates)-415(whether)-416(each)-416(BEV)-415(col-)]TJ -79.427 -11.955 Td [(umn)-361(contains)-361(visible)-361(content.)-642(Columns)-361(mark)10(ed)-361(as)-361(empty)]TJ 0 -11.955 Td [(\050)]TJ/F87 9.9626 Tf 3.318 0 Td [(D)]TJ/F28 9.9626 Tf 8.786 0 Td [(\050)]TJ/F31 9.9626 Tf 3.874 0 Td [(u;)-167(v)]TJ/F28 9.9626 Tf 15.318 0 Td [(\051)-281(=)-282(0)]TJ/F78 9.9626 Tf 22.211 0 Td [(\051)-252(are)-252(discarded,)-252(reducing)-252(the)-252(point)-252(count)-252(from)]TJ -53.507 -11.955 Td [(31M)-250(to)-250(approximately)-250(20M.)]TJ
+/F78 9.9626 Tf 541.884 178.683 Td [(\0501\051)]TJ -224.634 -11.955 Td [(where)]TJ/F28 9.9626 Tf 27.347 0 Td [(\050)]TJ/F31 9.9626 Tf 3.874 0 Td [(x)]TJ/F30 6.9738 Tf 5.694 -1.494 Td [(u)]TJ/F31 9.9626 Tf 5.209 1.494 Td [(;)-167(y)]TJ/F30 6.9738 Tf 9.312 -1.494 Td [(v)]TJ/F28 9.9626 Tf 4.734 1.494 Td [(\051)]TJ/F78 9.9626 Tf 6.882 0 Td [(are)-302(the)-302(w)10(orld)-302(coordinates)-302(corresponding)-302(to)]TJ -63.052 -11.955 Td [(pix)15(el)]TJ/F28 9.9626 Tf 22.266 0 Td [(\050)]TJ/F31 9.9626 Tf 3.875 0 Td [(u;)-167(v)]TJ/F28 9.9626 Tf 15.317 0 Td [(\051)]TJ/F78 9.9626 Tf 6.365 0 Td [(and)]TJ/F28 9.9626 Tf 16.877 0 Td [(\001)]TJ/F31 9.9626 Tf 8.302 0 Td [(z)]TJ/F78 9.9626 Tf 7.562 0 Td [(is)-250(the)-250(v)15(ertical)-250(sampling)-250(interv)25(al.)]TJ/F79 9.9626 Tf -80.564 -25.952 Td [(Density-Based)-325(Pruning)15(.)]TJ/F78 9.9626 Tf 111.301 0 Td [(W)80(e)-325(learn)-325(a)-325(binary)-325(density)-325(map)]TJ/F89 9.9626 Tf -111.301 -11.956 Td [(D)]TJ/F34 9.9626 Tf 14.611 0 Td [(2)-585(f)]TJ/F28 9.9626 Tf 17.447 0 Td [(0)]TJ/F31 9.9626 Tf 4.982 0 Td [(;)]TJ/F28 9.9626 Tf 4.427 0 Td [(1)]TJ/F34 9.9626 Tf 4.982 0 Td [(g)]TJ/F30 6.9738 Tf 4.981 3.616 Td [(W)]TJ/F33 6.9738 Tf 8.565 0 Td [(\002)]TJ/F30 6.9738 Tf 6.227 0 Td [(W)]TJ/F78 9.9626 Tf 13.205 -3.616 Td [(that)-416(indicates)-415(whether)-416(each)-416(BEV)-415(col-)]TJ -79.427 -11.955 Td [(umn)-361(contains)-361(visible)-361(content.)-642(Columns)-361(mark)10(ed)-361(as)-361(empty)]TJ 0 -11.955 Td [(\050)]TJ/F89 9.9626 Tf 3.318 0 Td [(D)]TJ/F28 9.9626 Tf 8.786 0 Td [(\050)]TJ/F31 9.9626 Tf 3.874 0 Td [(u;)-167(v)]TJ/F28 9.9626 Tf 15.318 0 Td [(\051)-281(=)-282(0)]TJ/F78 9.9626 Tf 22.211 0 Td [(\051)-252(are)-252(discarded,)-252(reducing)-252(the)-252(point)-252(count)-252(from)]TJ -53.507 -11.955 Td [(31M)-250(to)-250(approximately)-250(20M.)]TJ
 0 g 0 G
  -13.741 -29.888 Td [(2)]TJ
 0 g 0 G
@@ -589,13 +623,29 @@ endstream
 endobj
 97 0 obj
 <<
-/Length 11136     
+/Length 11376     
 >>
 stream
 0 g 0 G
+1 0 0 1 175.395 229.261 cm
+q
+.70709 .70709 -.70709 .70709 0 0 cm
+q
+.5 0 0 .5 0 0 cm
+0.6 g 0.6 G
+1 0 0 1 -175.395 -229.261 cm
+BT
+/F78 153 Tf 175.395 229.261 Td [(AI-Generated)]TJ
+0 g 0 G
+ET
+1 0 0 1 175.395 229.261 cm
+Q
+Q
 0 g 0 G
 0 g 0 G
-1 0 0 1 58.5 466.422 cm
+0 g 0 G
+0 g 0 G
+1 0 0 1 -116.895 237.161 cm
 q
 1.15096 0 0 1.15096 0 0 cm
 q
@@ -606,7 +656,7 @@ Q
 0 g 0 G
 1 0 0 1 -58.5 -466.422 cm
 BT
-/F78 8.9664 Tf 58.5 448.788 Td [(Figure)-223(2.)]TJ/F77 8.9664 Tf 34.835 0 Td [(Ov)10(er)10(view)-223(of)-223(GaussianCity)70(.)]TJ/F78 8.9664 Tf 104.271 0 Td [(Gi)25(v)15(en)-223(BEV)-223(height)-223(and)-223(semantic)-223(maps,)-229(we)-223(\002rst)-223(construct)-223(a)-223(compact)-223(set)-223(of)-223(BEV)100(-Points)-223(via)-223(e)15(xtrusion,)]TJ -139.106 -10.959 Td [(density-based)-337(pruning,)-359(and)-337(ray-intersection)-337(visibility)-337(\050Sec.)]TJ
+/F78 8.9664 Tf 58.5 448.788 Td [(Figure)-223(2.)]TJ/F79 8.9664 Tf 34.835 0 Td [(Ov)10(er)10(view)-223(of)-223(GaussianCity)70(.)]TJ/F78 8.9664 Tf 104.271 0 Td [(Gi)25(v)15(en)-223(BEV)-223(height)-223(and)-223(semantic)-223(maps,)-229(we)-223(\002rst)-223(construct)-223(a)-223(compact)-223(set)-223(of)-223(BEV)100(-Points)-223(via)-223(e)15(xtrusion,)]TJ -139.106 -10.959 Td [(density-based)-337(pruning,)-359(and)-337(ray-intersection)-337(visibility)-337(\050Sec.)]TJ
 1 0 0 rg 1 0 0 RG
  [-337(3.1)]TJ
 0 g 0 G
@@ -617,15 +667,15 @@ BT
  [(\051)-337(serializes)-337(the)-337(points)-337(and)-337(processes)]TJ 0 -10.958 Td [(them)-235(with)-235(Point)-235(T)35(ransformer)-235(V3,)-238(predicti)1(ng)-235(per)20(-point)-235(Gaussian)-235(attrib)20(utes)-235(conditioned)-235(on)-235(instance)-235(style)-235(codes.)-305(The)-235(result)1(ing)-235(Gaussians)-235(are)]TJ 0 -10.959 Td [(rendered)-250(via)-250(dif)25(ferentiable)-250(rasterization.)]TJ
 0 g 0 G
 0 g 0 G
-/F77 9.9626 Tf 0 -33.176 Td [(Ray-Intersection)-239(V)37(isibility)70(.)]TJ/F78 9.9626 Tf 123.902 0 Td [(The)-239(k)10(e)15(y)-239(to)-238(our)-239(compact)-239(rep-)]TJ -123.902 -11.955 Td [(resentation)-382(is)-382(ray-intersection)-382(visibility)-382(pruning.)-707(Gi)25(v)15(en)-382(a)]TJ 0 -11.955 Td [(camera)-236(pose)-236(with)-236(position)]TJ/F87 9.9626 Tf 106.254 0 Td [(o)]TJ/F78 9.9626 Tf 8.081 0 Td [(and)-236(vie)25(wing)-236(directions)-236(de\002ned)]TJ -114.335 -11.955 Td [(by)-284(the)-285(image)-284(plane,)-293(we)-284(cast)-285(rays)-284(through)-285(the)-284(scene)-284(and)-285(re-)]TJ 0 -11.956 Td [(tain)-342(only)-342(points)-342(that)-342(intersect)-342(with)-342(a)-342(ray)65(.)-587(Speci\002cally)65(,)-365(we)]TJ 0 -11.955 Td [(emplo)10(y)-314(a)-313(v)20(ox)15(el)-314(tra)20(v)15(ersal)-314(algorithm)-314([)]TJ
+/F79 9.9626 Tf 0 -33.176 Td [(Ray-Intersection)-239(V)37(isibility)70(.)]TJ/F78 9.9626 Tf 123.902 0 Td [(The)-239(k)10(e)15(y)-239(to)-238(our)-239(compact)-239(rep-)]TJ -123.902 -11.955 Td [(resentation)-382(is)-382(ray-intersection)-382(visibility)-382(pruning.)-707(Gi)25(v)15(en)-382(a)]TJ 0 -11.955 Td [(camera)-236(pose)-236(with)-236(position)]TJ/F89 9.9626 Tf 106.254 0 Td [(o)]TJ/F78 9.9626 Tf 8.081 0 Td [(and)-236(vie)25(wing)-236(directions)-236(de\002ned)]TJ -114.335 -11.955 Td [(by)-284(the)-285(image)-284(plane,)-293(we)-284(cast)-285(rays)-284(through)-285(the)-284(scene)-284(and)-285(re-)]TJ 0 -11.956 Td [(tain)-342(only)-342(points)-342(that)-342(intersect)-342(with)-342(a)-342(ray)65(.)-587(Speci\002cally)65(,)-365(we)]TJ 0 -11.955 Td [(emplo)10(y)-314(a)-313(v)20(ox)15(el)-314(tra)20(v)15(ersal)-314(algorithm)-314([)]TJ
 0 0 1 rg 0 0 1 RG
  [(1)]TJ
 0 g 0 G
- [(])-313(to)-314(ef)25(\002ciently)-314(deter)20(-)]TJ 0 -11.955 Td [(mine)-316(which)-315(BEV)-316(columns)-315(are)-316(intersected)-316(by)-315(camera)-316(rays.)]TJ 0 -11.955 Td [(F)15(or)-210(a)-210(ray)]TJ/F87 9.9626 Tf 37.109 0 Td [(r)]TJ/F28 9.9626 Tf 4.718 0 Td [(\050)]TJ/F31 9.9626 Tf 3.875 0 Td [(t)]TJ/F28 9.9626 Tf 3.597 0 Td [(\051)-278(=)]TJ/F87 9.9626 Tf 17.158 0 Td [(o)]TJ/F28 9.9626 Tf 6.464 0 Td [(+)]TJ/F31 9.9626 Tf 8.485 0 Td [(t)]TJ/F87 9.9626 Tf 3.597 0 Td [(d)]TJ/F78 9.9626 Tf 6.365 0 Td [(,)-218(we)-210(tra)20(v)15(erse)-210(the)-210(v)20(ox)15(el)-210(grid)-210(and)-210(mark)]TJ -91.368 -11.955 Td [(a)-250(point)]TJ/F87 9.9626 Tf 29.888 0 Td [(p)]TJ/F34 9.9626 Tf 9.132 0 Td [(2)]TJ/F87 9.9626 Tf 9.409 0 Td [(P)]TJ/F30 6.9738 Tf 7.832 -1.495 Td [(u;v)]TJ/F78 9.9626 Tf 14.3 1.495 Td [(as)-250(visible)-250(if:)]TJ
+ [(])-313(to)-314(ef)25(\002ciently)-314(deter)20(-)]TJ 0 -11.955 Td [(mine)-316(which)-315(BEV)-316(columns)-315(are)-316(intersected)-316(by)-315(camera)-316(rays.)]TJ 0 -11.955 Td [(F)15(or)-210(a)-210(ray)]TJ/F89 9.9626 Tf 37.109 0 Td [(r)]TJ/F28 9.9626 Tf 4.718 0 Td [(\050)]TJ/F31 9.9626 Tf 3.875 0 Td [(t)]TJ/F28 9.9626 Tf 3.597 0 Td [(\051)-278(=)]TJ/F89 9.9626 Tf 17.158 0 Td [(o)]TJ/F28 9.9626 Tf 6.464 0 Td [(+)]TJ/F31 9.9626 Tf 8.485 0 Td [(t)]TJ/F89 9.9626 Tf 3.597 0 Td [(d)]TJ/F78 9.9626 Tf 6.365 0 Td [(,)-218(we)-210(tra)20(v)15(erse)-210(the)-210(v)20(ox)15(el)-210(grid)-210(and)-210(mark)]TJ -91.368 -11.955 Td [(a)-250(point)]TJ/F89 9.9626 Tf 29.888 0 Td [(p)]TJ/F34 9.9626 Tf 9.132 0 Td [(2)]TJ/F89 9.9626 Tf 9.409 0 Td [(P)]TJ/F30 6.9738 Tf 7.832 -1.495 Td [(u;v)]TJ/F78 9.9626 Tf 14.3 1.495 Td [(as)-250(visible)-250(if:)]TJ
 ET
 /S/Span<</ActualText(\040\040\\text\040{vis}\(\\mathbf\040{p}\)\040=\040\\mathbb\040{1}\\left\040[\\exists\040\\,\040t\040>\0400\040:\040\\|\\mathbf\040{r}\(t\)\040-\040\\mathbf\040{p}\\|_\\infty\040<\040\\Delta\040z\040/\0402\\right\040].\040\\label\040{eq:visibility}\040)>>BDC
 BT
-/F78 9.9626 Tf 84.21 268.945 Td [(vis)]TJ/F28 9.9626 Tf 11.626 0 Td [(\050)]TJ/F87 9.9626 Tf 3.874 0 Td [(p)]TJ/F28 9.9626 Tf 6.365 0 Td [(\051)-278(=)]TJ/F71 9.9626 Tf 17.158 0 Td [(1)]TJ/F28 9.9626 Tf 8.856 0 Td [([)]TJ/F34 9.9626 Tf 2.767 0 Td [(9)]TJ/F31 9.9626 Tf 7.195 0 Td [(t)-278(>)]TJ/F28 9.9626 Tf 16.881 0 Td [(0)-278(:)]TJ/F34 9.9626 Tf 13.284 0 Td [(k)]TJ/F87 9.9626 Tf 4.981 0 Td [(r)]TJ/F28 9.9626 Tf 4.719 0 Td [(\050)]TJ/F31 9.9626 Tf 3.874 0 Td [(t)]TJ/F28 9.9626 Tf 3.598 0 Td [(\051)]TJ/F34 9.9626 Tf 6.088 0 Td [(\000)]TJ/F87 9.9626 Tf 9.962 0 Td [(p)]TJ/F34 9.9626 Tf 6.365 0 Td [(k)]TJ/F33 6.9738 Tf 4.982 -1.495 Td [(1)]TJ/F31 9.9626 Tf 11.208 1.495 Td [(<)]TJ/F28 9.9626 Tf 10.516 0 Td [(\001)]TJ/F31 9.9626 Tf 8.302 0 Td [(z)-44(=)]TJ/F28 9.9626 Tf 10.053 0 Td [(2])]TJ/F31 9.9626 Tf 9.409 0 Td [(:)]TJ
+/F78 9.9626 Tf 84.21 268.945 Td [(vis)]TJ/F28 9.9626 Tf 11.626 0 Td [(\050)]TJ/F89 9.9626 Tf 3.874 0 Td [(p)]TJ/F28 9.9626 Tf 6.365 0 Td [(\051)-278(=)]TJ/F71 9.9626 Tf 17.158 0 Td [(1)]TJ/F28 9.9626 Tf 8.856 0 Td [([)]TJ/F34 9.9626 Tf 2.767 0 Td [(9)]TJ/F31 9.9626 Tf 7.195 0 Td [(t)-278(>)]TJ/F28 9.9626 Tf 16.881 0 Td [(0)-278(:)]TJ/F34 9.9626 Tf 13.284 0 Td [(k)]TJ/F89 9.9626 Tf 4.981 0 Td [(r)]TJ/F28 9.9626 Tf 4.719 0 Td [(\050)]TJ/F31 9.9626 Tf 3.874 0 Td [(t)]TJ/F28 9.9626 Tf 3.598 0 Td [(\051)]TJ/F34 9.9626 Tf 6.088 0 Td [(\000)]TJ/F89 9.9626 Tf 9.962 0 Td [(p)]TJ/F34 9.9626 Tf 6.365 0 Td [(k)]TJ/F33 6.9738 Tf 4.982 -1.495 Td [(1)]TJ/F31 9.9626 Tf 11.208 1.495 Td [(<)]TJ/F28 9.9626 Tf 10.516 0 Td [(\001)]TJ/F31 9.9626 Tf 8.302 0 Td [(z)-44(=)]TJ/F28 9.9626 Tf 10.053 0 Td [(2])]TJ/F31 9.9626 Tf 9.409 0 Td [(:)]TJ
 ET
 EMC
 BT
@@ -633,14 +683,14 @@ BT
 1 0 0 rg 1 0 0 RG
  [-322(2)]TJ
 0 g 0 G
- [(,)-340(this)-322(reduction)-323(is)-322(essential)]TJ 0 -11.955 Td [(for)-250(tractable)-250(generation.)]TJ/F77 10.9589 Tf 0 -18.418 Td [(3.2.)-250(BEV)74(\255P)20(oint)-250(Decoder)]TJ/F78 9.9626 Tf 0 -17.933 Td [(The)-242(BEV)100(-Point)-243(Decoder)-242(tak)10(es)-242(the)-243(constructed)-242(point)-242(set)-243(and)]TJ 0 -11.955 Td [(predicts)-248(Gaussian)-247(splatting)-248(attrib)20(utes)-248(for)-247(each)-248(point.)-309(It)-248(con-)]TJ 0 -11.955 Td [(sists)-319(of)-320(four)-319(components:)-449(a)-319(BEV)-320(encoder)40(,)-336(a)-320(hash)-319(grid)-320(po-)]TJ 0 -11.955 Td [(sitional)-336(encoder)40(,)-358(a)-337(point)-336(serializer)-336(with)-336(Point)-337(T)35(ransformer)]TJ 0 -11.956 Td [(V3,)-250(and)-250(a)-250(Gaussian)-250(attrib)20(ute)-250(MLP)111(.)]TJ/F77 9.9626 Tf 0 -25.847 Td [(BEV)-200(Encoder)100(.)]TJ/F78 9.9626 Tf 69.91 0 Td [(W)80(e)-200(encode)-201(the)-200(BEV)-200(height)-201(map)]TJ/F87 9.9626 Tf 127.38 0 Td [(H)]TJ/F78 9.9626 Tf 10.962 0 Td [(and)-200(se-)]TJ -208.252 -11.955 Td [(mantic)-276(map)]TJ/F87 9.9626 Tf 49.769 0 Td [(S)]TJ/F78 9.9626 Tf 9.113 0 Td [(into)-276(a)-276(dense)-275(feature)-276(map)]TJ/F87 9.9626 Tf 101.16 0 Td [(F)]TJ/F78 6.9738 Tf 7.209 -1.494 Td [(BEV)]TJ/F34 9.9626 Tf 17.689 1.494 Td [(2)]TJ/F71 9.9626 Tf 9.886 0 Td [(R)]TJ/F30 6.9738 Tf 7.195 3.615 Td [(W)]TJ/F33 6.9738 Tf 8.565 0 Td [(\002)]TJ/F30 6.9738 Tf 6.227 0 Td [(W)]TJ/F33 6.9738 Tf 8.565 0 Td [(\002)]TJ/F30 6.9738 Tf 6.227 0 Td [(d)]TJ
+ [(,)-340(this)-322(reduction)-323(is)-322(essential)]TJ 0 -11.955 Td [(for)-250(tractable)-250(generation.)]TJ/F79 10.9589 Tf 0 -18.418 Td [(3.2.)-250(BEV)74(\255P)20(oint)-250(Decoder)]TJ/F78 9.9626 Tf 0 -17.933 Td [(The)-242(BEV)100(-Point)-243(Decoder)-242(tak)10(es)-242(the)-243(constructed)-242(point)-242(set)-243(and)]TJ 0 -11.955 Td [(predicts)-248(Gaussian)-247(splatting)-248(attrib)20(utes)-248(for)-247(each)-248(point.)-309(It)-248(con-)]TJ 0 -11.955 Td [(sists)-319(of)-320(four)-319(components:)-449(a)-319(BEV)-320(encoder)40(,)-336(a)-320(hash)-319(grid)-320(po-)]TJ 0 -11.955 Td [(sitional)-336(encoder)40(,)-358(a)-337(point)-336(serializer)-336(with)-336(Point)-337(T)35(ransformer)]TJ 0 -11.956 Td [(V3,)-250(and)-250(a)-250(Gaussian)-250(attrib)20(ute)-250(MLP)111(.)]TJ/F79 9.9626 Tf 0 -25.847 Td [(BEV)-200(Encoder)100(.)]TJ/F78 9.9626 Tf 69.91 0 Td [(W)80(e)-200(encode)-201(the)-200(BEV)-200(height)-201(map)]TJ/F89 9.9626 Tf 127.38 0 Td [(H)]TJ/F78 9.9626 Tf 10.962 0 Td [(and)-200(se-)]TJ -208.252 -11.955 Td [(mantic)-276(map)]TJ/F89 9.9626 Tf 49.769 0 Td [(S)]TJ/F78 9.9626 Tf 9.113 0 Td [(into)-276(a)-276(dense)-275(feature)-276(map)]TJ/F89 9.9626 Tf 101.16 0 Td [(F)]TJ/F78 6.9738 Tf 7.209 -1.494 Td [(BEV)]TJ/F34 9.9626 Tf 17.689 1.494 Td [(2)]TJ/F71 9.9626 Tf 9.886 0 Td [(R)]TJ/F30 6.9738 Tf 7.195 3.615 Td [(W)]TJ/F33 6.9738 Tf 8.565 0 Td [(\002)]TJ/F30 6.9738 Tf 6.227 0 Td [(W)]TJ/F33 6.9738 Tf 8.565 0 Td [(\002)]TJ/F30 6.9738 Tf 6.227 0 Td [(d)]TJ
 0 g 0 G
 0 g 0 G
-/F78 9.9626 Tf 27.145 298.121 Td [(using)-322(a)-322(UNet-st)1(yle)-322(local)-322(encoder)55(.)-525(F)15(or)-322(each)-322(3D)-322(point)]TJ/F87 9.9626 Tf 218.045 0 Td [(p)]TJ/F28 9.9626 Tf 10.456 0 Td [(=)]TJ -228.501 -11.955 Td [(\050)]TJ/F31 9.9626 Tf 3.874 0 Td [(x;)-167(y)-36(;)-166(z)]TJ/F28 9.9626 Tf 24.863 0 Td [(\051)]TJ/F78 9.9626 Tf 3.874 0 Td [(,)-254(we)-254(sample)-253(the)-254(BEV)-253(feature)-254(via)-253(bilinear)-253(interpola-)]TJ -32.611 -11.955 Td [(tion)-250(at)-250(its)-250(projected)-250(2D)-250(location)-250(to)-250(obtain)]TJ/F87 9.9626 Tf 166.035 0 Td [(f)]TJ/F78 6.9738 Tf 3.501 -1.495 Td [(be)25(v)]TJ/F28 9.9626 Tf 10.394 1.495 Td [(\050)]TJ/F87 9.9626 Tf 3.874 0 Td [(p)]TJ/F28 9.9626 Tf 6.365 0 Td [(\051)]TJ/F78 9.9626 Tf 3.875 0 Td [(.)]TJ/F77 9.9626 Tf -194.044 -27.08 Td [(Hash)-333(Grid)-333(P)20(ositional)-333(Encoder)100(.)]TJ/F78 9.9626 Tf 141.885 0 Td [(T)80(o)-333(capture)-333(\002ne-grained)]TJ -141.885 -11.955 Td [(spatial)-203(information,)-212(we)-203(encode)-203(each)-203(3D)-203(point)-203(position)-203(using)]TJ 0 -11.955 Td [(a)-211(multi-resolution)-211(hash)-211(grid)-210(encoder)-211(with)]TJ/F31 9.9626 Tf 164.792 0 Td [(L)]TJ/F28 9.9626 Tf 9.548 0 Td [(=)-278(16)]TJ/F78 9.9626 Tf 22.579 0 Td [(le)25(v)15(els)-211(and)]TJ -196.919 -11.955 Td [(feature)-343(dimension)]TJ/F31 9.9626 Tf 76.01 0 Td [(d)]TJ/F30 6.9738 Tf 5.186 -1.495 Td [(h)]TJ/F28 9.9626 Tf 9.651 1.495 Td [(=)-451(8)]TJ/F78 9.9626 Tf 17.219 0 Td [(,)-367(producing)-343(a)-343(positional)-344(feature)]TJ/F87 9.9626 Tf -108.066 -11.955 Td [(f)]TJ/F78 6.9738 Tf 3.501 -1.495 Td [(pos)]TJ/F28 9.9626 Tf 10.184 1.495 Td [(\050)]TJ/F87 9.9626 Tf 3.875 0 Td [(p)]TJ/F28 9.9626 Tf 6.365 0 Td [(\051)]TJ/F34 9.9626 Tf 6.642 0 Td [(2)]TJ/F71 9.9626 Tf 9.409 0 Td [(R)]TJ/F27 6.9738 Tf 7.195 3.615 Td [(128)]TJ/F78 9.9626 Tf 12.412 -3.615 Td [(.)]TJ/F77 9.9626 Tf -59.583 -27.08 Td [(P)20(oint)-243(Serializer)-243(and)-243(P)20(oint)-244(T)74(ransf)25(ormer)-243(V3.)]TJ/F78 9.9626 Tf 193.082 0 Td [(Processing)]TJ -193.082 -11.955 Td [(unordered)-416(point)-416(clouds)-415(requires)-416(establishing)-416(a)-416(sequential)]TJ 0 -11.955 Td [(structure)-311(for)-312(attention-based)-311(architectures.)-494(W)80(e)-311(introduce)-312(a)]TJ 0 -11.955 Td [(coordinate-based)-290(serialization)-290(function)-289(that)-290(maps)-290(3D)-290(coor)20(-)]TJ 0 -11.956 Td [(dinates)-250(to)-250(a)-250(1D)-250(ordering:)]TJ
+/F78 9.9626 Tf 27.145 298.121 Td [(using)-322(a)-322(UNet-st)1(yle)-322(local)-322(encoder)55(.)-525(F)15(or)-322(each)-322(3D)-322(point)]TJ/F89 9.9626 Tf 218.045 0 Td [(p)]TJ/F28 9.9626 Tf 10.456 0 Td [(=)]TJ -228.501 -11.955 Td [(\050)]TJ/F31 9.9626 Tf 3.874 0 Td [(x;)-167(y)-36(;)-166(z)]TJ/F28 9.9626 Tf 24.863 0 Td [(\051)]TJ/F78 9.9626 Tf 3.874 0 Td [(,)-254(we)-254(sample)-253(the)-254(BEV)-253(feature)-254(via)-253(bilinear)-253(interpola-)]TJ -32.611 -11.955 Td [(tion)-250(at)-250(its)-250(projected)-250(2D)-250(location)-250(to)-250(obtain)]TJ/F89 9.9626 Tf 166.035 0 Td [(f)]TJ/F78 6.9738 Tf 3.501 -1.495 Td [(be)25(v)]TJ/F28 9.9626 Tf 10.394 1.495 Td [(\050)]TJ/F89 9.9626 Tf 3.874 0 Td [(p)]TJ/F28 9.9626 Tf 6.365 0 Td [(\051)]TJ/F78 9.9626 Tf 3.875 0 Td [(.)]TJ/F79 9.9626 Tf -194.044 -27.08 Td [(Hash)-333(Grid)-333(P)20(ositional)-333(Encoder)100(.)]TJ/F78 9.9626 Tf 141.885 0 Td [(T)80(o)-333(capture)-333(\002ne-grained)]TJ -141.885 -11.955 Td [(spatial)-203(information,)-212(we)-203(encode)-203(each)-203(3D)-203(point)-203(position)-203(using)]TJ 0 -11.955 Td [(a)-211(multi-resolution)-211(hash)-211(grid)-210(encoder)-211(with)]TJ/F31 9.9626 Tf 164.792 0 Td [(L)]TJ/F28 9.9626 Tf 9.548 0 Td [(=)-278(16)]TJ/F78 9.9626 Tf 22.579 0 Td [(le)25(v)15(els)-211(and)]TJ -196.919 -11.955 Td [(feature)-343(dimension)]TJ/F31 9.9626 Tf 76.01 0 Td [(d)]TJ/F30 6.9738 Tf 5.186 -1.495 Td [(h)]TJ/F28 9.9626 Tf 9.651 1.495 Td [(=)-451(8)]TJ/F78 9.9626 Tf 17.219 0 Td [(,)-367(producing)-343(a)-343(positional)-344(feature)]TJ/F89 9.9626 Tf -108.066 -11.955 Td [(f)]TJ/F78 6.9738 Tf 3.501 -1.495 Td [(pos)]TJ/F28 9.9626 Tf 10.184 1.495 Td [(\050)]TJ/F89 9.9626 Tf 3.875 0 Td [(p)]TJ/F28 9.9626 Tf 6.365 0 Td [(\051)]TJ/F34 9.9626 Tf 6.642 0 Td [(2)]TJ/F71 9.9626 Tf 9.409 0 Td [(R)]TJ/F27 6.9738 Tf 7.195 3.615 Td [(128)]TJ/F78 9.9626 Tf 12.412 -3.615 Td [(.)]TJ/F79 9.9626 Tf -59.583 -27.08 Td [(P)20(oint)-243(Serializer)-243(and)-243(P)20(oint)-244(T)74(ransf)25(ormer)-243(V3.)]TJ/F78 9.9626 Tf 193.082 0 Td [(Processing)]TJ -193.082 -11.955 Td [(unordered)-416(point)-416(clouds)-415(requires)-416(establishing)-416(a)-416(sequential)]TJ 0 -11.955 Td [(structure)-311(for)-312(attention-based)-311(architectures.)-494(W)80(e)-311(introduce)-312(a)]TJ 0 -11.955 Td [(coordinate-based)-290(serialization)-290(function)-289(that)-290(maps)-290(3D)-290(coor)20(-)]TJ 0 -11.956 Td [(dinates)-250(to)-250(a)-250(1D)-250(ordering:)]TJ
 ET
 /S/Span<</ActualText(\040\040s\(\\mathbf\040{p}\)\040=\040\\lfloor\040x\040/\040\\delta\040\\rfloor\040\\cdot\040N_y\040\\cdot\040N_z\040+\040\\lfloor\040y\040/\040\\delta\040\\rfloor\040\\cdot\040N_z\040+\040\\lfloor\040z\040/\040\\delta\040\\rfloor\040,\040\\label\040{eq:serialization}\040)>>BDC
 BT
-/F31 9.9626 Tf 334.222 186.906 Td [(s)]TJ/F28 9.9626 Tf 4.67 0 Td [(\050)]TJ/F87 9.9626 Tf 3.874 0 Td [(p)]TJ/F28 9.9626 Tf 6.365 0 Td [(\051)-278(=)]TJ/F34 9.9626 Tf 17.158 0 Td [(b)]TJ/F31 9.9626 Tf 4.428 0 Td [(x=\016)]TJ/F34 9.9626 Tf 15.48 0 Td [(c)-222(\001)]TJ/F31 9.9626 Tf 11.623 0 Td [(N)]TJ/F30 6.9738 Tf 8.005 -1.494 Td [(y)]TJ/F34 9.9626 Tf 7.002 1.494 Td [(\001)]TJ/F31 9.9626 Tf 4.982 0 Td [(N)]TJ/F30 6.9738 Tf 8.004 -1.494 Td [(z)]TJ/F28 9.9626 Tf 6.805 1.494 Td [(+)]TJ/F34 9.9626 Tf 9.962 0 Td [(b)]TJ/F31 9.9626 Tf 4.428 0 Td [(y)-36(=\016)]TJ/F34 9.9626 Tf 15.028 0 Td [(c)-222(\001)]TJ/F31 9.9626 Tf 11.623 0 Td [(N)]TJ/F30 6.9738 Tf 8.005 -1.494 Td [(z)]TJ/F28 9.9626 Tf 6.804 1.494 Td [(+)]TJ/F34 9.9626 Tf 9.963 0 Td [(b)]TJ/F31 9.9626 Tf 4.428 0 Td [(z)-44(=\016)]TJ/F34 9.9626 Tf 14.857 0 Td [(c)]TJ/F31 9.9626 Tf 4.428 0 Td [(;)]TJ
+/F31 9.9626 Tf 334.222 186.906 Td [(s)]TJ/F28 9.9626 Tf 4.67 0 Td [(\050)]TJ/F89 9.9626 Tf 3.874 0 Td [(p)]TJ/F28 9.9626 Tf 6.365 0 Td [(\051)-278(=)]TJ/F34 9.9626 Tf 17.158 0 Td [(b)]TJ/F31 9.9626 Tf 4.428 0 Td [(x=\016)]TJ/F34 9.9626 Tf 15.48 0 Td [(c)-222(\001)]TJ/F31 9.9626 Tf 11.623 0 Td [(N)]TJ/F30 6.9738 Tf 8.005 -1.494 Td [(y)]TJ/F34 9.9626 Tf 7.002 1.494 Td [(\001)]TJ/F31 9.9626 Tf 4.982 0 Td [(N)]TJ/F30 6.9738 Tf 8.004 -1.494 Td [(z)]TJ/F28 9.9626 Tf 6.805 1.494 Td [(+)]TJ/F34 9.9626 Tf 9.962 0 Td [(b)]TJ/F31 9.9626 Tf 4.428 0 Td [(y)-36(=\016)]TJ/F34 9.9626 Tf 15.028 0 Td [(c)-222(\001)]TJ/F31 9.9626 Tf 11.623 0 Td [(N)]TJ/F30 6.9738 Tf 8.005 -1.494 Td [(z)]TJ/F28 9.9626 Tf 6.804 1.494 Td [(+)]TJ/F34 9.9626 Tf 9.963 0 Td [(b)]TJ/F31 9.9626 Tf 4.428 0 Td [(z)-44(=\016)]TJ/F34 9.9626 Tf 14.857 0 Td [(c)]TJ/F31 9.9626 Tf 4.428 0 Td [(;)]TJ
 ET
 EMC
 BT
@@ -985,25 +1035,42 @@ endstream
 endobj
 154 0 obj
 <<
-/Length 18602     
+/Length 18867     
 >>
 stream
 0 g 0 G
-0 g 0 G
+1 0 0 1 175.395 229.261 cm
+q
+.70709 .70709 -.70709 .70709 0 0 cm
+q
+.5 0 0 .5 0 0 cm
+0.6 g 0.6 G
+1 0 0 1 -175.395 -229.261 cm
 BT
-/F78 9.9626 Tf 58.5 710.037 Td [(local)-240(and)-239(global)-240(geometric)-240(conte)15(xt)-239(through)-240(serialized)-240(atten-)]TJ 0 -11.955 Td [(tion.)]TJ/F77 9.9626 Tf 0 -26.013 Td [(Gaussian)-641(Attrib)20(ute)-642(MLP)110(.)]TJ/F78 9.9626 Tf 125.226 0 Td [(The)-641(output)-642(features)-641(from)]TJ -125.226 -11.955 Td [(Point)-314(T)35(ransformer)-314(V3)-313(are)-314(decoded)-314(into)-314(Gaussian)-314(splatting)]TJ 0 -11.955 Td [(attrib)20(utes)-280(via)-279(an)-280(MLP)-280(with)-279(af)25(\002ne)-280(modulation.)-399(F)15(or)-280(each)-280(in-)]TJ 0 -11.955 Td [(stance)]TJ/F31 9.9626 Tf 27.638 0 Td [(i)]TJ/F78 9.9626 Tf 6.174 0 Td [(with)-275(a)-275(sampled)-276(style)-275(code)]TJ/F87 9.9626 Tf 106.68 0 Td [(z)]TJ/F30 6.9738 Tf 5.092 -1.495 Td [(i)]TJ/F34 9.9626 Tf 6.55 1.495 Td [(\030)-324(N)]TJ/F28 9.9626 Tf 20.624 0 Td [(\050)]TJ/F87 9.9626 Tf 3.874 0 Td [(0)]TJ/F31 9.9626 Tf 5.728 0 Td [(;)]TJ/F87 9.9626 Tf 4.428 0 Td [(I)]TJ/F28 9.9626 Tf 4.345 0 Td [(\051)]TJ/F78 9.9626 Tf 3.874 0 Td [(,)-282(the)-275(mod-)]TJ -195.007 -11.956 Td [(ulation)-236(parameters)]TJ/F28 9.9626 Tf 76.089 0 Td [(\050)]TJ/F31 9.9626 Tf 3.874 0 Td [(\015)]TJ/F30 6.9738 Tf 5.158 -1.494 Td [(i)]TJ/F31 9.9626 Tf 3.317 1.494 Td [(;)-167(\014)]TJ/F30 6.9738 Tf 10.063 -1.494 Td [(i)]TJ/F28 9.9626 Tf 3.317 1.494 Td [(\051)]TJ/F78 9.9626 Tf 6.228 0 Td [(are)-236(predicted)-236(from)]TJ/F87 9.9626 Tf 75.663 0 Td [(z)]TJ/F30 6.9738 Tf 5.092 -1.494 Td [(i)]TJ/F78 9.9626 Tf 5.671 1.494 Td [(via)-236(a)-236(map-)]TJ -194.472 -11.955 Td [(ping)-192(netw)10(ork.)-291(The)-192(Gaussian)-192(attrib)20(utes)-192(for)-192(point)]TJ/F87 9.9626 Tf 188.122 0 Td [(p)]TJ/F78 9.9626 Tf 8.278 0 Td [(belonging)]TJ -196.4 -11.955 Td [(to)-250(instance)]TJ/F31 9.9626 Tf 45.379 0 Td [(i)]TJ/F78 9.9626 Tf 5.923 0 Td [(are:)]TJ
+/F78 153 Tf 175.395 229.261 Td [(AI-Generated)]TJ
+0 g 0 G
+ET
+1 0 0 1 175.395 229.261 cm
+Q
+Q
+0 g 0 G
+0 g 0 G
+0 g 0 G
+1 0 0 1 -175.395 -229.261 cm
+BT
+/F78 9.9626 Tf 58.5 710.037 Td [(local)-240(and)-239(global)-240(geometric)-240(conte)15(xt)-239(through)-240(serialized)-240(atten-)]TJ 0 -11.955 Td [(tion.)]TJ/F79 9.9626 Tf 0 -26.013 Td [(Gaussian)-641(Attrib)20(ute)-642(MLP)110(.)]TJ/F78 9.9626 Tf 125.226 0 Td [(The)-641(output)-642(features)-641(from)]TJ -125.226 -11.955 Td [(Point)-314(T)35(ransformer)-314(V3)-313(are)-314(decoded)-314(into)-314(Gaussian)-314(splatting)]TJ 0 -11.955 Td [(attrib)20(utes)-280(via)-279(an)-280(MLP)-280(with)-279(af)25(\002ne)-280(modulation.)-399(F)15(or)-280(each)-280(in-)]TJ 0 -11.955 Td [(stance)]TJ/F31 9.9626 Tf 27.638 0 Td [(i)]TJ/F78 9.9626 Tf 6.174 0 Td [(with)-275(a)-275(sampled)-276(style)-275(code)]TJ/F89 9.9626 Tf 106.68 0 Td [(z)]TJ/F30 6.9738 Tf 5.092 -1.495 Td [(i)]TJ/F34 9.9626 Tf 6.55 1.495 Td [(\030)-324(N)]TJ/F28 9.9626 Tf 20.624 0 Td [(\050)]TJ/F89 9.9626 Tf 3.874 0 Td [(0)]TJ/F31 9.9626 Tf 5.728 0 Td [(;)]TJ/F89 9.9626 Tf 4.428 0 Td [(I)]TJ/F28 9.9626 Tf 4.345 0 Td [(\051)]TJ/F78 9.9626 Tf 3.874 0 Td [(,)-282(the)-275(mod-)]TJ -195.007 -11.956 Td [(ulation)-236(parameters)]TJ/F28 9.9626 Tf 76.089 0 Td [(\050)]TJ/F31 9.9626 Tf 3.874 0 Td [(\015)]TJ/F30 6.9738 Tf 5.158 -1.494 Td [(i)]TJ/F31 9.9626 Tf 3.317 1.494 Td [(;)-167(\014)]TJ/F30 6.9738 Tf 10.063 -1.494 Td [(i)]TJ/F28 9.9626 Tf 3.317 1.494 Td [(\051)]TJ/F78 9.9626 Tf 6.228 0 Td [(are)-236(predicted)-236(from)]TJ/F89 9.9626 Tf 75.663 0 Td [(z)]TJ/F30 6.9738 Tf 5.092 -1.494 Td [(i)]TJ/F78 9.9626 Tf 5.671 1.494 Td [(via)-236(a)-236(map-)]TJ -194.472 -11.955 Td [(ping)-192(netw)10(ork.)-291(The)-192(Gaussian)-192(attrib)20(utes)-192(for)-192(point)]TJ/F89 9.9626 Tf 188.122 0 Td [(p)]TJ/F78 9.9626 Tf 8.278 0 Td [(belonging)]TJ -196.4 -11.955 Td [(to)-250(instance)]TJ/F31 9.9626 Tf 45.379 0 Td [(i)]TJ/F78 9.9626 Tf 5.923 0 Td [(are:)]TJ
 ET
 /S/Span<</ActualText(\040\040\\mathbf\040{g}\(\\mathbf\040{p}\)\040=\040\\text\040{MLP}\\!\\left\040\(\\gamma\040_i\040\\odot\040\\mathbf\040{f}\(\\mathbf\040{p}\)\040+\040\\beta\040_i\\right\040\),\040\\label\040{eq:gaussian-attr}\040)>>BDC
 BT
-/F87 9.9626 Tf 113.413 581.267 Td [(g)]TJ/F28 9.9626 Tf 5.887 0 Td [(\050)]TJ/F87 9.9626 Tf 3.875 0 Td [(p)]TJ/F28 9.9626 Tf 6.365 0 Td [(\051)-278(=)]TJ/F78 9.9626 Tf 17.157 0 Td [(MLP)]TJ/F28 9.9626 Tf 20.483 0 Td [(\050)]TJ/F31 9.9626 Tf 3.875 0 Td [(\015)]TJ/F30 6.9738 Tf 5.158 -1.495 Td [(i)]TJ/F34 9.9626 Tf 5.53 1.495 Td [(\014)]TJ/F87 9.9626 Tf 9.963 0 Td [(f)]TJ/F28 9.9626 Tf 4.587 0 Td [(\050)]TJ/F87 9.9626 Tf 3.874 0 Td [(p)]TJ/F28 9.9626 Tf 6.365 0 Td [(\051)-222(+)]TJ/F31 9.9626 Tf 16.051 0 Td [(\014)]TJ/F30 6.9738 Tf 5.635 -1.495 Td [(i)]TJ/F28 9.9626 Tf 3.317 1.495 Td [(\051)]TJ/F31 9.9626 Tf 5.535 0 Td [(;)]TJ
+/F89 9.9626 Tf 113.413 581.267 Td [(g)]TJ/F28 9.9626 Tf 5.887 0 Td [(\050)]TJ/F89 9.9626 Tf 3.875 0 Td [(p)]TJ/F28 9.9626 Tf 6.365 0 Td [(\051)-278(=)]TJ/F78 9.9626 Tf 17.157 0 Td [(MLP)]TJ/F28 9.9626 Tf 20.483 0 Td [(\050)]TJ/F31 9.9626 Tf 3.875 0 Td [(\015)]TJ/F30 6.9738 Tf 5.158 -1.495 Td [(i)]TJ/F34 9.9626 Tf 5.53 1.495 Td [(\014)]TJ/F89 9.9626 Tf 9.963 0 Td [(f)]TJ/F28 9.9626 Tf 4.587 0 Td [(\050)]TJ/F89 9.9626 Tf 3.874 0 Td [(p)]TJ/F28 9.9626 Tf 6.365 0 Td [(\051)-222(+)]TJ/F31 9.9626 Tf 16.051 0 Td [(\014)]TJ/F30 6.9738 Tf 5.635 -1.495 Td [(i)]TJ/F28 9.9626 Tf 3.317 1.495 Td [(\051)]TJ/F31 9.9626 Tf 5.535 0 Td [(;)]TJ
 ET
 EMC
 BT
-/F78 9.9626 Tf 283.134 581.267 Td [(\0504\051)]TJ -224.634 -19.072 Td [(where)]TJ/F87 9.9626 Tf 26.754 0 Td [(f)]TJ/F28 9.9626 Tf 4.587 0 Td [(\050)]TJ/F87 9.9626 Tf 3.874 0 Td [(p)]TJ/F28 9.9626 Tf 6.365 0 Td [(\051)]TJ/F78 9.9626 Tf 6.289 0 Td [(is)-242(the)-243(point)-242(feature)-243(from)-242(Point)-242(T)35(ransformer)-243(V3,)]TJ -47.869 -11.955 Td [(and)]TJ/F87 9.9626 Tf 16.894 0 Td [(g)]TJ/F28 9.9626 Tf 5.888 0 Td [(\050)]TJ/F87 9.9626 Tf 3.874 0 Td [(p)]TJ/F28 9.9626 Tf 6.365 0 Td [(\051)-281(=)-281(\050\001)]TJ/F87 9.9626 Tf 29.4 0 Td [(x)]TJ/F31 9.9626 Tf 6.047 0 Td [(;)]TJ/F87 9.9626 Tf 4.428 0 Td [(c)]TJ/F31 9.9626 Tf 5.092 0 Td [(;)]TJ/F87 9.9626 Tf 4.428 0 Td [(s)]TJ/F31 9.9626 Tf 4.519 0 Td [(;)-167(\013)]TJ/F28 9.9626 Tf 10.838 0 Td [(\051)]TJ/F78 9.9626 Tf 6.383 0 Td [(consists)-252(of)-251(position)-252(of)25(fsets)]TJ/F28 9.9626 Tf 108.303 0 Td [(\001)]TJ/F87 9.9626 Tf 8.302 0 Td [(x)]TJ/F34 9.9626 Tf 8.847 0 Td [(2)]TJ/F71 9.9626 Tf -229.608 -11.955 Td [(R)]TJ/F27 6.9738 Tf 7.195 3.615 Td [(3)]TJ/F78 9.9626 Tf 4.47 -3.615 Td [(,)-294(RGB)-286(color)]TJ/F87 9.9626 Tf 52.069 0 Td [(c)]TJ/F34 9.9626 Tf 8.516 0 Td [(2)]TJ/F71 9.9626 Tf 10.065 0 Td [(R)]TJ/F27 6.9738 Tf 7.195 3.615 Td [(3)]TJ/F78 9.9626 Tf 4.47 -3.615 Td [(,)-294(scale)]TJ/F87 9.9626 Tf 28.184 0 Td [(s)]TJ/F34 9.9626 Tf 7.942 0 Td [(2)]TJ/F71 9.9626 Tf 10.065 0 Td [(R)]TJ/F27 6.9738 Tf 7.195 3.615 Td [(3)]TJ/F78 9.9626 Tf 4.47 -3.615 Td [(,)-294(and)-286(opacity)]TJ/F31 9.9626 Tf 54.83 0 Td [(\013)]TJ/F34 9.9626 Tf 9.833 0 Td [(2)]TJ/F71 9.9626 Tf 10.065 0 Td [(R)]TJ/F78 9.9626 Tf 7.195 0 Td [(.)]TJ -233.759 -11.955 Td [(The)-259(\002nal)-259(Gaussian)-260(center)-259(is)]TJ/F87 9.9626 Tf 113.622 0 Td [(p)]TJ/F28 9.9626 Tf 8.647 0 Td [(+)-229(\001)]TJ/F87 9.9626 Tf 18.332 0 Td [(x)]TJ/F78 9.9626 Tf 6.047 0 Td [(,)-262(al)1(lo)25(wing)-260(the)-259(netw)10(ork)]TJ -146.648 -11.955 Td [(to)-250(re\002ne)-250(positions)-250(relati)25(v)15(e)-250(to)-250(the)-250(BEV)100(-Point)-250(locations.)]TJ/F77 10.9589 Tf 0 -18.787 Td [(3.3.)-250(T)74(raining)]TJ/F78 9.9626 Tf 0 -17.933 Td [(GaussianCity)-356(is)-356(trained)-357(end-to-end)-356(with)-356(a)-356(combination)-357(of)]TJ 0 -11.955 Td [(reconstruction)-249(and)-249(adv)15(ersarial)-249(losses)1(.)-310(Gi)25(v)15(en)-249(a)-249(rendered)-249(im-)]TJ 0 -11.955 Td [(age)]TJ/F28 9.9626 Tf 16 2.546 Td [(^)]TJ/F87 9.9626 Tf 0.319 -2.546 Td [(I)]TJ/F78 9.9626 Tf 6.835 0 Td [(and)-250(ground-truth)-250(image)]TJ/F87 9.9626 Tf 96.567 0 Td [(I)]TJ/F78 9.9626 Tf 4.345 0 Td [(,)-250(the)-250(generator)-250(loss)-250(is:)]TJ
+/F78 9.9626 Tf 283.134 581.267 Td [(\0504\051)]TJ -224.634 -19.072 Td [(where)]TJ/F89 9.9626 Tf 26.754 0 Td [(f)]TJ/F28 9.9626 Tf 4.587 0 Td [(\050)]TJ/F89 9.9626 Tf 3.874 0 Td [(p)]TJ/F28 9.9626 Tf 6.365 0 Td [(\051)]TJ/F78 9.9626 Tf 6.289 0 Td [(is)-242(the)-243(point)-242(feature)-243(from)-242(Point)-242(T)35(ransformer)-243(V3,)]TJ -47.869 -11.955 Td [(and)]TJ/F89 9.9626 Tf 16.894 0 Td [(g)]TJ/F28 9.9626 Tf 5.888 0 Td [(\050)]TJ/F89 9.9626 Tf 3.874 0 Td [(p)]TJ/F28 9.9626 Tf 6.365 0 Td [(\051)-281(=)-281(\050\001)]TJ/F89 9.9626 Tf 29.4 0 Td [(x)]TJ/F31 9.9626 Tf 6.047 0 Td [(;)]TJ/F89 9.9626 Tf 4.428 0 Td [(c)]TJ/F31 9.9626 Tf 5.092 0 Td [(;)]TJ/F89 9.9626 Tf 4.428 0 Td [(s)]TJ/F31 9.9626 Tf 4.519 0 Td [(;)-167(\013)]TJ/F28 9.9626 Tf 10.838 0 Td [(\051)]TJ/F78 9.9626 Tf 6.383 0 Td [(consists)-252(of)-251(position)-252(of)25(fsets)]TJ/F28 9.9626 Tf 108.303 0 Td [(\001)]TJ/F89 9.9626 Tf 8.302 0 Td [(x)]TJ/F34 9.9626 Tf 8.847 0 Td [(2)]TJ/F71 9.9626 Tf -229.608 -11.955 Td [(R)]TJ/F27 6.9738 Tf 7.195 3.615 Td [(3)]TJ/F78 9.9626 Tf 4.47 -3.615 Td [(,)-294(RGB)-286(color)]TJ/F89 9.9626 Tf 52.069 0 Td [(c)]TJ/F34 9.9626 Tf 8.516 0 Td [(2)]TJ/F71 9.9626 Tf 10.065 0 Td [(R)]TJ/F27 6.9738 Tf 7.195 3.615 Td [(3)]TJ/F78 9.9626 Tf 4.47 -3.615 Td [(,)-294(scale)]TJ/F89 9.9626 Tf 28.184 0 Td [(s)]TJ/F34 9.9626 Tf 7.942 0 Td [(2)]TJ/F71 9.9626 Tf 10.065 0 Td [(R)]TJ/F27 6.9738 Tf 7.195 3.615 Td [(3)]TJ/F78 9.9626 Tf 4.47 -3.615 Td [(,)-294(and)-286(opacity)]TJ/F31 9.9626 Tf 54.83 0 Td [(\013)]TJ/F34 9.9626 Tf 9.833 0 Td [(2)]TJ/F71 9.9626 Tf 10.065 0 Td [(R)]TJ/F78 9.9626 Tf 7.195 0 Td [(.)]TJ -233.759 -11.955 Td [(The)-259(\002nal)-259(Gaussian)-260(center)-259(is)]TJ/F89 9.9626 Tf 113.622 0 Td [(p)]TJ/F28 9.9626 Tf 8.647 0 Td [(+)-229(\001)]TJ/F89 9.9626 Tf 18.332 0 Td [(x)]TJ/F78 9.9626 Tf 6.047 0 Td [(,)-262(al)1(lo)25(wing)-260(the)-259(netw)10(ork)]TJ -146.648 -11.955 Td [(to)-250(re\002ne)-250(positions)-250(relati)25(v)15(e)-250(to)-250(the)-250(BEV)100(-Point)-250(locations.)]TJ/F79 10.9589 Tf 0 -18.787 Td [(3.3.)-250(T)74(raining)]TJ/F78 9.9626 Tf 0 -17.933 Td [(GaussianCity)-356(is)-356(trained)-357(end-to-end)-356(with)-356(a)-356(combination)-357(of)]TJ 0 -11.955 Td [(reconstruction)-249(and)-249(adv)15(ersarial)-249(losses)1(.)-310(Gi)25(v)15(en)-249(a)-249(rendered)-249(im-)]TJ 0 -11.955 Td [(age)]TJ/F28 9.9626 Tf 16 2.546 Td [(^)]TJ/F89 9.9626 Tf 0.319 -2.546 Td [(I)]TJ/F78 9.9626 Tf 6.835 0 Td [(and)-250(ground-truth)-250(image)]TJ/F89 9.9626 Tf 96.567 0 Td [(I)]TJ/F78 9.9626 Tf 4.345 0 Td [(,)-250(the)-250(generator)-250(loss)-250(is:)]TJ
 ET
 /S/Span<</ActualText(\040\040\\mathcal\040{L}_G\040=\040\\lambda\040_1\040\\|\\hat\040{\\mathbf\040{I}}\040-\040\\mathbf\040{I}\\|_1\040+\040\\lambda\040_p\040\\mathcal\040{L}_\\text\040{perc}\(\\hat\040{\\mathbf\040{I}},\040\\mathbf\040{I}\)\040+\040\\lambda\040_\\text\040{adv}\040\\mathcal\040{L}_\\text\040{adv}\(\\hat\040{\\mathbf\040{I}}\),\040\\label\040{eq:loss}\040)>>BDC
 BT
-/F34 9.9626 Tf 72.756 434.674 Td [(L)]TJ/F30 6.9738 Tf 6.871 -1.495 Td [(G)]TJ/F28 9.9626 Tf 9.468 1.495 Td [(=)]TJ/F31 9.9626 Tf 10.516 0 Td [(\025)]TJ/F27 6.9738 Tf 5.812 -1.495 Td [(1)]TJ/F34 9.9626 Tf 4.469 1.495 Td [(k)]TJ/F28 9.9626 Tf 4.663 2.546 Td [(^)]TJ/F87 9.9626 Tf 0.319 -2.546 Td [(I)]TJ/F34 9.9626 Tf 6.558 0 Td [(\000)]TJ/F87 9.9626 Tf 9.963 0 Td [(I)]TJ/F34 9.9626 Tf 4.345 0 Td [(k)]TJ/F27 6.9738 Tf 4.981 -1.495 Td [(1)]TJ/F28 9.9626 Tf 6.683 1.495 Td [(+)]TJ/F31 9.9626 Tf 9.963 0 Td [(\025)]TJ/F30 6.9738 Tf 5.811 -1.495 Td [(p)]TJ/F34 9.9626 Tf 4.605 1.495 Td [(L)]TJ/F78 6.9738 Tf 6.872 -1.495 Td [(perc)]TJ/F28 9.9626 Tf 12.5 1.495 Td [(\050)]TJ 3.556 2.546 Td [(^)]TJ/F87 9.9626 Tf 0.318 -2.546 Td [(I)]TJ/F31 9.9626 Tf 4.345 0 Td [(;)]TJ/F87 9.9626 Tf 4.428 0 Td [(I)]TJ/F28 9.9626 Tf 4.345 0 Td [(\051)-222(+)]TJ/F31 9.9626 Tf 16.051 0 Td [(\025)]TJ/F78 6.9738 Tf 5.811 -1.495 Td [(adv)]TJ/F34 9.9626 Tf 10.568 1.495 Td [(L)]TJ/F78 6.9738 Tf 6.872 -1.495 Td [(adv)]TJ/F28 9.9626 Tf 10.568 1.495 Td [(\050)]TJ 3.556 2.546 Td [(^)]TJ/F87 9.9626 Tf 0.319 -2.546 Td [(I)]TJ/F28 9.9626 Tf 4.344 0 Td [(\051)]TJ/F31 9.9626 Tf 3.875 0 Td [(;)]TJ
+/F34 9.9626 Tf 72.756 434.674 Td [(L)]TJ/F30 6.9738 Tf 6.871 -1.495 Td [(G)]TJ/F28 9.9626 Tf 9.468 1.495 Td [(=)]TJ/F31 9.9626 Tf 10.516 0 Td [(\025)]TJ/F27 6.9738 Tf 5.812 -1.495 Td [(1)]TJ/F34 9.9626 Tf 4.469 1.495 Td [(k)]TJ/F28 9.9626 Tf 4.663 2.546 Td [(^)]TJ/F89 9.9626 Tf 0.319 -2.546 Td [(I)]TJ/F34 9.9626 Tf 6.558 0 Td [(\000)]TJ/F89 9.9626 Tf 9.963 0 Td [(I)]TJ/F34 9.9626 Tf 4.345 0 Td [(k)]TJ/F27 6.9738 Tf 4.981 -1.495 Td [(1)]TJ/F28 9.9626 Tf 6.683 1.495 Td [(+)]TJ/F31 9.9626 Tf 9.963 0 Td [(\025)]TJ/F30 6.9738 Tf 5.811 -1.495 Td [(p)]TJ/F34 9.9626 Tf 4.605 1.495 Td [(L)]TJ/F78 6.9738 Tf 6.872 -1.495 Td [(perc)]TJ/F28 9.9626 Tf 12.5 1.495 Td [(\050)]TJ 3.556 2.546 Td [(^)]TJ/F89 9.9626 Tf 0.318 -2.546 Td [(I)]TJ/F31 9.9626 Tf 4.345 0 Td [(;)]TJ/F89 9.9626 Tf 4.428 0 Td [(I)]TJ/F28 9.9626 Tf 4.345 0 Td [(\051)-222(+)]TJ/F31 9.9626 Tf 16.051 0 Td [(\025)]TJ/F78 6.9738 Tf 5.811 -1.495 Td [(adv)]TJ/F34 9.9626 Tf 10.568 1.495 Td [(L)]TJ/F78 6.9738 Tf 6.872 -1.495 Td [(adv)]TJ/F28 9.9626 Tf 10.568 1.495 Td [(\050)]TJ 3.556 2.546 Td [(^)]TJ/F89 9.9626 Tf 0.319 -2.546 Td [(I)]TJ/F28 9.9626 Tf 4.344 0 Td [(\051)]TJ/F31 9.9626 Tf 3.875 0 Td [(;)]TJ
 ET
 EMC
 BT
@@ -1011,10 +1078,10 @@ BT
 0 0 1 rg 0 0 1 RG
  [(11)]TJ
 0 g 0 G
- [(],)]TJ/F34 9.9626 Tf 145.631 0 Td [(L)]TJ/F78 6.9738 Tf 6.871 -1.494 Td [(adv)]TJ/F78 9.9626 Tf 13.231 1.494 Td [(is)-267(the)]TJ -214.768 -11.955 Td [(adv)15(ersarial)-267(loss,)-271(and)-266(we)-267(set)]TJ/F31 9.9626 Tf 111.947 0 Td [(\025)]TJ/F27 6.9738 Tf 5.811 -1.494 Td [(1)]TJ/F28 9.9626 Tf 7.545 1.494 Td [(=)-309(10)]TJ/F78 9.9626 Tf 20.787 0 Td [(,)]TJ/F31 9.9626 Tf 5.19 0 Td [(\025)]TJ/F30 6.9738 Tf 5.812 -1.494 Td [(p)]TJ/F28 9.9626 Tf 7.68 1.494 Td [(=)-309(10)]TJ/F78 9.9626 Tf 20.788 0 Td [(,)]TJ/F31 9.9626 Tf 5.189 0 Td [(\025)]TJ/F78 6.9738 Tf 5.812 -1.494 Td [(adv)]TJ/F28 9.9626 Tf 13.644 1.494 Td [(=)-309(0)]TJ/F31 9.9626 Tf 15.806 0 Td [(:)]TJ/F28 9.9626 Tf 2.767 0 Td [(5)]TJ/F78 9.9626 Tf 4.981 0 Td [(.)]TJ -233.759 -11.955 Td [(W)80(e)-383(use)-383(Adam)-383(with)-383(learning)-384(rates)]TJ/F28 9.9626 Tf 142.731 0 Td [(10)]TJ/F33 6.9738 Tf 9.963 3.615 Td [(\000)]TJ/F27 6.9738 Tf 6.227 0 Td [(4)]TJ/F78 9.9626 Tf 8.286 -3.615 Td [(for)-383(the)-383(generator)]TJ -167.207 -11.955 Td [(and)]TJ/F28 9.9626 Tf 16.922 0 Td [(10)]TJ/F33 6.9738 Tf 9.963 3.615 Td [(\000)]TJ/F27 6.9738 Tf 6.227 0 Td [(5)]TJ/F78 9.9626 Tf 7.006 -3.615 Td [(for)-255(the)-254(discriminator)55(.)-324(All)-254(models)-255(are)-255(trained)-254(on)-255(8)]TJ -40.118 -11.955 Td [(NVIDIA)-217(T)70(esla)-217(A100)-218(GPUs)-217(for)-217(200K)-217(iterations)-217(with)-217(a)-218(batch)]TJ 0 -11.956 Td [(size)-360(of)-360(8.)-640(Data)-361(augment)1(ation)-361(includes)-360(random)-360(horizontal)]TJ 0 -11.955 Td [(\003ipping)-386(and)-387(color)-386(jitter)55(.)-720(The)-386(discriminator)-387(uses)-386(a)-387(P)15(atch-)]TJ 0 -11.955 Td [(GAN)-261(architecture)-260([)]TJ/F77 9.9626 Tf 77.111 0 Td [(?)]TJ/F78 9.9626 Tf 8.386 0 Td [(])-342(with)-260(spectral)-261(normalization.)-341(W)80(e)-261(use)]TJ -85.497 -11.955 Td [(e)15(xponential)-390(mo)15(ving)-390(a)20(v)15(erage)-390(\050EMA\051)-390(of)-390(generator)-390(weights)]TJ 0 -11.955 Td [(with)-333(decay)-333(0.999)-333(for)-333(stable)-333(training)-333(and)-333(impro)15(v)15(ed)-333(sample)]TJ 0 -11.955 Td [(quality)65(.)-811(T)80(o)-417(promote)-417(multi-vie)25(w)-417(consistenc)15(y)65(,)-459(we)-417(apply)-417(a)]TJ 0 -11.956 Td [(geometric)-358(re)15(gularization)-359(term)]TJ/F34 9.9626 Tf 123.995 0 Td [(L)]TJ/F78 6.9738 Tf 6.872 -1.494 Td [(geo)]TJ/F78 9.9626 Tf 14.139 1.494 Td [(that)-358(penalizes)-359(discrep-)]TJ -145.006 -11.955 Td [(ancies)-398(between)-398(depth)-397(maps)-398(rendered)-398(from)-398(tw)10(o)-398(randomly)]TJ 0 -11.955 Td [(sampled)-412(vie)25(wpoints)-412(of)-411(the)-412(same)-412(scene.)-795(Speci\002cally)65(,)-453(the)]TJ 0 -11.955 Td [(predicted)-388(depth)-389(from)-388(vie)25(w)]TJ/F31 9.9626 Tf 113.175 0 Td [(A)]TJ/F78 9.9626 Tf 11.343 0 Td [(is)-388(w)10(arped)-389(to)-388(vie)25(w)]TJ/F31 9.9626 Tf 78.216 0 Td [(B)]TJ/F78 9.9626 Tf 11.927 0 Td [(using)]TJ -214.661 -11.955 Td [(the)-418(kno)25(wn)-417(camera)-418(transformation,)-459(and)-418(the)-417(L1)-418(dif)25(ference)]TJ 0 -11.955 Td [(ag)5(ainst)-237(the)-237(directly)-237(rendered)-237(depth)-237(of)-237(vie)25(w)]TJ/F31 9.9626 Tf 171.716 0 Td [(B)]TJ/F78 9.9626 Tf 10.418 0 Td [(is)-237(minimized.)]TJ -182.134 -11.956 Td [(This)-365(term)-366(is)-365(weighted)-366(by)]TJ/F31 9.9626 Tf 107.306 0 Td [(\025)]TJ/F78 6.9738 Tf 5.812 -1.494 Td [(geo)]TJ/F28 9.9626 Tf 15.464 1.494 Td [(=)-491(0)]TJ/F31 9.9626 Tf 17.627 0 Td [(:)]TJ/F28 9.9626 Tf 2.767 0 Td [(1)]TJ/F78 9.9626 Tf 8.622 0 Td [(and)-365(encourages)-366(the)]TJ -157.598 -11.955 Td [(Gaussian)-348(primiti)25(v)15(es)-349(to)-348(form)-349(geometrically)-348(coherent)-349(struc-)]TJ 0 -11.955 Td [(tures)-250(across)-250(vie)25(wpoints.)]TJ/F77 11.9552 Tf 0 -22.772 Td [(4.)-250(Experiments)]TJ/F77 10.9589 Tf 0 -18.929 Td [(4.1.)-250(Datasets)-250(and)-250(Metrics)]TJ/F77 9.9626 Tf 0 -17.933 Td [(GoogleEarth.)]TJ/F78 9.9626 Tf 67.247 0 Td [(This)-327(dataset)-326(comprises)-327(imagery)-326(from)-327(400)]TJ -67.247 -11.955 Td [(cities)-342(captured)-342(from)-341(drone-lik)10(e)-342(vie)25(wpoints,)-365(with)-342(60)-342(vie)25(ws)]TJ 0 -11.955 Td [(per)-251(city)65(.)-314(The)-251(BEV)-251(layout)-251(maps)-251(are)]TJ/F28 9.9626 Tf 141.164 0 Td [(2048)]TJ/F34 9.9626 Tf 22.148 0 Td [(\002)]TJ/F28 9.9626 Tf 9.971 0 Td [(2048)]TJ/F78 9.9626 Tf 22.428 0 Td [(pix)15(els)-251(and)]TJ -195.711 -11.955 Td [(contain)-280(8)-281(semantic)-280(classes)-280(including)-280(road,)-288(b)20(uilding)-281(f)10(acade,)]TJ 0 -11.955 Td [(b)20(uilding)-250(roof,)-250(w)10(ater)40(,)-250(and)-250(v)15(e)15(getation)-250(zones.)]TJ
+ [(],)]TJ/F34 9.9626 Tf 145.631 0 Td [(L)]TJ/F78 6.9738 Tf 6.871 -1.494 Td [(adv)]TJ/F78 9.9626 Tf 13.231 1.494 Td [(is)-267(the)]TJ -214.768 -11.955 Td [(adv)15(ersarial)-267(loss,)-271(and)-266(we)-267(set)]TJ/F31 9.9626 Tf 111.947 0 Td [(\025)]TJ/F27 6.9738 Tf 5.811 -1.494 Td [(1)]TJ/F28 9.9626 Tf 7.545 1.494 Td [(=)-309(10)]TJ/F78 9.9626 Tf 20.787 0 Td [(,)]TJ/F31 9.9626 Tf 5.19 0 Td [(\025)]TJ/F30 6.9738 Tf 5.812 -1.494 Td [(p)]TJ/F28 9.9626 Tf 7.68 1.494 Td [(=)-309(10)]TJ/F78 9.9626 Tf 20.788 0 Td [(,)]TJ/F31 9.9626 Tf 5.189 0 Td [(\025)]TJ/F78 6.9738 Tf 5.812 -1.494 Td [(adv)]TJ/F28 9.9626 Tf 13.644 1.494 Td [(=)-309(0)]TJ/F31 9.9626 Tf 15.806 0 Td [(:)]TJ/F28 9.9626 Tf 2.767 0 Td [(5)]TJ/F78 9.9626 Tf 4.981 0 Td [(.)]TJ -233.759 -11.955 Td [(W)80(e)-383(use)-383(Adam)-383(with)-383(learning)-384(rates)]TJ/F28 9.9626 Tf 142.731 0 Td [(10)]TJ/F33 6.9738 Tf 9.963 3.615 Td [(\000)]TJ/F27 6.9738 Tf 6.227 0 Td [(4)]TJ/F78 9.9626 Tf 8.286 -3.615 Td [(for)-383(the)-383(generator)]TJ -167.207 -11.955 Td [(and)]TJ/F28 9.9626 Tf 16.922 0 Td [(10)]TJ/F33 6.9738 Tf 9.963 3.615 Td [(\000)]TJ/F27 6.9738 Tf 6.227 0 Td [(5)]TJ/F78 9.9626 Tf 7.006 -3.615 Td [(for)-255(the)-254(discriminator)55(.)-324(All)-254(models)-255(are)-255(trained)-254(on)-255(8)]TJ -40.118 -11.955 Td [(NVIDIA)-217(T)70(esla)-217(A100)-218(GPUs)-217(for)-217(200K)-217(iterations)-217(with)-217(a)-218(batch)]TJ 0 -11.956 Td [(size)-360(of)-360(8.)-640(Data)-361(augment)1(ation)-361(includes)-360(random)-360(horizontal)]TJ 0 -11.955 Td [(\003ipping)-386(and)-387(color)-386(jitter)55(.)-720(The)-386(discriminator)-387(uses)-386(a)-387(P)15(atch-)]TJ 0 -11.955 Td [(GAN)-261(architecture)-260([)]TJ/F79 9.9626 Tf 77.111 0 Td [(?)]TJ/F78 9.9626 Tf 8.386 0 Td [(])-342(with)-260(spectral)-261(normalization.)-341(W)80(e)-261(use)]TJ -85.497 -11.955 Td [(e)15(xponential)-390(mo)15(ving)-390(a)20(v)15(erage)-390(\050EMA\051)-390(of)-390(generator)-390(weights)]TJ 0 -11.955 Td [(with)-333(decay)-333(0.999)-333(for)-333(stable)-333(training)-333(and)-333(impro)15(v)15(ed)-333(sample)]TJ 0 -11.955 Td [(quality)65(.)-811(T)80(o)-417(promote)-417(multi-vie)25(w)-417(consistenc)15(y)65(,)-459(we)-417(apply)-417(a)]TJ 0 -11.956 Td [(geometric)-358(re)15(gularization)-359(term)]TJ/F34 9.9626 Tf 123.995 0 Td [(L)]TJ/F78 6.9738 Tf 6.872 -1.494 Td [(geo)]TJ/F78 9.9626 Tf 14.139 1.494 Td [(that)-358(penalizes)-359(discrep-)]TJ -145.006 -11.955 Td [(ancies)-398(between)-398(depth)-397(maps)-398(rendered)-398(from)-398(tw)10(o)-398(randomly)]TJ 0 -11.955 Td [(sampled)-412(vie)25(wpoints)-412(of)-411(the)-412(same)-412(scene.)-795(Speci\002cally)65(,)-453(the)]TJ 0 -11.955 Td [(predicted)-388(depth)-389(from)-388(vie)25(w)]TJ/F31 9.9626 Tf 113.175 0 Td [(A)]TJ/F78 9.9626 Tf 11.343 0 Td [(is)-388(w)10(arped)-389(to)-388(vie)25(w)]TJ/F31 9.9626 Tf 78.216 0 Td [(B)]TJ/F78 9.9626 Tf 11.927 0 Td [(using)]TJ -214.661 -11.955 Td [(the)-418(kno)25(wn)-417(camera)-418(transformation,)-459(and)-418(the)-417(L1)-418(dif)25(ference)]TJ 0 -11.955 Td [(ag)5(ainst)-237(the)-237(directly)-237(rendered)-237(depth)-237(of)-237(vie)25(w)]TJ/F31 9.9626 Tf 171.716 0 Td [(B)]TJ/F78 9.9626 Tf 10.418 0 Td [(is)-237(minimized.)]TJ -182.134 -11.956 Td [(This)-365(term)-366(is)-365(weighted)-366(by)]TJ/F31 9.9626 Tf 107.306 0 Td [(\025)]TJ/F78 6.9738 Tf 5.812 -1.494 Td [(geo)]TJ/F28 9.9626 Tf 15.464 1.494 Td [(=)-491(0)]TJ/F31 9.9626 Tf 17.627 0 Td [(:)]TJ/F28 9.9626 Tf 2.767 0 Td [(1)]TJ/F78 9.9626 Tf 8.622 0 Td [(and)-365(encourages)-366(the)]TJ -157.598 -11.955 Td [(Gaussian)-348(primiti)25(v)15(es)-349(to)-348(form)-349(geometrically)-348(coherent)-349(struc-)]TJ 0 -11.955 Td [(tures)-250(across)-250(vie)25(wpoints.)]TJ/F79 11.9552 Tf 0 -22.772 Td [(4.)-250(Experiments)]TJ/F79 10.9589 Tf 0 -18.929 Td [(4.1.)-250(Datasets)-250(and)-250(Metrics)]TJ/F79 9.9626 Tf 0 -17.933 Td [(GoogleEarth.)]TJ/F78 9.9626 Tf 67.247 0 Td [(This)-327(dataset)-326(comprises)-327(imagery)-326(from)-327(400)]TJ -67.247 -11.955 Td [(cities)-342(captured)-342(from)-341(drone-lik)10(e)-342(vie)25(wpoints,)-365(with)-342(60)-342(vie)25(ws)]TJ 0 -11.955 Td [(per)-251(city)65(.)-314(The)-251(BEV)-251(layout)-251(maps)-251(are)]TJ/F28 9.9626 Tf 141.164 0 Td [(2048)]TJ/F34 9.9626 Tf 22.148 0 Td [(\002)]TJ/F28 9.9626 Tf 9.971 0 Td [(2048)]TJ/F78 9.9626 Tf 22.428 0 Td [(pix)15(els)-251(and)]TJ -195.711 -11.955 Td [(contain)-280(8)-281(semantic)-280(classes)-280(including)-280(road,)-288(b)20(uilding)-281(f)10(acade,)]TJ 0 -11.955 Td [(b)20(uilding)-250(roof,)-250(w)10(ater)40(,)-250(and)-250(v)15(e)15(getation)-250(zones.)]TJ
 0 g 0 G
 0 g 0 G
-/F77 9.9626 Tf 258.75 629.037 Td [(KITTI-360.)]TJ/F78 9.9626 Tf 59.506 0 Td [(KITTI-360)-648([)]TJ
+/F79 9.9626 Tf 258.75 629.037 Td [(KITTI-360.)]TJ/F78 9.9626 Tf 59.506 0 Td [(KITTI-360)-648([)]TJ
 0 0 1 rg 0 0 1 RG
  [(14)]TJ
 0 g 0 G
@@ -1022,7 +1089,7 @@ BT
 0 0 1 rg 0 0 1 RG
  [(25)]TJ
 0 g 0 G
- [(])-274(in)-275(using)-274(this)-274(benchmark)-274(for)-275(e)25(v)25(aluation)]TJ 0 -11.955 Td [(of)-250(urban)-250(scene)-250(generation)-250(from)-250(the)-250(dri)25(v)15(er')55(s)-250(perspecti)25(v)15(e.)]TJ/F77 9.9626 Tf 0 -26.239 Td [(Metrics.)]TJ/F78 9.9626 Tf 45.09 0 Td [(W)80(e)-211(e)25(v)25(aluate)-211(generation)-211(quality)-212(using)-211(Fr)]TJ 156.972 0.05 Td [(\264)]TJ -0.553 -0.05 Td [(echet)-211(In-)]TJ -201.509 -11.955 Td [(ception)-345(Dista)1(nce)-345(\050FID\051)-345([)]TJ
+ [(])-274(in)-275(using)-274(this)-274(benchmark)-274(for)-275(e)25(v)25(aluation)]TJ 0 -11.955 Td [(of)-250(urban)-250(scene)-250(generation)-250(from)-250(the)-250(dri)25(v)15(er')55(s)-250(perspecti)25(v)15(e.)]TJ/F79 9.9626 Tf 0 -26.239 Td [(Metrics.)]TJ/F78 9.9626 Tf 45.09 0 Td [(W)80(e)-211(e)25(v)25(aluate)-211(generation)-211(quality)-212(using)-211(Fr)]TJ 156.972 0.05 Td [(\264)]TJ -0.553 -0.05 Td [(echet)-211(In-)]TJ -201.509 -11.955 Td [(ception)-345(Dista)1(nce)-345(\050FID\051)-345([)]TJ
 0 0 1 rg 0 0 1 RG
  [(9)]TJ
 0 g 0 G
@@ -1034,7 +1101,7 @@ BT
 0 0 1 rg 0 0 1 RG
  [(20)]TJ
 0 g 0 G
- [(],)-246(CLIP)-245(Error)-246(\050CE\051)-245(for)-245(semantic)-246(consistenc)15(y)65(,)]TJ 0 -11.955 Td [(and)-250(runtime)-250(\050R)60(T\051)-250(measured)-250(on)-250(an)-250(NVIDIA)-250(T)70(esla)-250(A100.)]TJ/F77 10.9589 Tf 0 -19.289 Td [(4.2.)-250(Comparison)-250(with)-250(State\255of\255the\255Art)]TJ/F78 9.9626 Tf 0 -17.932 Td [(T)80(ab)40(.)]TJ
+ [(],)-246(CLIP)-245(Error)-246(\050CE\051)-245(for)-245(semantic)-246(consistenc)15(y)65(,)]TJ 0 -11.955 Td [(and)-250(runtime)-250(\050R)60(T\051)-250(measured)-250(on)-250(an)-250(NVIDIA)-250(T)70(esla)-250(A100.)]TJ/F79 10.9589 Tf 0 -19.289 Td [(4.2.)-250(Comparison)-250(with)-250(State\255of\255the\255Art)]TJ/F78 9.9626 Tf 0 -17.932 Td [(T)80(ab)40(.)]TJ
 1 0 0 rg 1 0 0 RG
  [-431(1)]TJ
 0 g 0 G
@@ -1042,7 +1109,7 @@ BT
 0 0 1 rg 0 0 1 RG
  [(23)]TJ
 0 g 0 G
- [(]\051,)-203(KID)-191(of)-191(0.090,)-202(DE)-191(of)-191(0.136,)-203(and)-191(CE)-191(of)-191(0.057.)]TJ 0 -11.955 Td [(Critically)65(,)-320(GaussianCity)-306(renders)-307(at)]TJ/F77 9.9626 Tf 142.026 0 Td [(93ms)]TJ/F78 9.9626 Tf 25.188 0 Td [(per)-306(frame,)-321(which)]TJ -167.214 -11.955 Td [(is)-360(o)15(v)15(er)-360(60)]TJ/F34 9.9626 Tf 41.186 0 Td [(\002)]TJ/F78 9.9626 Tf 11.335 0 Td [(f)10(aster)-360(than)-360(CityDreamer)-360(\0505580ms\051)-360(and)-360(f)10(aster)]TJ -52.521 -11.955 Td [(than)-270(all)-270(other)-270(baselines)-270(including)-270(SGAM)-271([)]TJ
+ [(]\051,)-203(KID)-191(of)-191(0.090,)-202(DE)-191(of)-191(0.136,)-203(and)-191(CE)-191(of)-191(0.057.)]TJ 0 -11.955 Td [(Critically)65(,)-320(GaussianCity)-306(renders)-307(at)]TJ/F79 9.9626 Tf 142.026 0 Td [(93ms)]TJ/F78 9.9626 Tf 25.188 0 Td [(per)-306(frame,)-321(which)]TJ -167.214 -11.955 Td [(is)-360(o)15(v)15(er)-360(60)]TJ/F34 9.9626 Tf 41.186 0 Td [(\002)]TJ/F78 9.9626 Tf 11.335 0 Td [(f)10(aster)-360(than)-360(CityDreamer)-360(\0505580ms\051)-360(and)-360(f)10(aster)]TJ -52.521 -11.955 Td [(than)-270(all)-270(other)-270(baselines)-270(including)-270(SGAM)-271([)]TJ
 0 0 1 rg 0 0 1 RG
  [1(21)]TJ
 0 g 0 G
@@ -1066,11 +1133,11 @@ BT
 1 0 0 rg 1 0 0 RG
  [-338(4)]TJ
 0 g 0 G
- [-338(sho)25(w)-338(qualitati)25(v)15(e)-339(c)1(omparisons.)-575(Gaus-)]TJ -11.955 -11.955 Td [(sianCity)-390(produces)-389(sharper)-390(te)15(xtures,)-424(more)-390(coherent)-390(geom-)]TJ 0 -11.955 Td [(etry)65(,)-395(and)-366(fe)25(wer)-366(artif)10(acts)-366(than)-366(competing)-366(methods)-366(on)-366(both)]TJ 0 -11.955 Td [(drone-vie)25(w)-334(and)-334(street-vie)25(w)-334(scenes.)-561(W)80(e)-334(attrib)20(ute)-334(the)-334(qual-)]TJ 0 -11.956 Td [(ity)-563(impro)15(v)15(ements)-564(primarily)-563(to)-563(tw)10(o)-564(f)10(actors.)-1250(First,)-642(the)]TJ 0 -11.955 Td [(BEV)100(-Point)-486(representation)-485(pro)15(vides)-486(geometrically)-486(consis-)]TJ 0 -11.955 Td [(tent)-405(initialization)-404(for)-405(Gaussians,)-443(constraining)-405(their)-405(place-)]TJ 0 -11.955 Td [(ment)-201(to)-201(semantically)-201(meaningful)-200(re)14(gi)1(ons.)-294(Second,)-211(the)-201(style-)]TJ 0 -11.955 Td [(conditioned)-422(Gaussian)-422(attrib)20(ute)-422(prediction)-423(enables)-422(di)25(v)15(erse)]TJ 0 -11.955 Td [(yet)-400(coherent)-401(appea)1(rance)-401(v)25(ariation)-400(across)-400(instances)-400(of)-401(the)]TJ 0 -11.956 Td [(same)-250(semantic)-250(class.)]TJ/F77 9.9626 Tf 0 -26.238 Td [(User)-374(Study)70(.)]TJ/F78 9.9626 Tf 60.313 0 Td [(W)80(e)-374(conduct)-374(a)-374(user)-374(study)-374(comparing)-374(Gaus-)]TJ -60.313 -11.956 Td [(sianCity)-471(with)-470(baselines)-471(on)-471(both)-470(datasets.)-972(As)-471(sho)25(wn)-471(in)]TJ 0 -11.955 Td [(Fig.)]TJ
+ [-338(sho)25(w)-338(qualitati)25(v)15(e)-339(c)1(omparisons.)-575(Gaus-)]TJ -11.955 -11.955 Td [(sianCity)-390(produces)-389(sharper)-390(te)15(xtures,)-424(more)-390(coherent)-390(geom-)]TJ 0 -11.955 Td [(etry)65(,)-395(and)-366(fe)25(wer)-366(artif)10(acts)-366(than)-366(competing)-366(methods)-366(on)-366(both)]TJ 0 -11.955 Td [(drone-vie)25(w)-334(and)-334(street-vie)25(w)-334(scenes.)-561(W)80(e)-334(attrib)20(ute)-334(the)-334(qual-)]TJ 0 -11.956 Td [(ity)-563(impro)15(v)15(ements)-564(primarily)-563(to)-563(tw)10(o)-564(f)10(actors.)-1250(First,)-642(the)]TJ 0 -11.955 Td [(BEV)100(-Point)-486(representation)-485(pro)15(vides)-486(geometrically)-486(consis-)]TJ 0 -11.955 Td [(tent)-405(initialization)-404(for)-405(Gaussians,)-443(constraining)-405(their)-405(place-)]TJ 0 -11.955 Td [(ment)-201(to)-201(semantically)-201(meaningful)-200(re)14(gi)1(ons.)-294(Second,)-211(the)-201(style-)]TJ 0 -11.955 Td [(conditioned)-422(Gaussian)-422(attrib)20(ute)-422(prediction)-423(enables)-422(di)25(v)15(erse)]TJ 0 -11.955 Td [(yet)-400(coherent)-401(appea)1(rance)-401(v)25(ariation)-400(across)-400(instances)-400(of)-401(the)]TJ 0 -11.956 Td [(same)-250(semantic)-250(class.)]TJ/F79 9.9626 Tf 0 -26.238 Td [(User)-374(Study)70(.)]TJ/F78 9.9626 Tf 60.313 0 Td [(W)80(e)-374(conduct)-374(a)-374(user)-374(study)-374(comparing)-374(Gaus-)]TJ -60.313 -11.956 Td [(sianCity)-471(with)-470(baselines)-471(on)-471(both)-470(datasets.)-972(As)-471(sho)25(wn)-471(in)]TJ 0 -11.955 Td [(Fig.)]TJ
 1 0 0 rg 1 0 0 RG
  [-252(5)]TJ
 0 g 0 G
- [(,)-252(our)-252(method)-252(is)-252(cons)1(istently)-252(preferred)-252(by)-252(human)-252(e)25(v)25(al-)]TJ 0 -11.955 Td [(uators)-250(in)-250(terms)-250(of)-250(visual)-250(quality)-250(and)-250(realism.)]TJ/F77 10.9589 Tf 0 -19.288 Td [(4.3.)-250(Ablation)-250(Studies)]TJ/F77 9.9626 Tf 0 -17.933 Td [(Effecti)10(v)10(eness)-714(of)-715(BEV)74(-P)20(oint)-714(Repr)18(esentation.)]TJ/F78 9.9626 Tf 207.364 0 Td [(T)80(ab)40(.)]TJ
+ [(,)-252(our)-252(method)-252(is)-252(cons)1(istently)-252(preferred)-252(by)-252(human)-252(e)25(v)25(al-)]TJ 0 -11.955 Td [(uators)-250(in)-250(terms)-250(of)-250(visual)-250(quality)-250(and)-250(realism.)]TJ/F79 10.9589 Tf 0 -19.288 Td [(4.3.)-250(Ablation)-250(Studies)]TJ/F79 9.9626 Tf 0 -17.933 Td [(Effecti)10(v)10(eness)-714(of)-715(BEV)74(-P)20(oint)-714(Repr)18(esentation.)]TJ/F78 9.9626 Tf 207.364 0 Td [(T)80(ab)40(.)]TJ
 1 0 0 rg 1 0 0 RG
  [-714(2)]TJ
 0 g 0 G
@@ -1084,15 +1151,32 @@ endstream
 endobj
 188 0 obj
 <<
-/Length 4620      
+/Length 4885      
 >>
 stream
 0 g 0 G
-0 g 0 G
-0 g 0 G
-0 g 0 G
+1 0 0 1 175.395 229.261 cm
+q
+.70709 .70709 -.70709 .70709 0 0 cm
+q
+.5 0 0 .5 0 0 cm
+0.6 g 0.6 G
+1 0 0 1 -175.395 -229.261 cm
 BT
-/F78 8.9664 Tf 58.5 712.329 Td [(T)80(able)-289(1.)]TJ/F77 8.9664 Tf 32.833 0 Td [(Quantitati)10(v)10(e)-289(comparison)-288(on)-289(GoogleEarth)-289(and)-288(KITTI-360.)]TJ/F78 8.9664 Tf 227.561 0 Td [(The)-289(best)-288(results)-289(are)-289(highlighted)-288(in)-289(bold.)-426(Note)-289(that)-288(\223R)60(T)74(.\224)-289(denotes)]TJ -260.394 -10.959 Td [(\223Runtime\224,)-250(measured)-250(in)-250(milliseconds)-250(on)-250(an)-250(NVIDIA)-250(T)70(esla)-250(A100.)]TJ
+/F78 153 Tf 175.395 229.261 Td [(AI-Generated)]TJ
+0 g 0 G
+ET
+1 0 0 1 175.395 229.261 cm
+Q
+Q
+0 g 0 G
+0 g 0 G
+0 g 0 G
+0 g 0 G
+0 g 0 G
+1 0 0 1 -175.395 -229.261 cm
+BT
+/F78 8.9664 Tf 58.5 712.329 Td [(T)80(able)-289(1.)]TJ/F79 8.9664 Tf 32.833 0 Td [(Quantitati)10(v)10(e)-289(comparison)-288(on)-289(GoogleEarth)-289(and)-288(KITTI-360.)]TJ/F78 8.9664 Tf 227.561 0 Td [(The)-289(best)-288(results)-289(are)-289(highlighted)-288(in)-289(bold.)-426(Note)-289(that)-288(\223R)60(T)74(.\224)-289(denotes)]TJ -260.394 -10.959 Td [(\223Runtime\224,)-250(measured)-250(in)-250(milliseconds)-250(on)-250(an)-250(NVIDIA)-250(T)70(esla)-250(A100.)]TJ
 0 g 0 G
 ET
 q
@@ -1150,7 +1234,7 @@ BT
 0 0 1 rg 0 0 1 RG
  [(25)]TJ
 0 g 0 G
- [(])-2124(39.6)-2800(0.036)]TJ 0 -12.951 Td [(GaussianCity)]TJ/F77 9.9626 Tf 91.424 0 Td [(86.94)-2550(0.090)-2549(0.136)-2550(0.057)-3174(93)]TJ/F78 9.9626 Tf 232.357 0 Td [(GaussianCity)]TJ/F77 9.9626 Tf 84.8 0 Td [(29.5)-2800(0.017)]TJ
+ [(])-2124(39.6)-2800(0.036)]TJ 0 -12.951 Td [(GaussianCity)]TJ/F79 9.9626 Tf 91.424 0 Td [(86.94)-2550(0.090)-2549(0.136)-2550(0.057)-3174(93)]TJ/F78 9.9626 Tf 232.357 0 Td [(GaussianCity)]TJ/F79 9.9626 Tf 84.8 0 Td [(29.5)-2800(0.017)]TJ
 ET
 q
 1 0 0 1 58.5 586.758 cm
@@ -1169,10 +1253,10 @@ Q
 0 g 0 G
 1 0 0 1 -58.5 -221.273 cm
 BT
-/F78 8.9664 Tf 58.5 203.639 Td [(Figure)-386(3.)]TJ/F77 8.9664 Tf 40.03 0 Td [(Qualitati)10(v)10(e)-386(comparison)-386(on)-386(GoogleEarth.)]TJ/F78 8.9664 Tf 165.332 0 Td [(GaussianCity)-386(generates)-386(sharper)-386(and)-385(more)-386(geometrically)-386(consistent)-386(city)-386(scenes)]TJ -205.362 -10.959 Td [(compared)-250(to)-250(prior)-250(methods.)]TJ
+/F78 8.9664 Tf 58.5 203.639 Td [(Figure)-386(3.)]TJ/F79 8.9664 Tf 40.03 0 Td [(Qualitati)10(v)10(e)-386(comparison)-386(on)-386(GoogleEarth.)]TJ/F78 8.9664 Tf 165.332 0 Td [(GaussianCity)-386(generates)-386(sharper)-386(and)-385(more)-386(geometrically)-386(consistent)-386(city)-386(scenes)]TJ -205.362 -10.959 Td [(compared)-250(to)-250(prior)-250(methods.)]TJ
 0 g 0 G
 0 g 0 G
-/F78 9.9626 Tf 0 -33.175 Td [(ray-intersection)-334(visibility)-334(achie)25(v)15(es)-334(31.7K)-334(points)-335(with)-334(only)]TJ 0 -11.955 Td [(1.39G)-263(VRAM)-264(and)-263(0.09s)-263(inference)-264(time)-263(\227)-263(enabling)-264(practi-)]TJ 0 -11.956 Td [(cal)-250(generation)-250(on)-250(standard)-250(GPUs.)]TJ/F77 9.9626 Tf 0 -30.684 Td [(Effecti)10(v)10(eness)-314(of)-315(BEV)74(-P)20(oint)-314(Decoder)100(.)]TJ/F78 9.9626 Tf 165.248 0 Td [(T)80(ab)40(.)]TJ
+/F78 9.9626 Tf 0 -33.175 Td [(ray-intersection)-334(visibility)-334(achie)25(v)15(es)-334(31.7K)-334(points)-335(with)-334(only)]TJ 0 -11.955 Td [(1.39G)-263(VRAM)-264(and)-263(0.09s)-263(inference)-264(time)-263(\227)-263(enabling)-264(practi-)]TJ 0 -11.956 Td [(cal)-250(generation)-250(on)-250(standard)-250(GPUs.)]TJ/F79 9.9626 Tf 0 -30.684 Td [(Effecti)10(v)10(eness)-314(of)-315(BEV)74(-P)20(oint)-314(Decoder)100(.)]TJ/F78 9.9626 Tf 165.248 0 Td [(T)80(ab)40(.)]TJ
 1 0 0 rg 1 0 0 RG
  [-314(3)]TJ
 0 g 0 G
@@ -2144,7 +2228,7 @@ endobj
 /Length 13244     
 >>
 stream
-1 0 3 41 5 199 6 366 7 538 8 700 9 868 10 1031 11 1201 14 1369
+1 0 3 41 5 199 6 366 7 538 8 700 9 868 10 1031 11 1201 15 1369
 17 1416 21 1467 22 1518 12 1571 58 1718 31 1973 32 2138 33 2305 34 2473 35 2641
 36 2809 37 2978 38 3143 39 3317 40 3491 41 3657 42 3830 43 4000 44 4172 45 4342
 46 4504 47 4673 48 4839 49 5007 50 5176 60 5329 61 5377 62 5429 63 5481 64 5533
@@ -2221,7 +2305,7 @@ stream
 /Rect [510.321 91.959 522.277 100.746]
 /A << /S /GoTo /D (cite.DBLP:conf/cvpr/WuJWLLQOHZ24) >>
 >>
-% 14 0 obj
+% 15 0 obj
 <<
 /D [3 0 R /XYZ 57.5 721 null]
 >>
@@ -2239,7 +2323,7 @@ stream
 >>
 % 12 0 obj
 <<
-/Font << /F77 15 0 R /F78 16 0 R /F80 18 0 R /F81 19 0 R /F34 20 0 R >>
+/Font << /F78 14 0 R /F79 16 0 R /F82 18 0 R /F83 19 0 R /F34 20 0 R >>
 /XObject << /Im1 4 0 R >>
 /ProcSet [ /PDF /Text /ImageC ]
 >>
@@ -2458,7 +2542,7 @@ stream
 >>
 % 57 0 obj
 <<
-/Font << /F78 16 0 R /F34 20 0 R /F77 15 0 R /F87 67 0 R /F71 68 0 R /F30 69 0 R /F33 70 0 R /F28 71 0 R /F31 72 0 R >>
+/Font << /F78 14 0 R /F34 20 0 R /F79 16 0 R /F89 67 0 R /F71 68 0 R /F30 69 0 R /F33 70 0 R /F28 71 0 R /F31 72 0 R >>
 /ProcSet [ /PDF /Text ]
 >>
 % 96 0 obj
@@ -2564,7 +2648,7 @@ stream
 >>
 % 95 0 obj
 <<
-/Font << /F78 16 0 R /F77 15 0 R /F87 67 0 R /F28 71 0 R /F31 72 0 R /F34 20 0 R /F30 69 0 R /F71 68 0 R /F33 70 0 R /F27 104 0 R >>
+/Font << /F78 14 0 R /F79 16 0 R /F89 67 0 R /F28 71 0 R /F31 72 0 R /F34 20 0 R /F30 69 0 R /F71 68 0 R /F33 70 0 R /F27 104 0 R >>
 /XObject << /Im2 51 0 R >>
 /ProcSet [ /PDF /Text /ImageC ]
 >>
@@ -2763,7 +2847,7 @@ stream
 >>
 % 152 0 obj
 <<
-/Font << /F78 16 0 R /F77 15 0 R /F31 72 0 R /F87 67 0 R /F30 69 0 R /F34 20 0 R /F28 71 0 R /F71 68 0 R /F27 104 0 R /F33 70 0 R >>
+/Font << /F78 14 0 R /F79 16 0 R /F31 72 0 R /F89 67 0 R /F30 69 0 R /F34 20 0 R /F28 71 0 R /F71 68 0 R /F27 104 0 R /F33 70 0 R >>
 /ProcSet [ /PDF /Text ]
 >>
 % 187 0 obj
@@ -2796,13 +2880,29 @@ endstream
 endobj
 202 0 obj
 <<
-/Length 11906     
+/Length 12146     
 >>
 stream
 0 g 0 G
+1 0 0 1 175.395 229.261 cm
+q
+.70709 .70709 -.70709 .70709 0 0 cm
+q
+.5 0 0 .5 0 0 cm
+0.6 g 0.6 G
+1 0 0 1 -175.395 -229.261 cm
+BT
+/F78 153 Tf 175.395 229.261 Td [(AI-Generated)]TJ
+0 g 0 G
+ET
+1 0 0 1 175.395 229.261 cm
+Q
+Q
 0 g 0 G
 0 g 0 G
-1 0 0 1 58.5 603.159 cm
+0 g 0 G
+0 g 0 G
+1 0 0 1 -116.895 373.898 cm
 q
 .24269 0 0 .24269 0 0 cm
 q
@@ -2813,7 +2913,7 @@ Q
 0 g 0 G
 1 0 0 1 -58.5 -603.159 cm
 BT
-/F78 8.9664 Tf 58.5 585.525 Td [(Figure)-269(4.)]TJ/F77 8.9664 Tf 35.845 0 Td [(Qualitati)10(v)10(e)-269(comparison)-269(on)-269(KITTI-360.)]TJ/F78 8.9664 Tf 152.086 0 Td [(GaussianCity)]TJ -187.931 -10.959 Td [(produces)-364(more)-364(realistic)-363(street-vie)25(w)-364(renderings)-364(with)-364(better)-363(struc-)]TJ 0 -10.959 Td [(tural)-250(coherence.)]TJ
+/F78 8.9664 Tf 58.5 585.525 Td [(Figure)-269(4.)]TJ/F79 8.9664 Tf 35.845 0 Td [(Qualitati)10(v)10(e)-269(comparison)-269(on)-269(KITTI-360.)]TJ/F78 8.9664 Tf 152.086 0 Td [(GaussianCity)]TJ -187.931 -10.959 Td [(produces)-364(more)-364(realistic)-363(street-vie)25(w)-364(renderings)-364(with)-364(better)-363(struc-)]TJ 0 -10.959 Td [(tural)-250(coherence.)]TJ
 0 g 0 G
 0 g 0 G
 0 g 0 G
@@ -2829,12 +2929,12 @@ Q
 0 g 0 G
 1 0 0 1 -58.5 -472.938 cm
 BT
-/F78 8.9664 Tf 58.5 455.304 Td [(Figure)-403(5.)]TJ/F77 8.9664 Tf 40.654 0 Td [(User)-403(study)-403(r)18(esults)]TJ/F78 8.9664 Tf 74.938 0 Td [(on)-403(GoogleEarth)-403(and)-404(KITTI-360.)]TJ -115.592 -10.959 Td [(GaussianCity)-250(is)-250(preferred)-250(o)15(v)15(er)-250(all)-250(baselines.)]TJ
+/F78 8.9664 Tf 58.5 455.304 Td [(Figure)-403(5.)]TJ/F79 8.9664 Tf 40.654 0 Td [(User)-403(study)-403(r)18(esults)]TJ/F78 8.9664 Tf 74.938 0 Td [(on)-403(GoogleEarth)-403(and)-404(KITTI-360.)]TJ -115.592 -10.959 Td [(GaussianCity)-250(is)-250(preferred)-250(o)15(v)15(er)-250(all)-250(baselines.)]TJ
 0 g 0 G
 0 g 0 G
 0 g 0 G
 0 g 0 G
- 0 -25.725 Td [(T)80(able)-288(2.)]TJ/F77 8.9664 Tf 32.804 0 Td [(Effecti)10(v)10(eness)-288(of)-288(BEV)74(-P)20(oint)-287(Repr)18(esentation.)]TJ/F78 8.9664 Tf 169.985 0 Td [(Note)-288(that)]TJ -202.789 -10.959 Td [(\223RayInt.\224)-548(denotes)-329(\223Ray)-329(Intersection\224,)-349(respecti)25(v)15(ely)65(.)-547(The)-329(VRAM)]TJ 0 -10.959 Td [(usage)-201(and)-201(inference)-201(time)-201(are)-201(measured)-201(on)-201(an)-201(NVIDIA)-201(T)70(esla)-201(A100.)]TJ
+ 0 -25.725 Td [(T)80(able)-288(2.)]TJ/F79 8.9664 Tf 32.804 0 Td [(Effecti)10(v)10(eness)-288(of)-288(BEV)74(-P)20(oint)-287(Repr)18(esentation.)]TJ/F78 8.9664 Tf 169.985 0 Td [(Note)-288(that)]TJ -202.789 -10.959 Td [(\223RayInt.\224)-548(denotes)-329(\223Ray)-329(Intersection\224,)-349(respecti)25(v)15(ely)65(.)-547(The)-329(VRAM)]TJ 0 -10.959 Td [(usage)-201(and)-201(inference)-201(time)-201(are)-201(measured)-201(on)-201(an)-201(NVIDIA)-201(T)70(esla)-201(A100.)]TJ
 0 g 0 G
 ET
 q
@@ -2892,7 +2992,7 @@ BT
 0 1 0 rg 0 1 0 RG
 /F39 9.9626 Tf 57.021 0 Td [(3)]TJ
 0 g 0 G
-/F77 9.9626 Tf 33.569 0 Td [(31.7K)-2880(1.39)-3460(0.09)]TJ
+/F79 9.9626 Tf 33.569 0 Td [(31.7K)-2880(1.39)-3460(0.09)]TJ
 ET
 q
 1 0 0 1 58.5 284.73 cm
@@ -2902,7 +3002,7 @@ Q
 0 g 0 G
 0 g 0 G
 BT
-/F78 8.9664 Tf 58.5 261.894 Td [(T)80(able)-315(3.)]TJ/F77 8.9664 Tf 33.769 0 Td [(Effecti)10(v)10(eness)-315(of)-315(BEV)74(-P)20(oint)-314(Decoder)100(.)]TJ/F78 8.9664 Tf 144.293 0 Td [(Note)-315(that)-315(\223Ser)55(.\224)]TJ -178.062 -10.959 Td [(and)-534(\223Pt.T)35(rans.\224)-1163(denote)-534(\223Point)-534(Serializer\224)-534(and)-534(\223Point)-534(T)35(rans-)]TJ 0 -10.959 Td [(former\224,)-250(respecti)25(v)15(ely)65(.)]TJ
+/F78 8.9664 Tf 58.5 261.894 Td [(T)80(able)-315(3.)]TJ/F79 8.9664 Tf 33.769 0 Td [(Effecti)10(v)10(eness)-315(of)-315(BEV)74(-P)20(oint)-314(Decoder)100(.)]TJ/F78 8.9664 Tf 144.293 0 Td [(Note)-315(that)-315(\223Ser)55(.\224)]TJ -178.062 -10.959 Td [(and)-534(\223Pt.T)35(rans.\224)-1163(denote)-534(\223Point)-534(Serializer\224)-534(and)-534(\223Point)-534(T)35(rans-)]TJ 0 -10.959 Td [(former\224,)-250(respecti)25(v)15(ely)65(.)]TJ
 0 g 0 G
 ET
 q
@@ -2937,7 +3037,7 @@ BT
 0 1 0 rg 0 1 0 RG
  [-3527(3)]TJ
 0 g 0 G
-/F77 9.9626 Tf 77.868 0 Td [(86.94)-1538(0.090)-1537(0.136)-1538(0.057)]TJ
+/F79 9.9626 Tf 77.868 0 Td [(86.94)-1538(0.090)-1537(0.136)-1538(0.057)]TJ
 ET
 q
 1 0 0 1 58.5 173.873 cm
@@ -2945,7 +3045,7 @@ q
 Q
 0 g 0 G
 BT
-/F77 9.9626 Tf 58.5 140.776 Td [(Comparison)-245(of)-245(Serialization)-245(Methods.)]TJ/F78 9.9626 Tf 171.424 0 Td [(T)80(ab)40(.)]TJ
+/F79 9.9626 Tf 58.5 140.776 Td [(Comparison)-245(of)-245(Serialization)-245(Methods.)]TJ/F78 9.9626 Tf 171.424 0 Td [(T)80(ab)40(.)]TJ
 1 0 0 rg 1 0 0 RG
  [-245(4)]TJ
 0 g 0 G
@@ -2962,7 +3062,7 @@ BT
 0 g 0 G
 0 g 0 G
 0 g 0 G
-/F78 8.9664 Tf 258.75 631.329 Td [(T)80(able)-313(4.)]TJ/F77 8.9664 Tf 33.697 0 Td [(Comparison)-313(of)-313(diffe)1(r)18(ent)-313(serialization)-313(methods.)]TJ/F78 8.9664 Tf 185.123 0 Td [(Note)]TJ -218.82 -10.959 Td [(that)-250(\223Eq.)]TJ
+/F78 8.9664 Tf 258.75 631.329 Td [(T)80(able)-313(4.)]TJ/F79 8.9664 Tf 33.697 0 Td [(Comparison)-313(of)-313(diffe)1(r)18(ent)-313(serialization)-313(methods.)]TJ/F78 8.9664 Tf 185.123 0 Td [(Note)]TJ -218.82 -10.959 Td [(that)-250(\223Eq.)]TJ
 1 0 0 rg 1 0 0 RG
  [-250(3)]TJ
 0 g 0 G
@@ -3005,7 +3105,7 @@ BT
 0 1 0 rg 0 1 0 RG
  [-3197(3)]TJ
 0 g 0 G
-/F77 9.9626 Tf 71.303 0 Td [(86.28)-1702(0.083)-1703(0.135)-1702(0.055)]TJ
+/F79 9.9626 Tf 71.303 0 Td [(86.28)-1702(0.083)-1703(0.135)-1702(0.055)]TJ
 ET
 q
 1 0 0 1 317.25 635.267 cm
@@ -3013,11 +3113,11 @@ q
 Q
 0 g 0 G
 BT
-/F78 9.9626 Tf 317.25 615.415 Td [(serv)15(es)-339(axis-aligned)-339(locality)65(,)-362(while)-339(the)-339(Hilbert)-339(curv)14(e)-339(better)]TJ 0 -11.955 Td [(preserv)15(es)-250(general)-250(spatial)-250(proximity)65(.)]TJ/F77 9.9626 Tf 0 -26.505 Td [(Limitations.)]TJ/F78 9.9626 Tf 61.718 0 Td [(While)-705(GaussianCity)-705(achie)25(v)15(es)-706(signi\002cant)]TJ -61.718 -11.955 Td [(impro)15(v)15(ements)-337(in)-336(speed)-337(and)-337(quality)65(,)-358(se)25(v)15(eral)-337(limitations)-337(re-)]TJ 0 -11.955 Td [(main.)-1009(The)-483(BEV)100(-Point)-483(representation)-484(ass)1(umes)-484(a)-483(kno)25(wn)]TJ 0 -11.956 Td [(camera)-244(con\002guration)-245(during)-244(point)-244(construction,)-245(which)-245(may)]TJ 0 -11.955 Td [(limit)-301(generalization)-301(to)-300(unconstrained)-301(capture)-301(settings.)-463(Ad-)]TJ 0 -11.955 Td [(ditionally)65(,)-221(generating)-214(dynamic)-214(elements)-214(such)-215(as)-214(mo)15(ving)-214(v)15(e-)]TJ 0 -11.955 Td [(hicles)-376(and)-376(pedestrians)-376(is)-376(not)-376(yet)-376(supported)-376(in)-376(our)-376(current)]TJ 0 -11.955 Td [(frame)25(w)10(ork.)]TJ/F77 11.9552 Tf 0 -23.864 Td [(5.)-250(Conclusion)]TJ/F78 9.9626 Tf 0 -18.929 Td [(W)80(e)-225(presented)-225(GaussianCity)65(,)-230(a)-225(generati)25(v)15(e)-225(frame)25(w)10(ork)-225(for)-225(un-)]TJ 0 -11.956 Td [(bounded)-347(3D)-346(city)-347(generation)-346(based)-347(on)-347(3D)-346(Gaussian)-347(Splat-)]TJ 0 -11.955 Td [(ting.)-1229(Our)-557(BEV)100(-Point)-556(representation)-556(reduces)-557(3D)-556(point)]TJ 0 -11.955 Td [(counts)-439(by)-439(o)15(v)15(er)-439(1000)]TJ/F34 9.9626 Tf 86.426 0 Td [(\002)]TJ/F78 9.9626 Tf 12.122 0 Td [(through)-439(ray-intersection)-439(visibility)]TJ -98.548 -11.955 Td [(pruning,)-443(enabling)-404(constant-memory)-404(generation)-404(re)15(g)5(ardless)]TJ 0 -11.955 Td [(of)-359(scene)-359(scale.)-637(The)-359(BEV)100(-Point)-360(Decoder)-359(with)-359(coordinate-)]TJ 0 -11.955 Td [(based)-433(serialization)-433(and)-432(Point)-433(T)35(ransformer)-433(V3)-433(ef)25(fecti)25(v)15(ely)]TJ 0 -11.956 Td [(processes)-298(these)-298(sparse)-298(point)-298(clouds)-298(to)-299(predict)-298(Gaussian)-298(at-)]TJ 0 -11.955 Td [(trib)20(utes.)-594(GaussianCity)-344(achie)25(v)15(es)-345(state-of-the-art)-344(quality)-345(on)]TJ 0 -11.955 Td [(both)-379(GoogleEarth)-379(and)-379(KITTI-360)-379(benchmarks)-380(while)-379(ren-)]TJ 0 -11.955 Td [(dering)-303(o)15(v)15(er)-303(60)]TJ/F34 9.9626 Tf 58.856 0 Td [(\002)]TJ/F78 9.9626 Tf 10.765 0 Td [(f)10(aster)-303(than)-303(the)-302(pre)25(vious)-303(best)-303(method.)-468(W)80(e)]TJ -69.621 -11.955 Td [(belie)25(v)15(e)-195(this)-194(w)10(ork)-195(opens)-195(ne)25(w)-195(directions)-194(for)-195(ef)25(\002cient,)-206(scalable)]TJ 0 -11.956 Td [(3D)-250(scene)-250(generation.)]TJ/F77 11.9552 Tf 0 -23.864 Td [(Refer)18(ences)]TJ
+/F78 9.9626 Tf 317.25 615.415 Td [(serv)15(es)-339(axis-aligned)-339(locality)65(,)-362(while)-339(the)-339(Hilbert)-339(curv)14(e)-339(better)]TJ 0 -11.955 Td [(preserv)15(es)-250(general)-250(spatial)-250(proximity)65(.)]TJ/F79 9.9626 Tf 0 -26.505 Td [(Limitations.)]TJ/F78 9.9626 Tf 61.718 0 Td [(While)-705(GaussianCity)-705(achie)25(v)15(es)-706(signi\002cant)]TJ -61.718 -11.955 Td [(impro)15(v)15(ements)-337(in)-336(speed)-337(and)-337(quality)65(,)-358(se)25(v)15(eral)-337(limitations)-337(re-)]TJ 0 -11.955 Td [(main.)-1009(The)-483(BEV)100(-Point)-483(representation)-484(ass)1(umes)-484(a)-483(kno)25(wn)]TJ 0 -11.956 Td [(camera)-244(con\002guration)-245(during)-244(point)-244(construction,)-245(which)-245(may)]TJ 0 -11.955 Td [(limit)-301(generalization)-301(to)-300(unconstrained)-301(capture)-301(settings.)-463(Ad-)]TJ 0 -11.955 Td [(ditionally)65(,)-221(generating)-214(dynamic)-214(elements)-214(such)-215(as)-214(mo)15(ving)-214(v)15(e-)]TJ 0 -11.955 Td [(hicles)-376(and)-376(pedestrians)-376(is)-376(not)-376(yet)-376(supported)-376(in)-376(our)-376(current)]TJ 0 -11.955 Td [(frame)25(w)10(ork.)]TJ/F79 11.9552 Tf 0 -23.864 Td [(5.)-250(Conclusion)]TJ/F78 9.9626 Tf 0 -18.929 Td [(W)80(e)-225(presented)-225(GaussianCity)65(,)-230(a)-225(generati)25(v)15(e)-225(frame)25(w)10(ork)-225(for)-225(un-)]TJ 0 -11.956 Td [(bounded)-347(3D)-346(city)-347(generation)-346(based)-347(on)-347(3D)-346(Gaussian)-347(Splat-)]TJ 0 -11.955 Td [(ting.)-1229(Our)-557(BEV)100(-Point)-556(representation)-556(reduces)-557(3D)-556(point)]TJ 0 -11.955 Td [(counts)-439(by)-439(o)15(v)15(er)-439(1000)]TJ/F34 9.9626 Tf 86.426 0 Td [(\002)]TJ/F78 9.9626 Tf 12.122 0 Td [(through)-439(ray-intersection)-439(visibility)]TJ -98.548 -11.955 Td [(pruning,)-443(enabling)-404(constant-memory)-404(generation)-404(re)15(g)5(ardless)]TJ 0 -11.955 Td [(of)-359(scene)-359(scale.)-637(The)-359(BEV)100(-Point)-360(Decoder)-359(with)-359(coordinate-)]TJ 0 -11.955 Td [(based)-433(serialization)-433(and)-432(Point)-433(T)35(ransformer)-433(V3)-433(ef)25(fecti)25(v)15(ely)]TJ 0 -11.956 Td [(processes)-298(these)-298(sparse)-298(point)-298(clouds)-298(to)-299(predict)-298(Gaussian)-298(at-)]TJ 0 -11.955 Td [(trib)20(utes.)-594(GaussianCity)-344(achie)25(v)15(es)-345(state-of-the-art)-344(quality)-345(on)]TJ 0 -11.955 Td [(both)-379(GoogleEarth)-379(and)-379(KITTI-360)-379(benchmarks)-380(while)-379(ren-)]TJ 0 -11.955 Td [(dering)-303(o)15(v)15(er)-303(60)]TJ/F34 9.9626 Tf 58.856 0 Td [(\002)]TJ/F78 9.9626 Tf 10.765 0 Td [(f)10(aster)-303(than)-303(the)-302(pre)25(vious)-303(best)-303(method.)-468(W)80(e)]TJ -69.621 -11.955 Td [(belie)25(v)15(e)-195(this)-194(w)10(ork)-195(opens)-195(ne)25(w)-195(directions)-194(for)-195(ef)25(\002cient,)-206(scalable)]TJ 0 -11.956 Td [(3D)-250(scene)-250(generation.)]TJ/F79 11.9552 Tf 0 -23.864 Td [(Refer)18(ences)]TJ
 0 g 0 G
 /F78 9.9626 Tf 4.981 -18.929 Td [([1])]TJ
 0 g 0 G
- [-500(John)-459(Amanatides)-459(and)-460(Andre)25(w)-459(W)80(oo.)-1029(A)-459(f)10(ast)-460(v)20(ox)15(el)]TJ 16.598 -11.955 Td [(tra)20(v)15(ersal)-330(algorithm)-330(for)-331(ray)-330(tracing.)-616(In)]TJ/F80 9.9626 Tf 158.084 0 Td [(Eur)45(o)10(gr)15(aphics)]TJ/F78 9.9626 Tf 54.096 0 Td [(,)]TJ -212.18 -11.955 Td [(1987.)]TJ
+ [-500(John)-459(Amanatides)-459(and)-460(Andre)25(w)-459(W)80(oo.)-1029(A)-459(f)10(ast)-460(v)20(ox)15(el)]TJ 16.598 -11.955 Td [(tra)20(v)15(ersal)-330(algorithm)-330(for)-331(ray)-330(tracing.)-616(In)]TJ/F82 9.9626 Tf 158.084 0 Td [(Eur)45(o)10(gr)15(aphics)]TJ/F78 9.9626 Tf 54.096 0 Td [(,)]TJ -212.18 -11.955 Td [(1987.)]TJ
 1 0 0 rg 1 0 0 RG
  [-360(3)]TJ
 0 g 0 G
@@ -4532,11 +4632,28 @@ endstream
 endobj
 254 0 obj
 <<
-/Length 10658     
+/Length 10923     
 >>
 stream
 0 g 0 G
+1 0 0 1 175.395 229.261 cm
+q
+.70709 .70709 -.70709 .70709 0 0 cm
+q
+.5 0 0 .5 0 0 cm
+0.6 g 0.6 G
+1 0 0 1 -175.395 -229.261 cm
+BT
+/F78 153 Tf 175.395 229.261 Td [(AI-Generated)]TJ
 0 g 0 G
+ET
+1 0 0 1 175.395 229.261 cm
+Q
+Q
+0 g 0 G
+0 g 0 G
+0 g 0 G
+1 0 0 1 -175.395 -229.261 cm
 BT
 /F78 9.9626 Tf 80.079 710.037 Td [(Khamis,)-221(T)70(ero)-214(Karras,)-222(and)-214(Gordon)-214(W)80(etzstein.)-282(Ef)25(\002cient)]TJ 0 -11.955 Td [(geometry-a)15(w)10(are)-363(3D)-362(generati)25(v)15(e)-363(adv)15(ersarial)-363(netw)10(orks.)]TJ 0 -11.955 Td [(2022.)]TJ
 1 0 0 rg 1 0 0 RG
@@ -4582,14 +4699,14 @@ BT
 0 g 0 G
  -16.598 -12.481 Td [([9])]TJ
 0 g 0 G
- [-500(Martin)-757(Heus)1(el,)-884(Hubert)-756(Ramsauer)40(,)-883(Thomas)-757(Un-)]TJ 16.598 -11.956 Td [(terthiner)40(,)-672(Bernhard)-587(Nessler)40(,)-671(and)-587(Sepp)-588(Hochreiter)55(.)]TJ 0 -11.955 Td [(GANs)-397(trained)-396(by)-397(a)-397(tw)10(o)-397(time-scale)-396(update)-397(rule)-397(con-)]TJ 0 -11.955 Td [(v)15(er)18(ge)-250(to)-250(a)-250(local)-250(nash)-250(equilibrium.)-360(In)]TJ/F80 9.9626 Tf 147.416 0 Td [(NIPS)]TJ/F78 9.9626 Tf 21.031 0 Td [(,)-250(2017.)]TJ
+ [-500(Martin)-757(Heus)1(el,)-884(Hubert)-756(Ramsauer)40(,)-883(Thomas)-757(Un-)]TJ 16.598 -11.956 Td [(terthiner)40(,)-672(Bernhard)-587(Nessler)40(,)-671(and)-587(Sepp)-588(Hochreiter)55(.)]TJ 0 -11.955 Td [(GANs)-397(trained)-396(by)-397(a)-397(tw)10(o)-397(time-scale)-396(update)-397(rule)-397(con-)]TJ 0 -11.955 Td [(v)15(er)18(ge)-250(to)-250(a)-250(local)-250(nash)-250(equilibrium.)-360(In)]TJ/F82 9.9626 Tf 147.416 0 Td [(NIPS)]TJ/F78 9.9626 Tf 21.031 0 Td [(,)-250(2017.)]TJ
 1 0 0 rg 1 0 0 RG
  [-360(4)]TJ
 0 g 0 G
 0 g 0 G
  -190.026 -12.481 Td [([10])]TJ
 0 g 0 G
- [-500(Da)20(vid)-312(Hilbert.)]TJ 87.058 2.171 Td [(\250)]TJ -1.937 -2.171 Td [(Uber)-312(die)-312(stetige)-312(abbildung)-313(einer)-312(linie)]TJ -63.542 -11.956 Td [(auf)-449(ein)-449(\003)]TJ 39.938 0.05 Td [(\250)]TJ -0.553 -0.05 Td [(achenst)]TJ 30.71 0.05 Td [(\250)]TJ -0.832 -0.05 Td [(uck.)]TJ/F80 9.9626 Tf 26.812 0 Td [(Mathematisc)15(he)-449(Annalen)]TJ/F78 9.9626 Tf 98.402 0 Td [(,)-499(38:)]TJ -194.477 -11.955 Td [(459\226460,)-250(1891.)]TJ
+ [-500(Da)20(vid)-312(Hilbert.)]TJ 87.058 2.171 Td [(\250)]TJ -1.937 -2.171 Td [(Uber)-312(die)-312(stetige)-312(abbildung)-313(einer)-312(linie)]TJ -63.542 -11.956 Td [(auf)-449(ein)-449(\003)]TJ 39.938 0.05 Td [(\250)]TJ -0.553 -0.05 Td [(achenst)]TJ 30.71 0.05 Td [(\250)]TJ -0.832 -0.05 Td [(uck.)]TJ/F82 9.9626 Tf 26.812 0 Td [(Mathematisc)15(he)-449(Annalen)]TJ/F78 9.9626 Tf 98.402 0 Td [(,)-499(38:)]TJ -194.477 -11.955 Td [(459\226460,)-250(1891.)]TJ
 1 0 0 rg 1 0 0 RG
  [-360(2)]TJ
 0 g 0 G
@@ -4626,7 +4743,7 @@ BT
 0 g 0 G
  -21.579 -12.481 Td [([13])]TJ
 0 g 0 G
- [-500(Bernhard)-1081(K)25(erbl,)-1289(Geor)18(gios)-1082(K)35(opanas,)-1289(Thomas)]TJ 21.579 -11.955 Td [(Leimk)]TJ 26.844 0.05 Td [(\250)]TJ -0.832 -0.05 Td [(uhler)40(,)-609(and)-537(Geor)18(ge)-537(Drettakis.)-1279(3D)-537(Gaussian)]TJ -26.012 -11.955 Td [(splatting)-297(for)-298(real-time)-297(radiance)-298(\002eld)-297(rendering.)]TJ/F80 9.9626 Tf 193.939 0 Td [(A)30(CM)]TJ -193.939 -11.956 Td [(T)55(r)15(ans.)-250(Gr)111(.)]TJ/F78 9.9626 Tf 39.99 0 Td [(,)-250(42\0504\051:139:1\226139:14,)-250(2023.)]TJ
+ [-500(Bernhard)-1081(K)25(erbl,)-1289(Geor)18(gios)-1082(K)35(opanas,)-1289(Thomas)]TJ 21.579 -11.955 Td [(Leimk)]TJ 26.844 0.05 Td [(\250)]TJ -0.832 -0.05 Td [(uhler)40(,)-609(and)-537(Geor)18(ge)-537(Drettakis.)-1279(3D)-537(Gaussian)]TJ -26.012 -11.955 Td [(splatting)-297(for)-298(real-time)-297(radiance)-298(\002eld)-297(rendering.)]TJ/F82 9.9626 Tf 193.939 0 Td [(A)30(CM)]TJ -193.939 -11.956 Td [(T)55(r)15(ans.)-250(Gr)111(.)]TJ/F78 9.9626 Tf 39.99 0 Td [(,)-250(42\0504\051:139:1\226139:14,)-250(2023.)]TJ
 1 0 0 rg 1 0 0 RG
  [-360(1)]TJ
 0 g 0 G
@@ -4659,7 +4776,7 @@ BT
 0 g 0 G
  -21.579 -12.481 Td [([16])]TJ
 0 g 0 G
- [-500(F)15(an)-554(Lu,)-631(Kw)10(an-Y)100(ee)-555(Lin,)-630(Y)100(an)-555(Xu,)-630(Hongsheng)-555(Li,)]TJ 21.579 -11.955 Td [(Guang)-335(Chen,)-356(and)-335(Changjun)-335(Jiang.)-633(Urban)-335(Architect:)]TJ 0 -11.955 Td [(Steerable)-210(3D)-210(urban)-209(scene)-210(generation)-210(with)-210(layout)-210(prior)55(.)]TJ/F80 9.9626 Tf 0 -11.956 Td [(arXiv)]TJ/F78 9.9626 Tf 22.137 0 Td [(,)-250(2404.06780,)-250(2024.)]TJ
+ [-500(F)15(an)-554(Lu,)-631(Kw)10(an-Y)100(ee)-555(Lin,)-630(Y)100(an)-555(Xu,)-630(Hongsheng)-555(Li,)]TJ 21.579 -11.955 Td [(Guang)-335(Chen,)-356(and)-335(Changjun)-335(Jiang.)-633(Urban)-335(Architect:)]TJ 0 -11.955 Td [(Steerable)-210(3D)-210(urban)-209(scene)-210(generation)-210(with)-210(layout)-210(prior)55(.)]TJ/F82 9.9626 Tf 0 -11.956 Td [(arXiv)]TJ/F78 9.9626 Tf 22.137 0 Td [(,)-250(2404.06780,)-250(2024.)]TJ
 1 0 0 rg 1 0 0 RG
  [-360(2)]TJ
 0 g 0 G
@@ -4691,7 +4808,7 @@ BT
  [-500(Charles)-779(Ruizhongtai)-780(Qi,)-912(Li)-779(Y)55(i,)-912(Hao)-780(Su,)-912(and)]TJ 21.579 -11.955 Td [(Leonidas)-366(J.)-365(Guibas.)-730(PointNet++:)-541(Deep)-366(hierarchical)]TJ
 0 g 0 G
 0 g 0 G
- 258.75 629.037 Td [(feature)-384(learning)-383(on)-384(point)-384(sets)-384(in)-383(a)-384(metric)-384(space.)-788(In)]TJ/F80 9.9626 Tf 0 -11.955 Td [(NIPS)]TJ/F78 9.9626 Tf 21.031 0 Td [(,)-250(2017.)]TJ
+ 258.75 629.037 Td [(feature)-384(learning)-383(on)-384(point)-384(sets)-384(in)-383(a)-384(metric)-384(space.)-788(In)]TJ/F82 9.9626 Tf 0 -11.955 Td [(NIPS)]TJ/F78 9.9626 Tf 21.031 0 Td [(,)-250(2017.)]TJ
 1 0 0 rg 1 0 0 RG
  [-360(2)]TJ
 0 g 0 G
@@ -4754,7 +4871,7 @@ BT
 0 g 0 G
  -21.579 -12.952 Td [([24])]TJ
 0 g 0 G
- [-500(Haozhe)-352(Xie,)-377(Zhaoxi)-352(Chen,)-377(F)15(angzhou)-352(Hong,)-377(and)-352(Zi-)]TJ 21.579 -11.955 Td [(wei)-350(Liu.)-679(CityDreamer4D:)-350(Compositional)-350(generati)25(v)15(e)]TJ 0 -11.955 Td [(model)-381(of)-381(unbounded)-381(4D)-380(cities.)]TJ/F80 9.9626 Tf 136.11 0 Td [(arXiv)]TJ/F78 9.9626 Tf 22.137 0 Td [(,)-414(2501.08983,)]TJ -158.247 -11.955 Td [(2025.)]TJ
+ [-500(Haozhe)-352(Xie,)-377(Zhaoxi)-352(Chen,)-377(F)15(angzhou)-352(Hong,)-377(and)-352(Zi-)]TJ 21.579 -11.955 Td [(wei)-350(Liu.)-679(CityDreamer4D:)-350(Compositional)-350(generati)25(v)15(e)]TJ 0 -11.955 Td [(model)-381(of)-381(unbounded)-381(4D)-380(cities.)]TJ/F82 9.9626 Tf 136.11 0 Td [(arXiv)]TJ/F78 9.9626 Tf 22.137 0 Td [(,)-414(2501.08983,)]TJ -158.247 -11.955 Td [(2025.)]TJ
 1 0 0 rg 1 0 0 RG
  [-360(2)]TJ
 0 g 0 G
@@ -4872,7 +4989,7 @@ stream
 >>
 % 186 0 obj
 <<
-/Font << /F78 16 0 R /F77 15 0 R /F34 20 0 R >>
+/Font << /F78 14 0 R /F79 16 0 R /F34 20 0 R >>
 /XObject << /Im3 145 0 R >>
 /ProcSet [ /PDF /Text /ImageC ]
 >>
@@ -5035,7 +5152,7 @@ stream
 >>
 % 200 0 obj
 <<
-/Font << /F78 16 0 R /F77 15 0 R /F39 204 0 R /F34 20 0 R /F80 18 0 R >>
+/Font << /F78 14 0 R /F79 16 0 R /F39 204 0 R /F34 20 0 R /F82 18 0 R >>
 /XObject << /Im4 146 0 R /Im5 150 0 R >>
 /ProcSet [ /PDF /Text /ImageC ]
 >>
@@ -8110,8 +8227,8 @@ endobj
 <<
 /Producer (pdfTeX-1.40.25)
 /Author()/Title()/Subject()/Creator(LaTeX with hyperref)/Keywords()
-/CreationDate (D:20260325232551+09'00')
-/ModDate (D:20260325232551+09'00')
+/CreationDate (D:20260414170436+09'00')
+/ModDate (D:20260414170436+09'00')
 /Trapped /False
 /PTEX.Fullbanner (This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) kpathsea version 6.3.5)
 >>
@@ -8125,10 +8242,10 @@ endobj
 >>
 stream
 77 0 30 55 28 110 82 164 81 219 252 274 258 352 259 386 260 448 261 1084
-262 1598 263 1926 264 2325 265 2535 266 2965 268 3582 269 3904 270 4473 271 5154 273 5666
+262 1598 263 1926 264 2325 265 2535 266 2965 268 3582 269 3904 270 4473 271 4985 273 5666
 275 5917 277 6224 279 6465 281 6790 283 7031 285 7381 287 7619 289 7841 291 8233 293 8510
 295 9068 297 9500 267 9717 67 10156 72 10313 69 10470 71 10626 104 10780 20 10935 70 11091
-68 11245 15 11401 19 11588 16 11779 18 11965 204 12155 23 12314 256 12421 311 12493 312 12556
+68 11245 16 11401 19 11588 14 11779 18 11965 204 12155 23 12314 256 12421 311 12493 312 12556
 313 12872 314 13237 315 13586 316 13948 317 14220 318 14450 319 14604 320 14791 321 14986 322 15176
 323 15355 324 15560 325 15791 326 15906 327 16016 328 16096 329 16187 330 16220
 % 77 0 obj
@@ -8153,7 +8270,7 @@ stream
 >>
 % 252 0 obj
 <<
-/Font << /F78 16 0 R /F80 18 0 R >>
+/Font << /F78 14 0 R /F82 18 0 R >>
 /ProcSet [ /PDF /Text ]
 >>
 % 258 0 obj
@@ -8179,9 +8296,9 @@ stream
 % 269 0 obj
 [500 500 167 333 556 278 333 333 0 333 675 0 556 389 333 278 0 0 0 0 0 0 0 0 0 0 0 0 333 214 250 333 420 500 500 833 778 333 333 333 500 675 250 333 250 278 500 500 500 500 500 500 500 500 500 500 333 333 675 675 675 500 920 611 611 667 722 611 611 722 722 333 444 667 556 833 667 722 611 722 611 500 556 722 611 833 611 556 556 389 278 389 422 500 333 500 500 444 500 444 278 500 500 278 278 444 278 722 500 500 500 500 389 389 278 500 444 667 444 444 389 400 275 400 541 0 0 0 333 500 556 889 500 500 333 1000 500 333 944 0 0 0 0 0 0 556 556 350 500 889]
 % 270 0 obj
-[556 556 167 333 611 278 333 333 0 333 564 0 611 444 333 278 0 0 0 0 0 0 0 0 0 0 0 0 333 180 250 333 408 500 500 833 778 333 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 0 0 0 333 500 444 1000 500 500 333 1000 556 333 889 0 0 0 0 0 0 444 444 350 500 1000 333 980 389 333 722 0 0 722 0 333 500 500 500 500 200 500 333 760 276 500 564 333 760 333 400 564 300 300 333]
-% 271 0 obj
 [333 250 278 500 500 500 500 500 500 500 500 500 500 333 333 570 570 570 500 930 722 667 722 722 667 611 778 778 389 500 778 667 944 722 778 611 778 722 556 667 722 722 1000 722 722 667 333 278 333 581 500 333 500 556 444 556 444 333 500 556 278 333 556 278 833 556 500 556 556 444 389 333 556 500 722 500 500 444 394 220 394 520 0 0 0 333 500 500 1000 500 500 333 1000 556 333 1000 0 0 0 0 0 0 500 500 350 500 1000 333 1000 389 333 722 0 0 722 0 333 500 500 500 500 220 500 333 747 300 500 570 333]
+% 271 0 obj
+[556 556 167 333 611 278 333 333 0 333 564 0 611 444 333 278 0 0 0 0 0 0 0 0 0 0 0 0 333 180 250 333 408 500 500 833 778 333 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 0 0 0 333 500 444 1000 500 500 333 1000 556 333 889 0 0 0 0 0 0 444 444 350 500 1000 333 980 389 333 722 0 0 722 0 333 500 500 500 500 200 500 333 760 276 500 564 333 760 333 400 564 300 300 333]
 % 273 0 obj
 <<
 /Type /FontDescriptor
@@ -8470,7 +8587,7 @@ stream
 /Widths 264 0 R
 /ToUnicode 305 0 R
 >>
-% 15 0 obj
+% 16 0 obj
 <<
 /Type /Font
 /Subtype /Type1
@@ -8478,7 +8595,7 @@ stream
 /FontDescriptor 289 0 R
 /FirstChar 45
 /LastChar 173
-/Widths 271 0 R
+/Widths 270 0 R
 /Encoding 267 0 R
 /ToUnicode 306 0 R
 >>
@@ -8494,7 +8611,7 @@ stream
 /Encoding 267 0 R
 /ToUnicode 307 0 R
 >>
-% 16 0 obj
+% 14 0 obj
 <<
 /Type /Font
 /Subtype /Type1
@@ -8502,7 +8619,7 @@ stream
 /FontDescriptor 293 0 R
 /FirstChar 2
 /LastChar 180
-/Widths 270 0 R
+/Widths 271 0 R
 /Encoding 267 0 R
 /ToUnicode 308 0 R
 >>
@@ -8581,7 +8698,7 @@ stream
 >>
 % 318 0 obj
 <<
-/Names [(page.1) 14 0 R (page.2) 60 0 R (page.3) 98 0 R (page.4) 155 0 R (page.5) 189 0 R (page.6) 203 0 R]
+/Names [(page.1) 15 0 R (page.2) 60 0 R (page.3) 98 0 R (page.4) 155 0 R (page.5) 189 0 R (page.6) 203 0 R]
 /Limits [(page.1) (page.6)]
 >>
 % 319 0 obj
@@ -8657,16 +8774,17 @@ endobj
 /W [1 3 1]
 /Root 330 0 R
 /Info 331 0 R
-/ID [<09F13ECE4D967604D75194B75E47CB72> <09F13ECE4D967604D75194B75E47CB72>]
+/ID [<10BF19F4D9F43B6B3434F067E26AB817> <10BF19F4D9F43B6B3434F067E26AB817>]
 /Length 1665      
 >>
 stream
-   4ˇ   ¨5    'A                      	 ) +  
- , * &     .  ø]  ø`  ø^  øV   ø\                                        !  "∏    5ˇ   sˇ  0  1  2  .  O*   #  $  %  &  '  (  ) ! ( # ' $ "  *  +  ,  -    ø%  øW  øa    ø_  ø#  ø&  ø[  øb  øU  øY  8  3  4  5  6  @  /åG   7  9  :  ;  <  = %  >  ?  ø"  ø  B  C  D  E  F  G   tˇ   uˇ   vˇ   wˇ   xˇ   yˇ   zˇ   {ˇ   |ˇ   }ˇ   ~ˇ   ˇ   Äˇ   Åˇ   Çˇ   ≤ˇ  b  c  ø   ø  ø  ø  ø  ø  H  I  J  K  L  Md 	   N  O  P"   Q  `  AΩ6   R  S  T  U  V  W  X  Y  Z  [  \  ]  ^  _  øZ  øX  ø$  øc  ø  ø	  ø  ø  ø   ¥ˇ  ø   µˇ    ˇ  ø  ø  ø  ø  ø  a   ø  ø
-(©   ø  ø  ø  ø  ø  ø  ø  ø)  ø'  ø‡K   ø -  ø  ø  ø  ø   ø!  ø*  ø+  ø,  ø-  ø.  ø/  ø0  ø1  ø2  ø3  ø4  ø5  ø6  ø7  ø8  ø9  ø:  ø;  ø<  ø=  ø>  ø?  ø@  øA  øB  øC  øD  øE  øF  øG  øH  øI  øJ  øK  øL  øM  øN  øO  øP  øQ  øR  øS   ø(˛À   øT /ÿ0     	 
-          Zß  ä?  ∫y  ‚ö  ˙  0®  WH  uü  ÅI  ¡È  ÊX  4S  uC  Å  à éX îé õÜ ¢y ™∑ ≤ ∫ü ¿† ∆¶ Ãß “≠  0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C÷Ó ¥ 
+   4ˇ   ±I    (J                     +  	 )  
+ , * &     .  ø]  ø`  ø^  øV   ø\                                        !  "ª    5ˇ   sˇ  0  1  2  .  P3   #  $  %  &  '  (  ) ! ( # ' $ "  *  +  ,  -    ø%  øW  øa    ø_  ø#  ø&  ø[  øb  øU  øY  8  3  4  5  6  @  /éY   7  9  :  ;  <  = %  >  ?  ø"  ø  B  C  D  E  F  G   tˇ   uˇ   vˇ   wˇ   xˇ   yˇ   zˇ   {ˇ   |ˇ   }ˇ   ~ˇ   ˇ   Äˇ   Åˇ   Çˇ   ≤ˇ  b  c  ø   ø  ø  ø  ø  ø  H  I  J  K  L  Mx    N  O  P(   Q  `  A¿8   R  S  T  U  V  W  X  Y  Z  [  \  ]  ^  _  øZ  øX  ø$  øc  ø  ø	  ø  ø  ø   ¥ˇ  ø   µˇ    ˇ  ø  ø  ø  ø  ø  a
+'   ø  ø
+/∂   ø  ø  ø  ø  ø  ø  ø  ø)  ø'  øÂ_   ø -  ø  ø  ø  ø   ø!  ø*  ø+  ø,  ø-  ø.  ø/  ø0  ø1  ø2  ø3  ø4  ø5  ø6  ø7  ø8  ø9  ø:  ø;  ø<  ø=  ø>  ø?  ø@  øA  øB  øC  øD  øE  øF  øG  øH  øI  øJ  øK  øL  øM  øN  øO  øP  øQ  øR  øS   ø(œ   øT /ﬂ=     	 
+          a¥  ëL  ¡Ü  Èß    7µ  ^U  |¨  àV  »ˆ  Ìe  ;`  |P  à- è* ïe õõ ¢ì ©Ü ±ƒ π˝ ¡¨ «≠ Õ≥ ”¥ Ÿ∫  0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C›˚ !¡ 
 endstream
 endobj
 startxref
-989876
+991681
 %%EOF
