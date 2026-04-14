@@ -21,6 +21,34 @@ from paper_recon.writing.writeup_prompt import (
 logger = get_logger(__file__)
 
 
+WATERMARK_BLOCK = (
+    "\\usepackage{draftwatermark}\n"
+    "\\SetWatermarkText{AI-Generated}\n"
+    "\\SetWatermarkScale{0.5}\n"
+    "\\SetWatermarkColor[gray]{0.60}\n"
+)
+
+
+def ensure_watermark(latex_file: Path) -> None:
+    """Ensure the draftwatermark block exists in the LaTeX file; add it if missing."""
+    content = latex_file.read_text(encoding="utf-8")
+    has_package = re.search(r"\\usepackage(?:\[[^\]]*\])?\{draftwatermark\}", content)
+    has_text = re.search(r"\\SetWatermarkText\{", content)
+    has_scale = re.search(r"\\SetWatermarkScale\{", content)
+    has_color = re.search(r"\\SetWatermarkColor", content)
+    if has_package and has_text and has_scale and has_color:
+        return
+
+    doc_match = re.search(r"\\documentclass(?:\[[^\]]*\])?\{[^}]+\}\s*\n?", content)
+    if doc_match:
+        insert_pos = doc_match.end()
+        content = content[:insert_pos] + "\n" + WATERMARK_BLOCK + content[insert_pos:]
+    else:
+        content = WATERMARK_BLOCK + content
+    latex_file.write_text(content, encoding="utf-8")
+    logger.info("Restored watermark block in %s", latex_file)
+
+
 def compile_latex(
     cwd: Path, latex_file: Path, pdf_file: Path, timeout: int = 30
 ) -> tuple[bool, str]:
@@ -718,6 +746,7 @@ def perform_writeup_with_agent(
         )
 
         # Final compile
+        ensure_watermark(latex_file)
         final_pdf = pdf_folder / "final.pdf"
         compile_success, _ = compile_latex(
             cwd=latex_folder, latex_file=latex_file, pdf_file=final_pdf

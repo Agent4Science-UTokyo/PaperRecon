@@ -27,6 +27,19 @@ from paper_recon.evaluation.evaluate_per_section import evaluate_paper
 logger = get_logger(__file__)
 
 
+def strip_watermark(content: str) -> str:
+    """Remove the draftwatermark package and its configuration from LaTeX content."""
+    patterns = [
+        r"\\usepackage(?:\[[^\]]*\])?\{draftwatermark\}\s*\n?",
+        r"\\SetWatermarkText\{[^}]*\}\s*\n?",
+        r"\\SetWatermarkScale\{[^}]*\}\s*\n?",
+        r"\\SetWatermarkColor(?:\[[^\]]*\])?\{[^}]*\}\s*\n?",
+    ]
+    for pattern in patterns:
+        content = re.sub(pattern, "", content)
+    return content
+
+
 def resolve_latex_inputs(tex_path: Path) -> str:
     """Resolve all \\input{} directives in a LaTeX file by inlining referenced file contents."""
     tex_dir = tex_path.parent
@@ -159,6 +172,7 @@ def run_evaluation_for_paper(config: Config, paper_name: str, args: argparse.Nam
         return
 
     resolved_content = resolve_latex_inputs(template_path)
+    resolved_content = strip_watermark(resolved_content)
     pred_latex_path = eval_target_dir / "template_eval.tex"
     pred_latex_path.write_text(resolved_content, encoding="utf-8")
     logger.info("Created resolved LaTeX for evaluation: %s", pred_latex_path)
@@ -269,6 +283,7 @@ if __name__ == "__main__":
 
         template_path = eval_target_dir / "template.tex"
         resolved_content = resolve_latex_inputs(template_path)
+        resolved_content = strip_watermark(resolved_content)
         pred_latex_path = eval_target_dir / "template_eval.tex"
         pred_latex_path.write_text(resolved_content, encoding="utf-8")
 
